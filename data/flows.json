@@ -1,0 +1,4019 @@
+[
+    {
+        "id": "7d1f82b240d34d71",
+        "type": "tab",
+        "label": "HomePage",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "7ca0877022020e2a",
+        "type": "tab",
+        "label": "Melbourne-Simoco3001",
+        "disabled": false,
+        "info": "## Description\nThis is a alarm flow",
+        "env": []
+    },
+    {
+        "id": "ef8739be854896a4",
+        "type": "tab",
+        "label": "Melbourne-Simoco3002",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "5a9c45d6665294c2",
+        "type": "tab",
+        "label": "Sydney-Simoco2001",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9f7d8463b4050bdd",
+        "type": "tab",
+        "label": "Sydney-Simoco2002",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d08b8dbadb5935bb",
+        "type": "tab",
+        "label": "Braisbane-Simoco7001",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "209767b8b09c73ee",
+        "type": "tab",
+        "label": "Braisbane-Simoco7002",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f81078994e7bf9a5",
+        "type": "group",
+        "z": "ef8739be854896a4",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "27e61f12.c1a15",
+            "d7d08440.31b678",
+            "f22b1e9a.5d89b",
+            "2166290d.98d736",
+            "139b836e.7950ed",
+            "9c8ab214.0ecaa",
+            "4acfcc8a53794509",
+            "30a25415e9358e70",
+            "b71f1b12fd7a1d9c",
+            "1ecc45dadc322c11",
+            "4d23673ff2862391",
+            "95b13489a2c83688",
+            "3571a66fa779c1d7",
+            "91346635a4bdb1d9",
+            "1287cc89f61ec161",
+            "d7fedd62a118f4a6",
+            "edadc02dda58e2c2",
+            "8e412ebd2dcd9e64",
+            "85e51fd750d91956",
+            "8738856eb139723d",
+            "af8c030c62c22003",
+            "0eedf40811743459"
+        ],
+        "x": 194,
+        "y": 19,
+        "w": 892,
+        "h": 642
+    },
+    {
+        "id": "c5bebc746873d273",
+        "type": "group",
+        "z": "7ca0877022020e2a",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "793612058d6a039b",
+            "5f6f375bc7c84657",
+            "a364fe92f5704b0b",
+            "246940e1f1272419",
+            "9d122703e2521fa1",
+            "c67c5af0aec50f1c",
+            "61e8d4d3c2ce674c",
+            "fa09142594f65ad3",
+            "51397cae17b8519c",
+            "c39562961a6fc182",
+            "f4c1d472e0ceec89",
+            "b5e69b05079a9f31",
+            "c9a92a2c0b8af0fd",
+            "859988116300708c",
+            "29b46564a5d9ada6",
+            "349d3e93ecbec99b",
+            "45a144db854e98bd",
+            "57974a2ef4d7851a",
+            "65ef0d87abb3708e",
+            "678e8917bc34968b",
+            "e88d7db3c1c3f62b",
+            "a9eff5ed481a78ac"
+        ],
+        "x": 134,
+        "y": 59,
+        "w": 892,
+        "h": 642
+    },
+    {
+        "id": "300363b21332d0a9",
+        "type": "group",
+        "z": "5a9c45d6665294c2",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "fced9681f082291f",
+            "250fc877872c999f",
+            "13229b54da88a21b",
+            "fc2ea173d343dfdf",
+            "bc549d3921ab095e",
+            "fdb9d88158dd8f79",
+            "077c54ddd8250ed3",
+            "f6085dedb2b19ae3",
+            "c8aee0967669f6d1",
+            "8cef0e8d3cb86d84",
+            "c093056e67d4a4dc",
+            "7c24503dd37391b5",
+            "3a101d79bb9cb238",
+            "32c3264fa61e24bd",
+            "da1d769a12d944db",
+            "39a8d2b34bf80b3c",
+            "752e6fd71c0c5086",
+            "607f80762a961c8e",
+            "cc9b2c9c876a3228",
+            "0d5e9360b335a9d2",
+            "fd67ac174e8d3345",
+            "9639ec1088f6125e"
+        ],
+        "x": 194,
+        "y": 239,
+        "w": 892,
+        "h": 642
+    },
+    {
+        "id": "8ed62cf511a5169c",
+        "type": "group",
+        "z": "9f7d8463b4050bdd",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "b80a05fa7cd501e4",
+            "6029975ac383d528",
+            "73809c4e7c63e5b9",
+            "98c6254f53335e57",
+            "3f59843cca1db20a",
+            "5c1cad9e751a57d7",
+            "709cf90a3771da5f",
+            "3a5541cffd4ea14f",
+            "5936ab552776e1f2",
+            "1935b03642b4c867",
+            "70553b292c205f97",
+            "138178268ad03cde",
+            "fa2817ef7637131f",
+            "fcecec4111ebf14a",
+            "c7e88216fa02e8c1",
+            "2922a351751994f8",
+            "831140ddab059738",
+            "7ed864a7c87367d5",
+            "b03154714cbd5ad1",
+            "ab783fbbe1642c11",
+            "2ebaea2a8fc4007d",
+            "5382c2a2c1667a90"
+        ],
+        "x": 134,
+        "y": 19,
+        "w": 892,
+        "h": 642
+    },
+    {
+        "id": "384609e63dc0396a",
+        "type": "group",
+        "z": "d08b8dbadb5935bb",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "3427cbfea0edc842",
+            "8862337e16aab2e9",
+            "efa27e40f5acd546",
+            "572c9e384c5439b9",
+            "f3dd1faa2827901b",
+            "940298c424ec1eeb",
+            "602406b82d25a693",
+            "e76d93247729ff16",
+            "887ee3d443bfcbb4",
+            "2c29b524f3203f41",
+            "8b21a1f683e02ceb",
+            "6ce7341368ac4082",
+            "aa824143bebb1f4c",
+            "4a4164ce4b67675b",
+            "1a3ec4963c7b3322",
+            "e7708a698184d12d",
+            "b77fc9c19e405c8f",
+            "077d33ed13f2d1b2",
+            "efc7bea3ad629173",
+            "942043689bf59e58",
+            "8e30e349afeb86a8",
+            "6e30734eec8e0e83"
+        ],
+        "x": 234,
+        "y": 39,
+        "w": 892,
+        "h": 642
+    },
+    {
+        "id": "f5579862632dcc68",
+        "type": "group",
+        "z": "209767b8b09c73ee",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "02bc14a0c90853ae",
+            "53f12a0e4d4c4396",
+            "5c827eb22c36ae73",
+            "c2927fd1fb90876e",
+            "f322123d77617466",
+            "9c0882d3634f13a2",
+            "181f5e12deb1f7a8",
+            "4d0bcdb82bc48de9",
+            "229f3849a06b71b3",
+            "2249a709e794f9cf",
+            "78abd039fc8c7011",
+            "3a543527c04bd9dc",
+            "84f0702dda060988",
+            "100da3fbd178df6f",
+            "c563bc87e00d81e9",
+            "9edfe69503d019fe",
+            "acb939e404d583b7",
+            "6116494f63d0b57f",
+            "6d5d4f74d46e069a",
+            "67e40ec147a30a51",
+            "0635b5ab40850706",
+            "6f083c9d58a66c8c"
+        ],
+        "x": 254,
+        "y": 39,
+        "w": 892,
+        "h": 602
+    },
+    {
+        "id": "129bc1666bc88831",
+        "type": "group",
+        "z": "7d1f82b240d34d71",
+        "name": "",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "d31c6e07c918a3d7",
+            "4ae5f7bc06f4e087",
+            "cf38127b0f1242b4"
+        ],
+        "x": 94,
+        "y": 179,
+        "w": 792,
+        "h": 82
+    },
+    {
+        "id": "b55ad710670cabdb",
+        "type": "flexdash container",
+        "name": "Simoco-FireAlarm-HomeGrid",
+        "title": "Simoco FireAlarm Home Page",
+        "kind": "StdGrid",
+        "fd_children": ",cf38127b0f1242b4",
+        "tab": "faa3f6ef68ba47c6",
+        "min_cols": 1,
+        "max_cols": 20,
+        "unicast": "ignore",
+        "parent": "",
+        "solid": false,
+        "cols": 1,
+        "rows": 1
+    },
+    {
+        "id": "fef6c0f6d48841d6",
+        "type": "flexdash tab",
+        "name": "Braisbane",
+        "icon": "mdi-home-lightning-bolt-outline",
+        "title": "Braisbane",
+        "fd_children": ",71ab2a3aff8e66bc,bfd2b1a765045cd2",
+        "fd": "61e693942266360d"
+    },
+    {
+        "id": "ad1e7ea49c0a5684",
+        "type": "flexdash tab",
+        "name": "Sydney",
+        "icon": "mdi-rocket",
+        "title": "Sydney",
+        "fd_children": ",1e4b71831666e0d3,17b567d94611a34e",
+        "fd": "61e693942266360d"
+    },
+    {
+        "id": "61e693942266360d",
+        "type": "flexdash dashboard",
+        "port": 80,
+        "ioOpts": "{}",
+        "path": "/simoco",
+        "redServer": true,
+        "saveConfig": true,
+        "allOrigins": false,
+        "name": "Simoco-FireAlarm",
+        "fd_children": ",faa3f6ef68ba47c6,46612d9ad1086276,ad1e7ea49c0a5684,fef6c0f6d48841d6"
+    },
+    {
+        "id": "faa3f6ef68ba47c6",
+        "type": "flexdash tab",
+        "name": "HomeTab",
+        "icon": "mdi-view-dashboard",
+        "title": "HomeTab",
+        "fd_children": ",b55ad710670cabdb",
+        "fd": "61e693942266360d"
+    },
+    {
+        "id": "46612d9ad1086276",
+        "type": "flexdash tab",
+        "name": "Melbourne",
+        "icon": "mdi-view-dashboard",
+        "title": "Melbourne",
+        "fd_children": ",eec937d7b14488a6,e835914f613f0649",
+        "fd": "61e693942266360d"
+    },
+    {
+        "id": "eec937d7b14488a6",
+        "type": "flexdash container",
+        "name": "Melbourne-Simoco3001",
+        "title": "Melbourne-Simoco3001",
+        "kind": "StdGrid",
+        "fd_children": ",678e8917bc34968b,a9eff5ed481a78ac,e88d7db3c1c3f62b,fa09142594f65ad3",
+        "tab": "46612d9ad1086276",
+        "min_cols": 1,
+        "max_cols": 20,
+        "unicast": "ignore",
+        "parent": "",
+        "solid": false,
+        "cols": 1,
+        "rows": 1
+    },
+    {
+        "id": "1e4b71831666e0d3",
+        "type": "flexdash container",
+        "name": "Sydney-Simoco2001",
+        "title": "Sydney-Simoco2001",
+        "kind": "StdGrid",
+        "fd_children": ",0d5e9360b335a9d2,9639ec1088f6125e,fd67ac174e8d3345,f6085dedb2b19ae3",
+        "tab": "ad1e7ea49c0a5684",
+        "min_cols": 1,
+        "max_cols": 20,
+        "unicast": "ignore",
+        "parent": "",
+        "solid": false,
+        "cols": 1,
+        "rows": 1
+    },
+    {
+        "id": "17b567d94611a34e",
+        "type": "flexdash container",
+        "name": "Sydney-Simoco2002",
+        "title": "Sydney-Simoco2002",
+        "kind": "StdGrid",
+        "fd_children": ",ab783fbbe1642c11,5382c2a2c1667a90,2ebaea2a8fc4007d,3a5541cffd4ea14f",
+        "tab": "ad1e7ea49c0a5684",
+        "min_cols": 1,
+        "max_cols": 20,
+        "unicast": "ignore",
+        "parent": "",
+        "solid": false,
+        "cols": 1,
+        "rows": 1
+    },
+    {
+        "id": "e835914f613f0649",
+        "type": "flexdash container",
+        "name": "Melbourne-Simoco3002",
+        "title": "Melbourne-Simoco3002",
+        "kind": "StdGrid",
+        "fd_children": ",8738856eb139723d,0eedf40811743459,af8c030c62c22003,30a25415e9358e70",
+        "tab": "46612d9ad1086276",
+        "min_cols": 1,
+        "max_cols": 20,
+        "unicast": "ignore",
+        "parent": "",
+        "solid": false,
+        "cols": 1,
+        "rows": 1
+    },
+    {
+        "id": "71ab2a3aff8e66bc",
+        "type": "flexdash container",
+        "name": "Braisbane-Simoco7001",
+        "title": "Braisbane-Simoco7001",
+        "kind": "StdGrid",
+        "fd_children": ",6e30734eec8e0e83,8e30e349afeb86a8,942043689bf59e58,8b21a1f683e02ceb",
+        "tab": "fef6c0f6d48841d6",
+        "min_cols": 1,
+        "max_cols": 20,
+        "unicast": "ignore",
+        "parent": "",
+        "solid": false,
+        "cols": 1,
+        "rows": 1
+    },
+    {
+        "id": "bfd2b1a765045cd2",
+        "type": "flexdash container",
+        "name": "Braisbane-Simoco7002",
+        "title": "Braisbane-Simoco7002",
+        "kind": "StdGrid",
+        "fd_children": ",67e40ec147a30a51,6f083c9d58a66c8c,0635b5ab40850706,78abd039fc8c7011",
+        "tab": "fef6c0f6d48841d6",
+        "min_cols": 1,
+        "max_cols": 20,
+        "unicast": "ignore",
+        "parent": "",
+        "solid": false,
+        "cols": 1,
+        "rows": 1
+    },
+    {
+        "id": "d31c6e07c918a3d7",
+        "type": "function",
+        "z": "7d1f82b240d34d71",
+        "g": "129bc1666bc88831",
+        "name": "getAllEquipmentInfo",
+        "func": "\nconst getInfo1= global.get(`globalSimoco3001Info`);\nconst alarm1 = global.get(\"globalSimoco3001Alarm\");\nconst equiptmentInfo1 = [getInfo1.equipNum,getInfo1.city,getInfo1.location,alarm1];\n\nconst getInfo2 = global.get(`globalSimoco3002Info`);\nconst alarm2 = global.get(\"globalSimoco3002Alarm\");\nconst equiptmentInfo2 = [getInfo2.equipNum, getInfo2.city, getInfo2.location, alarm2]\n\nconst getInfo3= global.get(`globalSimoco2001Info`);\nconst alarm3 = global.get(\"globalSimoco2002Alarm\");\nconst equiptmentInfo3 = [getInfo3.equipNum, getInfo3.city, getInfo3.location, alarm3];\n\nconst getInfo4 = global.get(`globalSimoco2002Info`);\nconst alarm4 = global.get(\"globalSimoco2002Alarm\");\nconst equiptmentInfo4 = [getInfo4.equipNum, getInfo4.city, getInfo4.location, alarm4]\n\nconst getInfo5 = global.get(`globalSimoco7001Info`);\nconst alarm5 = global.get(\"globalSimoco7001Alarm\");\nconst equiptmentInfo5 = [getInfo5.equipNum, getInfo5.city, getInfo5.location, alarm5]\n\nconst getInfo6 = global.get(`globalSimoco7002Info`);\nconst alarm6 = global.get(\"globalSimoco7002Alarm\");\nconst equiptmentInfo6 = [getInfo6.equipNum, getInfo6.city, getInfo6.location, alarm6]\n\nconst finalmsg = [equiptmentInfo1, equiptmentInfo2, equiptmentInfo3, equiptmentInfo4, equiptmentInfo5, equiptmentInfo6];\n// node.send(finalmsg)\nmsg.payload = finalmsg;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 220,
+        "wires": [
+            [
+                "cf38127b0f1242b4"
+            ]
+        ]
+    },
+    {
+        "id": "4ae5f7bc06f4e087",
+        "type": "inject",
+        "z": "7d1f82b240d34d71",
+        "g": "129bc1666bc88831",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 210,
+        "y": 220,
+        "wires": [
+            [
+                "d31c6e07c918a3d7"
+            ]
+        ]
+    },
+    {
+        "id": "cf38127b0f1242b4",
+        "type": "fd-simple-table",
+        "z": "7d1f82b240d34d71",
+        "g": "129bc1666bc88831",
+        "fd_container": "b55ad710670cabdb",
+        "fd_cols": "5",
+        "fd_rows": "3",
+        "fd_array": false,
+        "fd_array_max": 10,
+        "fd_output_topic": "",
+        "fd_loopback": false,
+        "name": "Fire Alarm Monitor",
+        "title": "Fire Alarm Monitor",
+        "popup_info": "",
+        "data": "",
+        "columns": "null",
+        "labels": "[\"Equipment Num\",\"City\",\"Location\",\"Alarm\"]",
+        "align": null,
+        "click": null,
+        "sort": null,
+        "x": 770,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "793612058d6a039b",
+        "type": "inject",
+        "z": "7ca0877022020e2a",
+        "g": "c5bebc746873d273",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 240,
+        "y": 500,
+        "wires": [
+            [
+                "5f6f375bc7c84657"
+            ]
+        ]
+    },
+    {
+        "id": "5f6f375bc7c84657",
+        "type": "function",
+        "z": "7ca0877022020e2a",
+        "g": "c5bebc746873d273",
+        "name": "Random error",
+        "func": "//randsome Error\nif (Math.random() < 0.01) {\n   node.error(\"Melbourne-Simoco3001,a random error\", msg);\n   global.set(\"globalSimoco3001Error\",true);\n} else {\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 500,
+        "wires": [
+            [
+                "a364fe92f5704b0b"
+            ]
+        ]
+    },
+    {
+        "id": "a364fe92f5704b0b",
+        "type": "debug",
+        "z": "7ca0877022020e2a",
+        "g": "c5bebc746873d273",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 650,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "246940e1f1272419",
+        "type": "delay",
+        "z": "7ca0877022020e2a",
+        "g": "c5bebc746873d273",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 380,
+        "y": 560,
+        "wires": [
+            [
+                "5f6f375bc7c84657"
+            ]
+        ]
+    },
+    {
+        "id": "9d122703e2521fa1",
+        "type": "catch",
+        "z": "7ca0877022020e2a",
+        "g": "c5bebc746873d273",
+        "name": "",
+        "scope": [
+            "5f6f375bc7c84657"
+        ],
+        "uncaught": false,
+        "x": 230,
+        "y": 560,
+        "wires": [
+            [
+                "246940e1f1272419",
+                "c67c5af0aec50f1c"
+            ]
+        ]
+    },
+    {
+        "id": "c67c5af0aec50f1c",
+        "type": "debug",
+        "z": "7ca0877022020e2a",
+        "g": "c5bebc746873d273",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "error",
+        "targetType": "msg",
+        "x": 380,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "61e8d4d3c2ce674c",
+        "type": "change",
+        "z": "7ca0877022020e2a",
+        "g": "c5bebc746873d273",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "reset",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 930,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "51397cae17b8519c",
+        "type": "function",
+        "z": "7ca0877022020e2a",
+        "g": "c5bebc746873d273",
+        "name": " ",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 725,
+        "y": 660,
+        "wires": [
+            [
+                "fa09142594f65ad3"
+            ]
+        ],
+        "icon": "node-red/arrow-in.svg",
+        "l": false
+    },
+    {
+        "id": "c39562961a6fc182",
+        "type": "inject",
+        "z": "7ca0877022020e2a",
+        "g": "c5bebc746873d273",
+        "name": "",
+        "props": [
+            {
+                "p": "location",
+                "v": "Ringwood",
+                "vt": "str"
+            },
+            {
+                "p": "city",
+                "v": "Melbourne",
+                "vt": "str"
+            },
+            {
+                "p": "longitude",
+                "v": "37.8136",
+                "vt": "str"
+            },
+            {
+                "p": "latitude",
+                "v": "144.9631",
+                "vt": "str"
+            },
+            {
+                "p": "country",
+                "v": "Australia",
+                "vt": "str"
+            },
+            {
+                "p": "equipNum",
+                "v": "Simoco3001",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "x": 230,
+        "y": 100,
+        "wires": [
+            [
+                "b5e69b05079a9f31"
+            ]
+        ]
+    },
+    {
+        "id": "f4c1d472e0ceec89",
+        "type": "debug",
+        "z": "7ca0877022020e2a",
+        "g": "c5bebc746873d273",
+        "name": "BasicInformation",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "msg",
+        "targetType": "jsonata",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "b5e69b05079a9f31",
+        "type": "function",
+        "z": "7ca0877022020e2a",
+        "g": "c5bebc746873d273",
+        "name": "getBasicInfo",
+        "func": "// node.warn(msg);\n// const basicInfo ={city:msg.city,country:msg.country,\n//                   longitude:msg.lognitude,latitude:msg.latitude,\n//                   equipNum:msg.equipNum,location:msg.location};\n// msg = basicInfo;\nconst {equipNum} = msg;\nglobal.set(`global${equipNum}Info`,msg);\nconst getInfo= global.get(`global${equipNum}Info`);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 100,
+        "wires": [
+            [
+                "f4c1d472e0ceec89"
+            ]
+        ]
+    },
+    {
+        "id": "c9a92a2c0b8af0fd",
+        "type": "inject",
+        "z": "7ca0877022020e2a",
+        "g": "c5bebc746873d273",
+        "name": "Temperature",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "T",
+        "payload": "5",
+        "payloadType": "num",
+        "x": 250,
+        "y": 180,
+        "wires": [
+            [
+                "45a144db854e98bd"
+            ]
+        ]
+    },
+    {
+        "id": "859988116300708c",
+        "type": "inject",
+        "z": "7ca0877022020e2a",
+        "g": "c5bebc746873d273",
+        "name": "Humidity",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "H",
+        "payload": "90",
+        "payloadType": "num",
+        "x": 240,
+        "y": 260,
+        "wires": [
+            [
+                "57974a2ef4d7851a"
+            ]
+        ]
+    },
+    {
+        "id": "29b46564a5d9ada6",
+        "type": "inject",
+        "z": "7ca0877022020e2a",
+        "g": "c5bebc746873d273",
+        "name": "Smokescope",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "S",
+        "payload": "10",
+        "payloadType": "num",
+        "x": 260,
+        "y": 360,
+        "wires": [
+            [
+                "65ef0d87abb3708e"
+            ]
+        ]
+    },
+    {
+        "id": "349d3e93ecbec99b",
+        "type": "switch",
+        "z": "7ca0877022020e2a",
+        "g": "c5bebc746873d273",
+        "name": "Switcher",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "T",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "H",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "S",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 700,
+        "y": 260,
+        "wires": [
+            [
+                "678e8917bc34968b"
+            ],
+            [
+                "a9eff5ed481a78ac"
+            ],
+            [
+                "e88d7db3c1c3f62b"
+            ]
+        ]
+    },
+    {
+        "id": "45a144db854e98bd",
+        "type": "function",
+        "z": "7ca0877022020e2a",
+        "g": "c5bebc746873d273",
+        "name": "temperatureGenerate",
+        "func": "let count = context.get('count')||msg.payload||0;\nconst reset = flow.get('reset');\n\nif (reset == \"RESET\") {\n    count = msg.payload;\n    // msg.reset = false;\n}else{\n    if (count == 100) {\n        count = msg.payload;\n    } else if (count == 0) {\n        count = msg.payload;\n    } else {\n        count += 1;\n    }\n    context.set('count', count);\n    msg.payload = count;\n}\nif(msg.payload>90){\n    global.set(\"globalSimoco3001Alarm\",true);\n}else{\n    global.set(\"globalSimoco3001Alarm\",false);\n}\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 180,
+        "wires": [
+            [
+                "349d3e93ecbec99b"
+            ]
+        ]
+    },
+    {
+        "id": "57974a2ef4d7851a",
+        "type": "function",
+        "z": "7ca0877022020e2a",
+        "g": "c5bebc746873d273",
+        "name": "humidityGenerate",
+        "func": "let count = context.get('count')||msg.payload||0;\nconst reset = flow.get('reset');\n\nif (reset == \"RESET\") {\n   count = msg.payload; \n}else if( count== 0){\n    count = msg.payload;\n}else{\n    count -= 1;\n}\ncontext.set('count',count);\nmsg.payload = count+\"%\";\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 260,
+        "wires": [
+            [
+                "349d3e93ecbec99b"
+            ]
+        ]
+    },
+    {
+        "id": "65ef0d87abb3708e",
+        "type": "function",
+        "z": "7ca0877022020e2a",
+        "g": "c5bebc746873d273",
+        "name": "smokscopeGenerate",
+        "func": "let count = context.get('count')||msg.payload||0;\nlet reset = flow.get('reset')\n\nif (reset == \"RESET\") {\n   count = msg.payload; \n}else if( count== 0){\n    count = msg.payload;\n}else{\n    count += 1;\n}\ncontext.set('count',count);\nmsg.payload = count+\"ppm\";\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 360,
+        "wires": [
+            [
+                "349d3e93ecbec99b"
+            ]
+        ]
+    },
+    {
+        "id": "678e8917bc34968b",
+        "type": "fd-gauge",
+        "z": "7ca0877022020e2a",
+        "g": "c5bebc746873d273",
+        "fd_container": "eec937d7b14488a6",
+        "fd_cols": "3",
+        "fd_rows": "3",
+        "fd_array": false,
+        "fd_array_max": 10,
+        "name": "Temperature",
+        "title": "Temperature（°C）",
+        "popup_info": "",
+        "value": null,
+        "unit": "",
+        "arc": 180,
+        "min": 0,
+        "max": 100,
+        "color": "orange",
+        "low_color": "yellow-lighten-3",
+        "high_color": "red-accent-3",
+        "low_threshold": 30,
+        "high_threshold": 75,
+        "base_color": "grey-lighten-3",
+        "needle_color": "white",
+        "radius": 70,
+        "stretch": false,
+        "x": 890,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "e88d7db3c1c3f62b",
+        "type": "fd-gauge",
+        "z": "7ca0877022020e2a",
+        "g": "c5bebc746873d273",
+        "fd_container": "eec937d7b14488a6",
+        "fd_cols": "3",
+        "fd_rows": "3",
+        "fd_array": false,
+        "fd_array_max": 10,
+        "name": "Smokescope",
+        "title": "Smokescope(ppm)",
+        "popup_info": "",
+        "value": null,
+        "unit": "",
+        "arc": 120,
+        "min": 0,
+        "max": 100,
+        "color": "grey",
+        "low_color": "grey-lighten-3",
+        "high_color": "grey-darken-3",
+        "low_threshold": 30,
+        "high_threshold": 50,
+        "base_color": "grey-lighten-3",
+        "needle_color": "white",
+        "radius": 70,
+        "stretch": false,
+        "x": 890,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "a9eff5ed481a78ac",
+        "type": "fd-gauge",
+        "z": "7ca0877022020e2a",
+        "g": "c5bebc746873d273",
+        "fd_container": "eec937d7b14488a6",
+        "fd_cols": "3",
+        "fd_rows": "3",
+        "fd_array": false,
+        "fd_array_max": 10,
+        "name": "Humidity ",
+        "title": "Humidity(%)",
+        "popup_info": "",
+        "value": null,
+        "unit": "",
+        "arc": 360,
+        "min": 0,
+        "max": 100,
+        "color": "light-blue",
+        "low_color": "light-blue-lighten-3",
+        "high_color": "light-blue-darken-3",
+        "low_threshold": 30,
+        "high_threshold": 75,
+        "base_color": "grey-lighten-3",
+        "needle_color": "white",
+        "radius": 70,
+        "stretch": false,
+        "x": 900,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "fa09142594f65ad3",
+        "type": "fd-toggle",
+        "z": "7ca0877022020e2a",
+        "g": "c5bebc746873d273",
+        "fd_container": "eec937d7b14488a6",
+        "fd_cols": 1,
+        "fd_rows": 1,
+        "fd_array": false,
+        "fd_array_max": 10,
+        "fd_output_topic": "",
+        "fd_loopback": false,
+        "name": "on/off reset",
+        "title": "Reset",
+        "popup_info": "",
+        "value": "",
+        "enabled": true,
+        "color": "",
+        "on_value": "RESET",
+        "off_value": "OFF",
+        "show_value": true,
+        "x": 750,
+        "y": 580,
+        "wires": [
+            [
+                "61e8d4d3c2ce674c",
+                "51397cae17b8519c"
+            ]
+        ]
+    },
+    {
+        "id": "27e61f12.c1a15",
+        "type": "inject",
+        "z": "ef8739be854896a4",
+        "g": "f81078994e7bf9a5",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 300,
+        "y": 460,
+        "wires": [
+            [
+                "d7d08440.31b678"
+            ]
+        ]
+    },
+    {
+        "id": "d7d08440.31b678",
+        "type": "function",
+        "z": "ef8739be854896a4",
+        "g": "f81078994e7bf9a5",
+        "name": "Random error",
+        "func": "//randsome Error\nif (Math.random() < 0.01) {\n   node.error(\"Melbourne-Simoco3002,a random error\", msg);\n   global.set(\"globalSimoco3002Error\",true);\n} else {\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 460,
+        "wires": [
+            [
+                "f22b1e9a.5d89b"
+            ]
+        ]
+    },
+    {
+        "id": "f22b1e9a.5d89b",
+        "type": "debug",
+        "z": "ef8739be854896a4",
+        "g": "f81078994e7bf9a5",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 710,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "2166290d.98d736",
+        "type": "delay",
+        "z": "ef8739be854896a4",
+        "g": "f81078994e7bf9a5",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 440,
+        "y": 520,
+        "wires": [
+            [
+                "d7d08440.31b678"
+            ]
+        ]
+    },
+    {
+        "id": "139b836e.7950ed",
+        "type": "catch",
+        "z": "ef8739be854896a4",
+        "g": "f81078994e7bf9a5",
+        "name": "",
+        "scope": [
+            "d7d08440.31b678"
+        ],
+        "uncaught": false,
+        "x": 290,
+        "y": 520,
+        "wires": [
+            [
+                "2166290d.98d736",
+                "9c8ab214.0ecaa"
+            ]
+        ]
+    },
+    {
+        "id": "9c8ab214.0ecaa",
+        "type": "debug",
+        "z": "ef8739be854896a4",
+        "g": "f81078994e7bf9a5",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "error",
+        "targetType": "msg",
+        "x": 440,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "4acfcc8a53794509",
+        "type": "change",
+        "z": "ef8739be854896a4",
+        "g": "f81078994e7bf9a5",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "reset",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 990,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b71f1b12fd7a1d9c",
+        "type": "function",
+        "z": "ef8739be854896a4",
+        "g": "f81078994e7bf9a5",
+        "name": " ",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 785,
+        "y": 620,
+        "wires": [
+            [
+                "30a25415e9358e70"
+            ]
+        ],
+        "icon": "node-red/arrow-in.svg",
+        "l": false
+    },
+    {
+        "id": "1ecc45dadc322c11",
+        "type": "inject",
+        "z": "ef8739be854896a4",
+        "g": "f81078994e7bf9a5",
+        "name": "",
+        "props": [
+            {
+                "p": "location",
+                "v": "Malvern",
+                "vt": "str"
+            },
+            {
+                "p": "city",
+                "v": "Melbourne",
+                "vt": "str"
+            },
+            {
+                "p": "longitude",
+                "v": "37.8136",
+                "vt": "str"
+            },
+            {
+                "p": "latitude",
+                "v": "144.9631",
+                "vt": "str"
+            },
+            {
+                "p": "country",
+                "v": "Australia",
+                "vt": "str"
+            },
+            {
+                "p": "equipNum",
+                "v": "Simoco3002",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "x": 290,
+        "y": 60,
+        "wires": [
+            [
+                "95b13489a2c83688"
+            ]
+        ]
+    },
+    {
+        "id": "4d23673ff2862391",
+        "type": "debug",
+        "z": "ef8739be854896a4",
+        "g": "f81078994e7bf9a5",
+        "name": "BasicInformation",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "msg",
+        "targetType": "jsonata",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "95b13489a2c83688",
+        "type": "function",
+        "z": "ef8739be854896a4",
+        "g": "f81078994e7bf9a5",
+        "name": "getBasicInfo",
+        "func": "// node.warn(msg);\n// const basicInfo ={city:msg.city,country:msg.country,\n//                   longitude:msg.lognitude,latitude:msg.latitude,\n//                   equipNum:msg.equipNum,location:msg.location};\n// msg = basicInfo;\nconst {equipNum} = msg;\nglobal.set(`global${equipNum}Info`,msg);\nconst getInfo= global.get(`global${equipNum}Info`);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 60,
+        "wires": [
+            [
+                "4d23673ff2862391"
+            ]
+        ]
+    },
+    {
+        "id": "3571a66fa779c1d7",
+        "type": "inject",
+        "z": "ef8739be854896a4",
+        "g": "f81078994e7bf9a5",
+        "name": "Temperature",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "T",
+        "payload": "5",
+        "payloadType": "num",
+        "x": 310,
+        "y": 120,
+        "wires": [
+            [
+                "edadc02dda58e2c2"
+            ]
+        ]
+    },
+    {
+        "id": "91346635a4bdb1d9",
+        "type": "inject",
+        "z": "ef8739be854896a4",
+        "g": "f81078994e7bf9a5",
+        "name": "Humidity",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "H",
+        "payload": "90",
+        "payloadType": "num",
+        "x": 300,
+        "y": 220,
+        "wires": [
+            [
+                "8e412ebd2dcd9e64"
+            ]
+        ]
+    },
+    {
+        "id": "1287cc89f61ec161",
+        "type": "inject",
+        "z": "ef8739be854896a4",
+        "g": "f81078994e7bf9a5",
+        "name": "Smokescope",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "S",
+        "payload": "10",
+        "payloadType": "num",
+        "x": 320,
+        "y": 320,
+        "wires": [
+            [
+                "85e51fd750d91956"
+            ]
+        ]
+    },
+    {
+        "id": "d7fedd62a118f4a6",
+        "type": "switch",
+        "z": "ef8739be854896a4",
+        "g": "f81078994e7bf9a5",
+        "name": "Switcher",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "T",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "H",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "S",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 760,
+        "y": 220,
+        "wires": [
+            [
+                "8738856eb139723d"
+            ],
+            [
+                "0eedf40811743459"
+            ],
+            [
+                "af8c030c62c22003"
+            ]
+        ]
+    },
+    {
+        "id": "edadc02dda58e2c2",
+        "type": "function",
+        "z": "ef8739be854896a4",
+        "g": "f81078994e7bf9a5",
+        "name": "temperatureGenerate",
+        "func": "let count = context.get('count')||msg.payload||0;\nconst reset = flow.get('reset');\n\nif (reset == \"RESET\") {\n    count = msg.payload;\n    // msg.reset = false;\n}else{\n    if (count == 100) {\n        count = msg.payload;\n    } else if (count == 0) {\n        count = msg.payload;\n    } else {\n        count += 1;\n    }\n    context.set('count', count);\n    msg.payload = count;\n}\nif(msg.payload>90){\n    global.set(\"globalSimoco3002Alarm\",true);\n}else{\n    global.set(\"globalSimoco3002Alarm\",false);\n}\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 140,
+        "wires": [
+            [
+                "d7fedd62a118f4a6"
+            ]
+        ]
+    },
+    {
+        "id": "8e412ebd2dcd9e64",
+        "type": "function",
+        "z": "ef8739be854896a4",
+        "g": "f81078994e7bf9a5",
+        "name": "humidityGenerate",
+        "func": "let count = context.get('count')||msg.payload||0;\nconst reset = flow.get('reset');\n\nif (reset == \"RESET\") {\n   count = msg.payload; \n}else if( count== 0){\n    count = msg.payload;\n}else{\n    count -= 1;\n}\ncontext.set('count',count);\nmsg.payload = count;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 220,
+        "wires": [
+            [
+                "d7fedd62a118f4a6"
+            ]
+        ]
+    },
+    {
+        "id": "85e51fd750d91956",
+        "type": "function",
+        "z": "ef8739be854896a4",
+        "g": "f81078994e7bf9a5",
+        "name": "smokscopeGenerate",
+        "func": "let count = context.get('count')||msg.payload||0;\nlet reset = flow.get('reset')\n\nif (reset == \"RESET\") {\n   count = msg.payload; \n}else if( count== 0){\n    count = msg.payload;\n}else{\n    count += 1;\n}\ncontext.set('count',count);\nmsg.payload = count;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 320,
+        "wires": [
+            [
+                "d7fedd62a118f4a6"
+            ]
+        ]
+    },
+    {
+        "id": "30a25415e9358e70",
+        "type": "fd-toggle",
+        "z": "ef8739be854896a4",
+        "g": "f81078994e7bf9a5",
+        "fd_container": "e835914f613f0649",
+        "fd_cols": 1,
+        "fd_rows": 1,
+        "fd_array": false,
+        "fd_array_max": 10,
+        "fd_output_topic": "",
+        "fd_loopback": false,
+        "name": "on/off reset",
+        "title": "Reset",
+        "popup_info": "",
+        "value": "",
+        "enabled": true,
+        "color": "",
+        "on_value": "RESET",
+        "off_value": "OFF",
+        "show_value": true,
+        "x": 810,
+        "y": 540,
+        "wires": [
+            [
+                "4acfcc8a53794509",
+                "b71f1b12fd7a1d9c"
+            ]
+        ]
+    },
+    {
+        "id": "8738856eb139723d",
+        "type": "fd-gauge",
+        "z": "ef8739be854896a4",
+        "g": "f81078994e7bf9a5",
+        "fd_container": "e835914f613f0649",
+        "fd_cols": "3",
+        "fd_rows": "3",
+        "fd_array": false,
+        "fd_array_max": 10,
+        "name": "Temperature",
+        "title": "Temperature（°C）",
+        "popup_info": "",
+        "value": null,
+        "unit": "",
+        "arc": 180,
+        "min": 0,
+        "max": 100,
+        "color": "orange",
+        "low_color": "yellow-lighten-3",
+        "high_color": "red-accent-3",
+        "low_threshold": 30,
+        "high_threshold": 75,
+        "base_color": "grey-lighten-3",
+        "needle_color": "white",
+        "radius": 70,
+        "stretch": false,
+        "x": 950,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "af8c030c62c22003",
+        "type": "fd-gauge",
+        "z": "ef8739be854896a4",
+        "g": "f81078994e7bf9a5",
+        "fd_container": "e835914f613f0649",
+        "fd_cols": 3,
+        "fd_rows": 3,
+        "fd_array": false,
+        "fd_array_max": 10,
+        "name": "Smokescope",
+        "title": "Smokescope(ppm)",
+        "popup_info": "",
+        "value": null,
+        "unit": "",
+        "arc": 120,
+        "min": 0,
+        "max": 100,
+        "color": "grey",
+        "low_color": "grey-lighten-3",
+        "high_color": "grey-darken-3",
+        "low_threshold": 30,
+        "high_threshold": 50,
+        "base_color": "grey-lighten-3",
+        "needle_color": "white",
+        "radius": 70,
+        "stretch": false,
+        "x": 950,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "0eedf40811743459",
+        "type": "fd-gauge",
+        "z": "ef8739be854896a4",
+        "g": "f81078994e7bf9a5",
+        "fd_container": "e835914f613f0649",
+        "fd_cols": "3",
+        "fd_rows": "3",
+        "fd_array": false,
+        "fd_array_max": 10,
+        "name": "Humidity ",
+        "title": "Humidity(%)",
+        "popup_info": "",
+        "value": null,
+        "unit": "",
+        "arc": 360,
+        "min": 0,
+        "max": 100,
+        "color": "light-blue",
+        "low_color": "light-blue-lighten-3",
+        "high_color": "light-blue-darken-3",
+        "low_threshold": 30,
+        "high_threshold": 75,
+        "base_color": "grey-lighten-3",
+        "needle_color": "white",
+        "radius": 70,
+        "stretch": false,
+        "x": 960,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "fced9681f082291f",
+        "type": "inject",
+        "z": "5a9c45d6665294c2",
+        "g": "300363b21332d0a9",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 300,
+        "y": 680,
+        "wires": [
+            [
+                "250fc877872c999f"
+            ]
+        ]
+    },
+    {
+        "id": "250fc877872c999f",
+        "type": "function",
+        "z": "5a9c45d6665294c2",
+        "g": "300363b21332d0a9",
+        "name": "Random error",
+        "func": "//randsome Error\nif (Math.random() < 0.01) {\n   node.error(\"Sydney-Simoco2001,a random error\", msg);\n   global.set(\"globalSimoco2001Error\",true);\n} else {\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 680,
+        "wires": [
+            [
+                "13229b54da88a21b"
+            ]
+        ]
+    },
+    {
+        "id": "13229b54da88a21b",
+        "type": "debug",
+        "z": "5a9c45d6665294c2",
+        "g": "300363b21332d0a9",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 710,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "fc2ea173d343dfdf",
+        "type": "delay",
+        "z": "5a9c45d6665294c2",
+        "g": "300363b21332d0a9",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 440,
+        "y": 740,
+        "wires": [
+            [
+                "250fc877872c999f"
+            ]
+        ]
+    },
+    {
+        "id": "bc549d3921ab095e",
+        "type": "catch",
+        "z": "5a9c45d6665294c2",
+        "g": "300363b21332d0a9",
+        "name": "",
+        "scope": [
+            "250fc877872c999f"
+        ],
+        "uncaught": false,
+        "x": 290,
+        "y": 740,
+        "wires": [
+            [
+                "fc2ea173d343dfdf",
+                "fdb9d88158dd8f79"
+            ]
+        ]
+    },
+    {
+        "id": "fdb9d88158dd8f79",
+        "type": "debug",
+        "z": "5a9c45d6665294c2",
+        "g": "300363b21332d0a9",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "error",
+        "targetType": "msg",
+        "x": 440,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "077c54ddd8250ed3",
+        "type": "change",
+        "z": "5a9c45d6665294c2",
+        "g": "300363b21332d0a9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "reset",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 990,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c8aee0967669f6d1",
+        "type": "function",
+        "z": "5a9c45d6665294c2",
+        "g": "300363b21332d0a9",
+        "name": " ",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 785,
+        "y": 840,
+        "wires": [
+            [
+                "f6085dedb2b19ae3"
+            ]
+        ],
+        "icon": "node-red/arrow-in.svg",
+        "l": false
+    },
+    {
+        "id": "8cef0e8d3cb86d84",
+        "type": "inject",
+        "z": "5a9c45d6665294c2",
+        "g": "300363b21332d0a9",
+        "name": "",
+        "props": [
+            {
+                "p": "location",
+                "v": "BurnWood",
+                "vt": "str"
+            },
+            {
+                "p": "city",
+                "v": "Sydney",
+                "vt": "str"
+            },
+            {
+                "p": "longitude",
+                "v": "33.8688",
+                "vt": "str"
+            },
+            {
+                "p": "latitude",
+                "v": "151.2093",
+                "vt": "str"
+            },
+            {
+                "p": "country",
+                "v": "Australia",
+                "vt": "str"
+            },
+            {
+                "p": "equipNum",
+                "v": "Simoco2001",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "x": 290,
+        "y": 280,
+        "wires": [
+            [
+                "7c24503dd37391b5"
+            ]
+        ]
+    },
+    {
+        "id": "c093056e67d4a4dc",
+        "type": "debug",
+        "z": "5a9c45d6665294c2",
+        "g": "300363b21332d0a9",
+        "name": "BasicInformation",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "msg",
+        "targetType": "jsonata",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "7c24503dd37391b5",
+        "type": "function",
+        "z": "5a9c45d6665294c2",
+        "g": "300363b21332d0a9",
+        "name": "getBasicInfo",
+        "func": "// node.warn(msg);\n// const basicInfo ={city:msg.city,country:msg.country,\n//                   longitude:msg.lognitude,latitude:msg.latitude,\n//                   equipNum:msg.equipNum,location:msg.location};\n// msg = basicInfo;\nconst {equipNum} = msg;\nglobal.set(`global${equipNum}Info`,msg);\nconst getInfo= global.get(`global${equipNum}Info`);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 280,
+        "wires": [
+            [
+                "c093056e67d4a4dc"
+            ]
+        ]
+    },
+    {
+        "id": "3a101d79bb9cb238",
+        "type": "inject",
+        "z": "5a9c45d6665294c2",
+        "g": "300363b21332d0a9",
+        "name": "Temperature",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "T",
+        "payload": "5",
+        "payloadType": "num",
+        "x": 310,
+        "y": 340,
+        "wires": [
+            [
+                "752e6fd71c0c5086"
+            ]
+        ]
+    },
+    {
+        "id": "32c3264fa61e24bd",
+        "type": "inject",
+        "z": "5a9c45d6665294c2",
+        "g": "300363b21332d0a9",
+        "name": "Humidity",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "H",
+        "payload": "90",
+        "payloadType": "num",
+        "x": 300,
+        "y": 440,
+        "wires": [
+            [
+                "607f80762a961c8e"
+            ]
+        ]
+    },
+    {
+        "id": "da1d769a12d944db",
+        "type": "inject",
+        "z": "5a9c45d6665294c2",
+        "g": "300363b21332d0a9",
+        "name": "Smokescope",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "S",
+        "payload": "10",
+        "payloadType": "num",
+        "x": 320,
+        "y": 540,
+        "wires": [
+            [
+                "cc9b2c9c876a3228"
+            ]
+        ]
+    },
+    {
+        "id": "39a8d2b34bf80b3c",
+        "type": "switch",
+        "z": "5a9c45d6665294c2",
+        "g": "300363b21332d0a9",
+        "name": "Switcher",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "T",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "H",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "S",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 760,
+        "y": 440,
+        "wires": [
+            [
+                "0d5e9360b335a9d2"
+            ],
+            [
+                "9639ec1088f6125e"
+            ],
+            [
+                "fd67ac174e8d3345"
+            ]
+        ]
+    },
+    {
+        "id": "752e6fd71c0c5086",
+        "type": "function",
+        "z": "5a9c45d6665294c2",
+        "g": "300363b21332d0a9",
+        "name": "temperatureGenerate",
+        "func": "let count = context.get('count')||msg.payload||0;\nconst reset = flow.get('reset');\n\nif (reset == \"RESET\") {\n    count = msg.payload;\n    // msg.reset = false;\n}else{\n    if (count == 100) {\n        count = msg.payload;\n    } else if (count == 0) {\n        count = msg.payload;\n    } else {\n        count += 1;\n    }\n    context.set('count', count);\n    msg.payload = count;\n}\nif(msg.payload>90){\n    global.set(\"globalSimoco2001Alarm\",true);\n}else{\n    global.set(\"globalSimoco2001Alarm\",false);\n}\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 360,
+        "wires": [
+            [
+                "39a8d2b34bf80b3c"
+            ]
+        ]
+    },
+    {
+        "id": "607f80762a961c8e",
+        "type": "function",
+        "z": "5a9c45d6665294c2",
+        "g": "300363b21332d0a9",
+        "name": "humidityGenerate",
+        "func": "let count = context.get('count')||msg.payload||0;\nconst reset = flow.get('reset');\n\nif (reset == \"RESET\") {\n   count = msg.payload; \n}else if( count== 0){\n    count = msg.payload;\n}else{\n    count -= 1;\n}\ncontext.set('count',count);\nmsg.payload = count;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 440,
+        "wires": [
+            [
+                "39a8d2b34bf80b3c"
+            ]
+        ]
+    },
+    {
+        "id": "cc9b2c9c876a3228",
+        "type": "function",
+        "z": "5a9c45d6665294c2",
+        "g": "300363b21332d0a9",
+        "name": "smokscopeGenerate",
+        "func": "let count = context.get('count')||msg.payload||0;\nlet reset = flow.get('reset')\n\nif (reset == \"RESET\") {\n   count = msg.payload; \n}else if( count== 0){\n    count = msg.payload;\n}else{\n    count += 1;\n}\ncontext.set('count',count);\nmsg.payload = count;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 540,
+        "wires": [
+            [
+                "39a8d2b34bf80b3c"
+            ]
+        ]
+    },
+    {
+        "id": "f6085dedb2b19ae3",
+        "type": "fd-toggle",
+        "z": "5a9c45d6665294c2",
+        "g": "300363b21332d0a9",
+        "fd_container": "1e4b71831666e0d3",
+        "fd_cols": 1,
+        "fd_rows": 1,
+        "fd_array": false,
+        "fd_array_max": 10,
+        "fd_output_topic": "",
+        "fd_loopback": false,
+        "name": "on/off reset",
+        "title": "Reset",
+        "popup_info": "",
+        "value": "",
+        "enabled": true,
+        "color": "",
+        "on_value": "RESET",
+        "off_value": "OFF",
+        "show_value": true,
+        "x": 810,
+        "y": 760,
+        "wires": [
+            [
+                "077c54ddd8250ed3",
+                "c8aee0967669f6d1"
+            ]
+        ]
+    },
+    {
+        "id": "0d5e9360b335a9d2",
+        "type": "fd-gauge",
+        "z": "5a9c45d6665294c2",
+        "g": "300363b21332d0a9",
+        "fd_container": "1e4b71831666e0d3",
+        "fd_cols": "3",
+        "fd_rows": "3",
+        "fd_array": false,
+        "fd_array_max": 10,
+        "name": "Temperature",
+        "title": "Temperature（°C）",
+        "popup_info": "",
+        "value": null,
+        "unit": "",
+        "arc": 180,
+        "min": 0,
+        "max": 100,
+        "color": "orange",
+        "low_color": "yellow-lighten-3",
+        "high_color": "red-accent-3",
+        "low_threshold": 30,
+        "high_threshold": 75,
+        "base_color": "grey-lighten-3",
+        "needle_color": "white",
+        "radius": 70,
+        "stretch": false,
+        "x": 950,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "fd67ac174e8d3345",
+        "type": "fd-gauge",
+        "z": "5a9c45d6665294c2",
+        "g": "300363b21332d0a9",
+        "fd_container": "1e4b71831666e0d3",
+        "fd_cols": 3,
+        "fd_rows": 3,
+        "fd_array": false,
+        "fd_array_max": 10,
+        "name": "Smokescope",
+        "title": "Smokescope(ppm)",
+        "popup_info": "",
+        "value": null,
+        "unit": "",
+        "arc": 120,
+        "min": 0,
+        "max": 100,
+        "color": "grey",
+        "low_color": "grey-lighten-3",
+        "high_color": "grey-darken-3",
+        "low_threshold": 30,
+        "high_threshold": 50,
+        "base_color": "grey-lighten-3",
+        "needle_color": "white",
+        "radius": 70,
+        "stretch": false,
+        "x": 950,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "9639ec1088f6125e",
+        "type": "fd-gauge",
+        "z": "5a9c45d6665294c2",
+        "g": "300363b21332d0a9",
+        "fd_container": "1e4b71831666e0d3",
+        "fd_cols": "3",
+        "fd_rows": "3",
+        "fd_array": false,
+        "fd_array_max": 10,
+        "name": "Humidity ",
+        "title": "Humidity(%)",
+        "popup_info": "",
+        "value": null,
+        "unit": "",
+        "arc": 360,
+        "min": 0,
+        "max": 100,
+        "color": "light-blue",
+        "low_color": "light-blue-lighten-3",
+        "high_color": "light-blue-darken-3",
+        "low_threshold": 30,
+        "high_threshold": 75,
+        "base_color": "grey-lighten-3",
+        "needle_color": "white",
+        "radius": 70,
+        "stretch": false,
+        "x": 960,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "b80a05fa7cd501e4",
+        "type": "inject",
+        "z": "9f7d8463b4050bdd",
+        "g": "8ed62cf511a5169c",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 240,
+        "y": 460,
+        "wires": [
+            [
+                "6029975ac383d528"
+            ]
+        ]
+    },
+    {
+        "id": "6029975ac383d528",
+        "type": "function",
+        "z": "9f7d8463b4050bdd",
+        "g": "8ed62cf511a5169c",
+        "name": "Random error",
+        "func": "//randsome Error\nif (Math.random() < 0.01) {\n   node.error(\"Sydney-Simoco2001,a random error\", msg);\n   global.set(\"globalSimoco2001Error\",true);\n} else {\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 460,
+        "wires": [
+            [
+                "73809c4e7c63e5b9"
+            ]
+        ]
+    },
+    {
+        "id": "73809c4e7c63e5b9",
+        "type": "debug",
+        "z": "9f7d8463b4050bdd",
+        "g": "8ed62cf511a5169c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 650,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "98c6254f53335e57",
+        "type": "delay",
+        "z": "9f7d8463b4050bdd",
+        "g": "8ed62cf511a5169c",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 380,
+        "y": 520,
+        "wires": [
+            [
+                "6029975ac383d528"
+            ]
+        ]
+    },
+    {
+        "id": "3f59843cca1db20a",
+        "type": "catch",
+        "z": "9f7d8463b4050bdd",
+        "g": "8ed62cf511a5169c",
+        "name": "",
+        "scope": [
+            "6029975ac383d528"
+        ],
+        "uncaught": false,
+        "x": 230,
+        "y": 520,
+        "wires": [
+            [
+                "98c6254f53335e57",
+                "5c1cad9e751a57d7"
+            ]
+        ]
+    },
+    {
+        "id": "5c1cad9e751a57d7",
+        "type": "debug",
+        "z": "9f7d8463b4050bdd",
+        "g": "8ed62cf511a5169c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "error",
+        "targetType": "msg",
+        "x": 380,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "709cf90a3771da5f",
+        "type": "change",
+        "z": "9f7d8463b4050bdd",
+        "g": "8ed62cf511a5169c",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "reset",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 930,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5936ab552776e1f2",
+        "type": "function",
+        "z": "9f7d8463b4050bdd",
+        "g": "8ed62cf511a5169c",
+        "name": " ",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 725,
+        "y": 620,
+        "wires": [
+            [
+                "3a5541cffd4ea14f"
+            ]
+        ],
+        "icon": "node-red/arrow-in.svg",
+        "l": false
+    },
+    {
+        "id": "1935b03642b4c867",
+        "type": "inject",
+        "z": "9f7d8463b4050bdd",
+        "g": "8ed62cf511a5169c",
+        "name": "",
+        "props": [
+            {
+                "p": "location",
+                "v": "BurnWood",
+                "vt": "str"
+            },
+            {
+                "p": "city",
+                "v": "Sydney",
+                "vt": "str"
+            },
+            {
+                "p": "longitude",
+                "v": "33.8688",
+                "vt": "str"
+            },
+            {
+                "p": "latitude",
+                "v": "151.2093",
+                "vt": "str"
+            },
+            {
+                "p": "country",
+                "v": "Australia",
+                "vt": "str"
+            },
+            {
+                "p": "equipNum",
+                "v": "Simoco2002",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "x": 230,
+        "y": 60,
+        "wires": [
+            [
+                "138178268ad03cde"
+            ]
+        ]
+    },
+    {
+        "id": "70553b292c205f97",
+        "type": "debug",
+        "z": "9f7d8463b4050bdd",
+        "g": "8ed62cf511a5169c",
+        "name": "BasicInformation",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "msg",
+        "targetType": "jsonata",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "138178268ad03cde",
+        "type": "function",
+        "z": "9f7d8463b4050bdd",
+        "g": "8ed62cf511a5169c",
+        "name": "getBasicInfo",
+        "func": "// node.warn(msg);\n// const basicInfo ={city:msg.city,country:msg.country,\n//                   longitude:msg.lognitude,latitude:msg.latitude,\n//                   equipNum:msg.equipNum,location:msg.location};\n// msg = basicInfo;\nconst {equipNum} = msg;\nglobal.set(`global${equipNum}Info`,msg);\nconst getInfo= global.get(`global${equipNum}Info`);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 60,
+        "wires": [
+            [
+                "70553b292c205f97"
+            ]
+        ]
+    },
+    {
+        "id": "fa2817ef7637131f",
+        "type": "inject",
+        "z": "9f7d8463b4050bdd",
+        "g": "8ed62cf511a5169c",
+        "name": "Temperature",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "T",
+        "payload": "5",
+        "payloadType": "num",
+        "x": 250,
+        "y": 120,
+        "wires": [
+            [
+                "831140ddab059738"
+            ]
+        ]
+    },
+    {
+        "id": "fcecec4111ebf14a",
+        "type": "inject",
+        "z": "9f7d8463b4050bdd",
+        "g": "8ed62cf511a5169c",
+        "name": "Humidity",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "H",
+        "payload": "90",
+        "payloadType": "num",
+        "x": 240,
+        "y": 220,
+        "wires": [
+            [
+                "7ed864a7c87367d5"
+            ]
+        ]
+    },
+    {
+        "id": "c7e88216fa02e8c1",
+        "type": "inject",
+        "z": "9f7d8463b4050bdd",
+        "g": "8ed62cf511a5169c",
+        "name": "Smokescope",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "S",
+        "payload": "10",
+        "payloadType": "num",
+        "x": 260,
+        "y": 320,
+        "wires": [
+            [
+                "b03154714cbd5ad1"
+            ]
+        ]
+    },
+    {
+        "id": "2922a351751994f8",
+        "type": "switch",
+        "z": "9f7d8463b4050bdd",
+        "g": "8ed62cf511a5169c",
+        "name": "Switcher",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "T",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "H",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "S",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 700,
+        "y": 220,
+        "wires": [
+            [
+                "ab783fbbe1642c11"
+            ],
+            [
+                "5382c2a2c1667a90"
+            ],
+            [
+                "2ebaea2a8fc4007d"
+            ]
+        ]
+    },
+    {
+        "id": "831140ddab059738",
+        "type": "function",
+        "z": "9f7d8463b4050bdd",
+        "g": "8ed62cf511a5169c",
+        "name": "temperatureGenerate",
+        "func": "let count = context.get('count')||msg.payload||0;\nconst reset = flow.get('reset');\n\nif (reset == \"RESET\") {\n    count = msg.payload;\n    // msg.reset = false;\n}else{\n    if (count == 100) {\n        count = msg.payload;\n    } else if (count == 0) {\n        count = msg.payload;\n    } else {\n        count += 1;\n    }\n    context.set('count', count);\n    msg.payload = count;\n}\nif(msg.payload>90){\n    global.set(\"globalSimoco2002Alarm\",true);\n}else{\n    global.set(\"globalSimoco2002Alarm\",false);\n}\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 140,
+        "wires": [
+            [
+                "2922a351751994f8"
+            ]
+        ]
+    },
+    {
+        "id": "7ed864a7c87367d5",
+        "type": "function",
+        "z": "9f7d8463b4050bdd",
+        "g": "8ed62cf511a5169c",
+        "name": "humidityGenerate",
+        "func": "let count = context.get('count')||msg.payload||0;\nconst reset = flow.get('reset');\n\nif (reset == \"RESET\") {\n   count = msg.payload; \n}else if( count== 0){\n    count = msg.payload;\n}else{\n    count -= 1;\n}\ncontext.set('count',count);\nmsg.payload = count;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 220,
+        "wires": [
+            [
+                "2922a351751994f8"
+            ]
+        ]
+    },
+    {
+        "id": "b03154714cbd5ad1",
+        "type": "function",
+        "z": "9f7d8463b4050bdd",
+        "g": "8ed62cf511a5169c",
+        "name": "smokscopeGenerate",
+        "func": "let count = context.get('count')||msg.payload||0;\nlet reset = flow.get('reset')\n\nif (reset == \"RESET\") {\n   count = msg.payload; \n}else if( count== 0){\n    count = msg.payload;\n}else{\n    count += 1;\n}\ncontext.set('count',count);\nmsg.payload = count;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 320,
+        "wires": [
+            [
+                "2922a351751994f8"
+            ]
+        ]
+    },
+    {
+        "id": "3a5541cffd4ea14f",
+        "type": "fd-toggle",
+        "z": "9f7d8463b4050bdd",
+        "g": "8ed62cf511a5169c",
+        "fd_container": "17b567d94611a34e",
+        "fd_cols": 1,
+        "fd_rows": 1,
+        "fd_array": false,
+        "fd_array_max": 10,
+        "fd_output_topic": "",
+        "fd_loopback": false,
+        "name": "on/off reset",
+        "title": "Reset",
+        "popup_info": "",
+        "value": "",
+        "enabled": true,
+        "color": "",
+        "on_value": "RESET",
+        "off_value": "OFF",
+        "show_value": true,
+        "x": 750,
+        "y": 540,
+        "wires": [
+            [
+                "709cf90a3771da5f",
+                "5936ab552776e1f2"
+            ]
+        ]
+    },
+    {
+        "id": "ab783fbbe1642c11",
+        "type": "fd-gauge",
+        "z": "9f7d8463b4050bdd",
+        "g": "8ed62cf511a5169c",
+        "fd_container": "17b567d94611a34e",
+        "fd_cols": "3",
+        "fd_rows": "3",
+        "fd_array": false,
+        "fd_array_max": 10,
+        "name": "Temperature",
+        "title": "Temperature（°C）",
+        "popup_info": "",
+        "value": null,
+        "unit": "",
+        "arc": 180,
+        "min": 0,
+        "max": 100,
+        "color": "orange",
+        "low_color": "yellow-lighten-3",
+        "high_color": "red-accent-3",
+        "low_threshold": 30,
+        "high_threshold": 75,
+        "base_color": "grey-lighten-3",
+        "needle_color": "white",
+        "radius": 70,
+        "stretch": false,
+        "x": 890,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "2ebaea2a8fc4007d",
+        "type": "fd-gauge",
+        "z": "9f7d8463b4050bdd",
+        "g": "8ed62cf511a5169c",
+        "fd_container": "17b567d94611a34e",
+        "fd_cols": 3,
+        "fd_rows": 3,
+        "fd_array": false,
+        "fd_array_max": 10,
+        "name": "Smokescope",
+        "title": "Smokescope(ppm)",
+        "popup_info": "",
+        "value": null,
+        "unit": "",
+        "arc": 120,
+        "min": 0,
+        "max": 100,
+        "color": "grey",
+        "low_color": "grey-lighten-3",
+        "high_color": "grey-darken-3",
+        "low_threshold": 30,
+        "high_threshold": 50,
+        "base_color": "grey-lighten-3",
+        "needle_color": "white",
+        "radius": 70,
+        "stretch": false,
+        "x": 890,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "5382c2a2c1667a90",
+        "type": "fd-gauge",
+        "z": "9f7d8463b4050bdd",
+        "g": "8ed62cf511a5169c",
+        "fd_container": "17b567d94611a34e",
+        "fd_cols": "3",
+        "fd_rows": "3",
+        "fd_array": false,
+        "fd_array_max": 10,
+        "name": "Humidity ",
+        "title": "Humidity(%)",
+        "popup_info": "",
+        "value": null,
+        "unit": "",
+        "arc": 360,
+        "min": 0,
+        "max": 100,
+        "color": "light-blue",
+        "low_color": "light-blue-lighten-3",
+        "high_color": "light-blue-darken-3",
+        "low_threshold": 30,
+        "high_threshold": 75,
+        "base_color": "grey-lighten-3",
+        "needle_color": "white",
+        "radius": 70,
+        "stretch": false,
+        "x": 900,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "3427cbfea0edc842",
+        "type": "inject",
+        "z": "d08b8dbadb5935bb",
+        "g": "384609e63dc0396a",
+        "name": "",
+        "props": [
+            {
+                "p": "location",
+                "v": "New Farm",
+                "vt": "str"
+            },
+            {
+                "p": "city",
+                "v": "Braisbane",
+                "vt": "str"
+            },
+            {
+                "p": "longitude",
+                "v": "27.4705",
+                "vt": "str"
+            },
+            {
+                "p": "latitude",
+                "v": "153.0260",
+                "vt": "str"
+            },
+            {
+                "p": "country",
+                "v": "Australia",
+                "vt": "str"
+            },
+            {
+                "p": "equipNum",
+                "v": "Simoco7001",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "x": 330,
+        "y": 80,
+        "wires": [
+            [
+                "efa27e40f5acd546"
+            ]
+        ]
+    },
+    {
+        "id": "8862337e16aab2e9",
+        "type": "debug",
+        "z": "d08b8dbadb5935bb",
+        "g": "384609e63dc0396a",
+        "name": "BasicInformation",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "msg",
+        "targetType": "jsonata",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "efa27e40f5acd546",
+        "type": "function",
+        "z": "d08b8dbadb5935bb",
+        "g": "384609e63dc0396a",
+        "name": "getBasicInfo",
+        "func": "const { equipNum } = msg;\nglobal.set(`global${equipNum}Info`, msg);\nconst getInfo = global.get(`global${equipNum}Info`);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 80,
+        "wires": [
+            [
+                "8862337e16aab2e9"
+            ]
+        ]
+    },
+    {
+        "id": "572c9e384c5439b9",
+        "type": "inject",
+        "z": "d08b8dbadb5935bb",
+        "g": "384609e63dc0396a",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 340,
+        "y": 480,
+        "wires": [
+            [
+                "f3dd1faa2827901b"
+            ]
+        ]
+    },
+    {
+        "id": "f3dd1faa2827901b",
+        "type": "function",
+        "z": "d08b8dbadb5935bb",
+        "g": "384609e63dc0396a",
+        "name": "Random error",
+        "func": "//randsome Error\nif (Math.random() < 0.01) {\n   node.error(\"Brisbane-Simoco7001,a random error\", msg);\n   global.set(\"globalSimoco7001Error\",true);\n} else {\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 480,
+        "wires": [
+            [
+                "940298c424ec1eeb"
+            ]
+        ]
+    },
+    {
+        "id": "940298c424ec1eeb",
+        "type": "debug",
+        "z": "d08b8dbadb5935bb",
+        "g": "384609e63dc0396a",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 750,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "602406b82d25a693",
+        "type": "delay",
+        "z": "d08b8dbadb5935bb",
+        "g": "384609e63dc0396a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 480,
+        "y": 540,
+        "wires": [
+            [
+                "f3dd1faa2827901b"
+            ]
+        ]
+    },
+    {
+        "id": "e76d93247729ff16",
+        "type": "catch",
+        "z": "d08b8dbadb5935bb",
+        "g": "384609e63dc0396a",
+        "name": "",
+        "scope": [
+            "f3dd1faa2827901b"
+        ],
+        "uncaught": false,
+        "x": 330,
+        "y": 540,
+        "wires": [
+            [
+                "602406b82d25a693",
+                "887ee3d443bfcbb4"
+            ]
+        ]
+    },
+    {
+        "id": "887ee3d443bfcbb4",
+        "type": "debug",
+        "z": "d08b8dbadb5935bb",
+        "g": "384609e63dc0396a",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "error",
+        "targetType": "msg",
+        "x": 480,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "2c29b524f3203f41",
+        "type": "change",
+        "z": "d08b8dbadb5935bb",
+        "g": "384609e63dc0396a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "reset",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1030,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6ce7341368ac4082",
+        "type": "function",
+        "z": "d08b8dbadb5935bb",
+        "g": "384609e63dc0396a",
+        "name": " ",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 825,
+        "y": 640,
+        "wires": [
+            [
+                "8b21a1f683e02ceb"
+            ]
+        ],
+        "icon": "node-red/arrow-in.svg",
+        "l": false
+    },
+    {
+        "id": "aa824143bebb1f4c",
+        "type": "inject",
+        "z": "d08b8dbadb5935bb",
+        "g": "384609e63dc0396a",
+        "name": "Temperature",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "T",
+        "payload": "5",
+        "payloadType": "num",
+        "x": 350,
+        "y": 140,
+        "wires": [
+            [
+                "b77fc9c19e405c8f"
+            ]
+        ]
+    },
+    {
+        "id": "4a4164ce4b67675b",
+        "type": "inject",
+        "z": "d08b8dbadb5935bb",
+        "g": "384609e63dc0396a",
+        "name": "Humidity",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "H",
+        "payload": "90",
+        "payloadType": "num",
+        "x": 340,
+        "y": 240,
+        "wires": [
+            [
+                "077d33ed13f2d1b2"
+            ]
+        ]
+    },
+    {
+        "id": "1a3ec4963c7b3322",
+        "type": "inject",
+        "z": "d08b8dbadb5935bb",
+        "g": "384609e63dc0396a",
+        "name": "Smokescope",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "S",
+        "payload": "10",
+        "payloadType": "num",
+        "x": 360,
+        "y": 340,
+        "wires": [
+            [
+                "efc7bea3ad629173"
+            ]
+        ]
+    },
+    {
+        "id": "e7708a698184d12d",
+        "type": "switch",
+        "z": "d08b8dbadb5935bb",
+        "g": "384609e63dc0396a",
+        "name": "Switcher",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "T",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "H",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "S",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 800,
+        "y": 240,
+        "wires": [
+            [
+                "6e30734eec8e0e83"
+            ],
+            [
+                "8e30e349afeb86a8"
+            ],
+            [
+                "942043689bf59e58"
+            ]
+        ]
+    },
+    {
+        "id": "b77fc9c19e405c8f",
+        "type": "function",
+        "z": "d08b8dbadb5935bb",
+        "g": "384609e63dc0396a",
+        "name": "temperatureGenerate",
+        "func": "let count = context.get('count')||msg.payload||0;\nconst reset = flow.get('reset');\n\nif (reset == \"RESET\") {\n    count = msg.payload;\n    // msg.reset = false;\n}else{\n    if (count == 100) {\n        count = msg.payload;\n    } else if (count == 0) {\n        count = msg.payload;\n    } else {\n        count += 1;\n    }\n    context.set('count', count);\n    msg.payload = count;\n}\nif(msg.payload>90){\n    global.set(\"globalSimoco7001Alarm\",true);\n}else{\n    global.set(\"globalSimoco7001Alarm\",false);\n}\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 160,
+        "wires": [
+            [
+                "e7708a698184d12d"
+            ]
+        ]
+    },
+    {
+        "id": "077d33ed13f2d1b2",
+        "type": "function",
+        "z": "d08b8dbadb5935bb",
+        "g": "384609e63dc0396a",
+        "name": "humidityGenerate",
+        "func": "let count = context.get('count')||msg.payload||0;\nconst reset = flow.get('reset');\n\nif (reset == \"RESET\") {\n   count = msg.payload; \n}else if( count== 0){\n    count = msg.payload;\n}else{\n    count -= 1;\n}\ncontext.set('count',count);\nmsg.payload = count;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 240,
+        "wires": [
+            [
+                "e7708a698184d12d"
+            ]
+        ]
+    },
+    {
+        "id": "efc7bea3ad629173",
+        "type": "function",
+        "z": "d08b8dbadb5935bb",
+        "g": "384609e63dc0396a",
+        "name": "smokscopeGenerate",
+        "func": "let count = context.get('count')||msg.payload||0;\nlet reset = flow.get('reset')\n\nif (reset == \"RESET\") {\n   count = msg.payload; \n}else if( count== 0){\n    count = msg.payload;\n}else{\n    count += 1;\n}\ncontext.set('count',count);\nmsg.payload = count;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 340,
+        "wires": [
+            [
+                "e7708a698184d12d"
+            ]
+        ]
+    },
+    {
+        "id": "8b21a1f683e02ceb",
+        "type": "fd-toggle",
+        "z": "d08b8dbadb5935bb",
+        "g": "384609e63dc0396a",
+        "fd_container": "71ab2a3aff8e66bc",
+        "fd_cols": 1,
+        "fd_rows": 1,
+        "fd_array": false,
+        "fd_array_max": 10,
+        "fd_output_topic": "",
+        "fd_loopback": false,
+        "name": "on/off reset",
+        "title": "Reset",
+        "popup_info": "",
+        "value": "",
+        "enabled": true,
+        "color": "",
+        "on_value": "RESET",
+        "off_value": "OFF",
+        "show_value": true,
+        "x": 850,
+        "y": 560,
+        "wires": [
+            [
+                "2c29b524f3203f41",
+                "6ce7341368ac4082"
+            ]
+        ]
+    },
+    {
+        "id": "6e30734eec8e0e83",
+        "type": "fd-gauge",
+        "z": "d08b8dbadb5935bb",
+        "g": "384609e63dc0396a",
+        "fd_container": "71ab2a3aff8e66bc",
+        "fd_cols": "3",
+        "fd_rows": "3",
+        "fd_array": false,
+        "fd_array_max": 10,
+        "name": "Temperature",
+        "title": "Temperature（°C）",
+        "popup_info": "",
+        "value": null,
+        "unit": "",
+        "arc": 180,
+        "min": 0,
+        "max": 100,
+        "color": "orange",
+        "low_color": "yellow-lighten-3",
+        "high_color": "red-accent-3",
+        "low_threshold": 30,
+        "high_threshold": 75,
+        "base_color": "grey-lighten-3",
+        "needle_color": "white",
+        "radius": 70,
+        "stretch": false,
+        "x": 990,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "942043689bf59e58",
+        "type": "fd-gauge",
+        "z": "d08b8dbadb5935bb",
+        "g": "384609e63dc0396a",
+        "fd_container": "71ab2a3aff8e66bc",
+        "fd_cols": 3,
+        "fd_rows": 3,
+        "fd_array": false,
+        "fd_array_max": 10,
+        "name": "Smokescope",
+        "title": "Smokescope(ppm)",
+        "popup_info": "",
+        "value": null,
+        "unit": "",
+        "arc": 120,
+        "min": 0,
+        "max": 100,
+        "color": "grey",
+        "low_color": "grey-lighten-3",
+        "high_color": "grey-darken-3",
+        "low_threshold": 30,
+        "high_threshold": 50,
+        "base_color": "grey-lighten-3",
+        "needle_color": "white",
+        "radius": 70,
+        "stretch": false,
+        "x": 990,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "8e30e349afeb86a8",
+        "type": "fd-gauge",
+        "z": "d08b8dbadb5935bb",
+        "g": "384609e63dc0396a",
+        "fd_container": "71ab2a3aff8e66bc",
+        "fd_cols": "3",
+        "fd_rows": "3",
+        "fd_array": false,
+        "fd_array_max": 10,
+        "name": "Humidity ",
+        "title": "Humidity(%)",
+        "popup_info": "",
+        "value": null,
+        "unit": "",
+        "arc": 360,
+        "min": 0,
+        "max": 100,
+        "color": "light-blue",
+        "low_color": "light-blue-lighten-3",
+        "high_color": "light-blue-darken-3",
+        "low_threshold": 30,
+        "high_threshold": 75,
+        "base_color": "grey-lighten-3",
+        "needle_color": "white",
+        "radius": 70,
+        "stretch": false,
+        "x": 1000,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "02bc14a0c90853ae",
+        "type": "inject",
+        "z": "209767b8b09c73ee",
+        "g": "f5579862632dcc68",
+        "name": "",
+        "props": [
+            {
+                "p": "location",
+                "v": "Coorparoo",
+                "vt": "str"
+            },
+            {
+                "p": "city",
+                "v": "Braisbane",
+                "vt": "str"
+            },
+            {
+                "p": "longitude",
+                "v": "27.4705",
+                "vt": "str"
+            },
+            {
+                "p": "latitude",
+                "v": "153.0260",
+                "vt": "str"
+            },
+            {
+                "p": "country",
+                "v": "AU",
+                "vt": "str"
+            },
+            {
+                "p": "equipNum",
+                "v": "Simoco7002",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "x": 350,
+        "y": 80,
+        "wires": [
+            [
+                "5c827eb22c36ae73"
+            ]
+        ]
+    },
+    {
+        "id": "53f12a0e4d4c4396",
+        "type": "debug",
+        "z": "209767b8b09c73ee",
+        "g": "f5579862632dcc68",
+        "name": "BasicInformation",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "msg",
+        "targetType": "jsonata",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 980,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "5c827eb22c36ae73",
+        "type": "function",
+        "z": "209767b8b09c73ee",
+        "g": "f5579862632dcc68",
+        "name": "getBasicInfo",
+        "func": "// node.warn(msg);\n// const basicInfo ={city:msg.city,country:msg.country,\n//                   longitude:msg.lognitude,latitude:msg.latitude,\n//                   equipNum:msg.equipNum,location:msg.location};\n// msg = basicInfo;\nconst {equipNum} = msg;\nglobal.set(`global${equipNum}Info`,msg);\nconst getInfo= global.get(`global${equipNum}Info`);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 80,
+        "wires": [
+            [
+                "53f12a0e4d4c4396"
+            ]
+        ]
+    },
+    {
+        "id": "c2927fd1fb90876e",
+        "type": "inject",
+        "z": "209767b8b09c73ee",
+        "g": "f5579862632dcc68",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 360,
+        "y": 440,
+        "wires": [
+            [
+                "f322123d77617466"
+            ]
+        ]
+    },
+    {
+        "id": "f322123d77617466",
+        "type": "function",
+        "z": "209767b8b09c73ee",
+        "g": "f5579862632dcc68",
+        "name": "Random error",
+        "func": "//randsome Error\nif (Math.random() < 0.01) {\n   node.error(\"Brisbane-Simoco7002,a random error\", msg);\n   global.set(\"globalSimoco7002Error\",true);\n} else {\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 440,
+        "wires": [
+            [
+                "9c0882d3634f13a2"
+            ]
+        ]
+    },
+    {
+        "id": "9c0882d3634f13a2",
+        "type": "debug",
+        "z": "209767b8b09c73ee",
+        "g": "f5579862632dcc68",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "181f5e12deb1f7a8",
+        "type": "delay",
+        "z": "209767b8b09c73ee",
+        "g": "f5579862632dcc68",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 500,
+        "y": 500,
+        "wires": [
+            [
+                "f322123d77617466"
+            ]
+        ]
+    },
+    {
+        "id": "4d0bcdb82bc48de9",
+        "type": "catch",
+        "z": "209767b8b09c73ee",
+        "g": "f5579862632dcc68",
+        "name": "",
+        "scope": [
+            "f322123d77617466"
+        ],
+        "uncaught": false,
+        "x": 350,
+        "y": 500,
+        "wires": [
+            [
+                "181f5e12deb1f7a8",
+                "229f3849a06b71b3"
+            ]
+        ]
+    },
+    {
+        "id": "229f3849a06b71b3",
+        "type": "debug",
+        "z": "209767b8b09c73ee",
+        "g": "f5579862632dcc68",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "error",
+        "targetType": "msg",
+        "x": 500,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "2249a709e794f9cf",
+        "type": "change",
+        "z": "209767b8b09c73ee",
+        "g": "f5579862632dcc68",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "reset",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1050,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3a543527c04bd9dc",
+        "type": "function",
+        "z": "209767b8b09c73ee",
+        "g": "f5579862632dcc68",
+        "name": " ",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 845,
+        "y": 600,
+        "wires": [
+            [
+                "78abd039fc8c7011"
+            ]
+        ],
+        "icon": "node-red/arrow-in.svg",
+        "l": false
+    },
+    {
+        "id": "84f0702dda060988",
+        "type": "inject",
+        "z": "209767b8b09c73ee",
+        "g": "f5579862632dcc68",
+        "name": "Temperature",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "T",
+        "payload": "5",
+        "payloadType": "num",
+        "x": 370,
+        "y": 160,
+        "wires": [
+            [
+                "acb939e404d583b7"
+            ]
+        ]
+    },
+    {
+        "id": "100da3fbd178df6f",
+        "type": "inject",
+        "z": "209767b8b09c73ee",
+        "g": "f5579862632dcc68",
+        "name": "Humidity",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "H",
+        "payload": "90",
+        "payloadType": "num",
+        "x": 360,
+        "y": 240,
+        "wires": [
+            [
+                "6116494f63d0b57f"
+            ]
+        ]
+    },
+    {
+        "id": "c563bc87e00d81e9",
+        "type": "inject",
+        "z": "209767b8b09c73ee",
+        "g": "f5579862632dcc68",
+        "name": "Smokescope",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "S",
+        "payload": "10",
+        "payloadType": "num",
+        "x": 380,
+        "y": 320,
+        "wires": [
+            [
+                "6d5d4f74d46e069a"
+            ]
+        ]
+    },
+    {
+        "id": "9edfe69503d019fe",
+        "type": "switch",
+        "z": "209767b8b09c73ee",
+        "g": "f5579862632dcc68",
+        "name": "Switcher",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "T",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "H",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "S",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 800,
+        "y": 240,
+        "wires": [
+            [
+                "67e40ec147a30a51"
+            ],
+            [
+                "6f083c9d58a66c8c"
+            ],
+            [
+                "0635b5ab40850706"
+            ]
+        ]
+    },
+    {
+        "id": "acb939e404d583b7",
+        "type": "function",
+        "z": "209767b8b09c73ee",
+        "g": "f5579862632dcc68",
+        "name": "temperatureGenerate",
+        "func": "let count = context.get('count')||msg.payload||0;\nconst reset = flow.get('reset');\n\nif (reset == \"RESET\") {\n    count = msg.payload;\n    // msg.reset = false;\n}else{\n    if (count == 100) {\n        count = msg.payload;\n    } else if (count == 0) {\n        count = msg.payload;\n    } else {\n        count += 1;\n    }\n    context.set('count', count);\n    msg.payload = count;\n}\nif(msg.payload>90){\n    global.set(\"globalSimoco7002Alarm\",true);\n}else{\n    global.set(\"globalSimoco7002Alarm\",false);\n}\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 160,
+        "wires": [
+            [
+                "9edfe69503d019fe"
+            ]
+        ]
+    },
+    {
+        "id": "6116494f63d0b57f",
+        "type": "function",
+        "z": "209767b8b09c73ee",
+        "g": "f5579862632dcc68",
+        "name": "humidityGenerate",
+        "func": "let count = context.get('count')||msg.payload||0;\nconst reset = flow.get('reset');\n\nif (reset == \"RESET\") {\n   count = msg.payload; \n}else if( count== 0){\n    count = msg.payload;\n}else{\n    count -= 1;\n}\ncontext.set('count',count);\nmsg.payload = count;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 240,
+        "wires": [
+            [
+                "9edfe69503d019fe"
+            ]
+        ]
+    },
+    {
+        "id": "6d5d4f74d46e069a",
+        "type": "function",
+        "z": "209767b8b09c73ee",
+        "g": "f5579862632dcc68",
+        "name": "smokscopeGenerate",
+        "func": "let count = context.get('count')||msg.payload||0;\nlet reset = flow.get('reset')\n\nif (reset == \"RESET\") {\n   count = msg.payload; \n}else if( count== 0){\n    count = msg.payload;\n}else{\n    count += 1;\n}\ncontext.set('count',count);\nmsg.payload = count;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 320,
+        "wires": [
+            [
+                "9edfe69503d019fe"
+            ]
+        ]
+    },
+    {
+        "id": "78abd039fc8c7011",
+        "type": "fd-toggle",
+        "z": "209767b8b09c73ee",
+        "g": "f5579862632dcc68",
+        "fd_container": "bfd2b1a765045cd2",
+        "fd_cols": 1,
+        "fd_rows": 1,
+        "fd_array": false,
+        "fd_array_max": 10,
+        "fd_output_topic": "",
+        "fd_loopback": false,
+        "name": "on/off reset",
+        "title": "Reset",
+        "popup_info": "",
+        "value": "",
+        "enabled": true,
+        "color": "",
+        "on_value": "RESET",
+        "off_value": "OFF",
+        "show_value": true,
+        "x": 870,
+        "y": 520,
+        "wires": [
+            [
+                "2249a709e794f9cf",
+                "3a543527c04bd9dc"
+            ]
+        ]
+    },
+    {
+        "id": "67e40ec147a30a51",
+        "type": "fd-gauge",
+        "z": "209767b8b09c73ee",
+        "g": "f5579862632dcc68",
+        "fd_container": "bfd2b1a765045cd2",
+        "fd_cols": "3",
+        "fd_rows": "3",
+        "fd_array": false,
+        "fd_array_max": 10,
+        "name": "Temperature",
+        "title": "Temperature（°C）",
+        "popup_info": "",
+        "value": null,
+        "unit": "",
+        "arc": 180,
+        "min": 0,
+        "max": 100,
+        "color": "orange",
+        "low_color": "yellow-lighten-3",
+        "high_color": "red-accent-3",
+        "low_threshold": 30,
+        "high_threshold": 75,
+        "base_color": "grey-lighten-3",
+        "needle_color": "white",
+        "radius": 70,
+        "stretch": false,
+        "x": 1010,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "0635b5ab40850706",
+        "type": "fd-gauge",
+        "z": "209767b8b09c73ee",
+        "g": "f5579862632dcc68",
+        "fd_container": "bfd2b1a765045cd2",
+        "fd_cols": 3,
+        "fd_rows": 3,
+        "fd_array": false,
+        "fd_array_max": 10,
+        "name": "Smokescope",
+        "title": "Smokescope(ppm)",
+        "popup_info": "",
+        "value": null,
+        "unit": "",
+        "arc": 120,
+        "min": 0,
+        "max": 100,
+        "color": "grey",
+        "low_color": "grey-lighten-3",
+        "high_color": "grey-darken-3",
+        "low_threshold": 30,
+        "high_threshold": 50,
+        "base_color": "grey-lighten-3",
+        "needle_color": "white",
+        "radius": 70,
+        "stretch": false,
+        "x": 1010,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "6f083c9d58a66c8c",
+        "type": "fd-gauge",
+        "z": "209767b8b09c73ee",
+        "g": "f5579862632dcc68",
+        "fd_container": "bfd2b1a765045cd2",
+        "fd_cols": "3",
+        "fd_rows": "3",
+        "fd_array": false,
+        "fd_array_max": 10,
+        "name": "Humidity ",
+        "title": "Humidity(%)",
+        "popup_info": "",
+        "value": null,
+        "unit": "",
+        "arc": 360,
+        "min": 0,
+        "max": 100,
+        "color": "light-blue",
+        "low_color": "light-blue-lighten-3",
+        "high_color": "light-blue-darken-3",
+        "low_threshold": 30,
+        "high_threshold": 75,
+        "base_color": "grey-lighten-3",
+        "needle_color": "white",
+        "radius": 70,
+        "stretch": false,
+        "x": 1020,
+        "y": 240,
+        "wires": []
+    }
+]
