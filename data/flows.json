@@ -132,7 +132,8 @@
             "65ef0d87abb3708e",
             "678e8917bc34968b",
             "e88d7db3c1c3f62b",
-            "a9eff5ed481a78ac"
+            "a9eff5ed481a78ac",
+            "6c94903ba2c673aa"
         ],
         "x": 134,
         "y": 59,
@@ -493,27 +494,12 @@
         "rows": 1
     },
     {
-        "id": "b0d0f9c7cfbfdec6",
-        "type": "flexdash container",
-        "name": "toggle sparkline",
-        "title": "toggle sparkline",
-        "kind": "StdGrid",
-        "fd_children": "",
-        "tab": "f1bc180a92edef2d",
-        "min_cols": "1",
-        "max_cols": "20",
-        "parent": "",
-        "solid": false,
-        "cols": "1",
-        "rows": "1"
-    },
-    {
         "id": "f1bc180a92edef2d",
         "type": "flexdash tab",
         "name": "toggle tab",
         "icon": "mdi-toggle-switch",
         "title": "toggle tab",
-        "fd_children": ",b0d0f9c7cfbfdec6",
+        "fd_children": "",
         "fd": "cfb4a2e975d21658"
     },
     {
@@ -918,7 +904,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "T",
-        "payload": "5",
+        "payload": "20",
         "payloadType": "num",
         "x": 250,
         "y": 180,
@@ -948,7 +934,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "H",
-        "payload": "90",
+        "payload": "80",
         "payloadType": "num",
         "x": 240,
         "y": 260,
@@ -978,7 +964,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "S",
-        "payload": "10",
+        "payload": "20",
         "payloadType": "num",
         "x": 260,
         "y": 360,
@@ -1026,7 +1012,8 @@
                 "a9eff5ed481a78ac"
             ],
             [
-                "e88d7db3c1c3f62b"
+                "e88d7db3c1c3f62b",
+                "6c94903ba2c673aa"
             ]
         ]
     },
@@ -1078,7 +1065,7 @@
         "z": "7ca0877022020e2a",
         "g": "c5bebc746873d273",
         "name": "smokscopeGenerate",
-        "func": "let count = context.get('count')||msg.payload||0;\nlet reset = flow.get('reset')\n\nif (reset == \"RESET\") {\n   count = msg.payload; \n}else if( count== 0){\n    count = msg.payload;\n}else{\n    count += 1;\n}\ncontext.set('count',count);\nmsg.payload = count+\"ppm\";\nreturn msg;\n",
+        "func": "let count = context.get(\"count\") || msg.payload || 0;\nlet reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n  count = msg.payload;\n} else if (count == 100) {\n  count = msg.payload;\n} else if (count == 0) {\n  count = msg.payload;\n} else {\n  count += 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count + \"ppm\";\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -1177,7 +1164,7 @@
         "low_color": "light-blue-lighten-3",
         "high_color": "light-blue-darken-3",
         "low_threshold": 30,
-        "high_threshold": 75,
+        "high_threshold": 60,
         "base_color": "grey-lighten-3",
         "needle_color": "white",
         "radius": 70,
@@ -1215,6 +1202,24 @@
                 "51397cae17b8519c"
             ]
         ]
+    },
+    {
+        "id": "6c94903ba2c673aa",
+        "type": "debug",
+        "z": "7ca0877022020e2a",
+        "g": "c5bebc746873d273",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 710,
+        "y": 400,
+        "wires": []
     },
     {
         "id": "27e61f12.c1a15",
@@ -1496,7 +1501,7 @@
         "payload": "5",
         "payloadType": "num",
         "x": 310,
-        "y": 120,
+        "y": 140,
         "wires": [
             [
                 "edadc02dda58e2c2"
@@ -1523,7 +1528,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "H",
-        "payload": "90",
+        "payload": "99",
         "payloadType": "num",
         "x": 300,
         "y": 220,
@@ -1653,7 +1658,7 @@
         "z": "ef8739be854896a4",
         "g": "f81078994e7bf9a5",
         "name": "smokscopeGenerate",
-        "func": "let count = context.get('count')||msg.payload||0;\nlet reset = flow.get('reset')\n\nif (reset == \"RESET\") {\n   count = msg.payload; \n}else if( count== 0){\n    count = msg.payload;\n}else{\n    count += 1;\n}\ncontext.set('count',count);\nmsg.payload = count;\nreturn msg;\n",
+        "func": "let count = context.get(\"count\") || msg.payload || 0;\nlet reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n  count = msg.payload;\n} else if (count == 100) {\n  count = msg.payload;\n} else if (count == 0) {\n  count = msg.payload;\n} else {\n  count += 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count + \"ppm\";\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -1752,7 +1757,7 @@
         "low_color": "light-blue-lighten-3",
         "high_color": "light-blue-darken-3",
         "low_threshold": 30,
-        "high_threshold": 75,
+        "high_threshold": 60,
         "base_color": "grey-lighten-3",
         "needle_color": "white",
         "radius": 70,
@@ -2068,10 +2073,10 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "T",
-        "payload": "5",
+        "payload": "1",
         "payloadType": "num",
         "x": 310,
-        "y": 340,
+        "y": 360,
         "wires": [
             [
                 "752e6fd71c0c5086"
@@ -2098,7 +2103,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "H",
-        "payload": "90",
+        "payload": "45",
         "payloadType": "num",
         "x": 300,
         "y": 440,
@@ -2128,7 +2133,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "S",
-        "payload": "10",
+        "payload": "45",
         "payloadType": "num",
         "x": 320,
         "y": 540,
@@ -2228,7 +2233,7 @@
         "z": "5a9c45d6665294c2",
         "g": "300363b21332d0a9",
         "name": "smokscopeGenerate",
-        "func": "let count = context.get('count')||msg.payload||0;\nlet reset = flow.get('reset')\n\nif (reset == \"RESET\") {\n   count = msg.payload; \n}else if( count== 0){\n    count = msg.payload;\n}else{\n    count += 1;\n}\ncontext.set('count',count);\nmsg.payload = count;\nreturn msg;\n",
+        "func": "let count = context.get(\"count\") || msg.payload || 0;\nlet reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n  count = msg.payload;\n} else if (count == 100) {\n  count = msg.payload;\n} else if (count == 0) {\n  count = msg.payload;\n} else {\n  count += 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count + \"ppm\";\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -2327,7 +2332,7 @@
         "low_color": "light-blue-lighten-3",
         "high_color": "light-blue-darken-3",
         "low_threshold": 30,
-        "high_threshold": 75,
+        "high_threshold": 60,
         "base_color": "grey-lighten-3",
         "needle_color": "white",
         "radius": 70,
@@ -2646,7 +2651,7 @@
         "payload": "5",
         "payloadType": "num",
         "x": 250,
-        "y": 120,
+        "y": 140,
         "wires": [
             [
                 "831140ddab059738"
@@ -2703,7 +2708,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "S",
-        "payload": "10",
+        "payload": "45",
         "payloadType": "num",
         "x": 260,
         "y": 320,
@@ -2803,7 +2808,7 @@
         "z": "9f7d8463b4050bdd",
         "g": "8ed62cf511a5169c",
         "name": "smokscopeGenerate",
-        "func": "let count = context.get('count')||msg.payload||0;\nlet reset = flow.get('reset')\n\nif (reset == \"RESET\") {\n   count = msg.payload; \n}else if( count== 0){\n    count = msg.payload;\n}else{\n    count += 1;\n}\ncontext.set('count',count);\nmsg.payload = count;\nreturn msg;\n",
+        "func": "let count = context.get(\"count\") || msg.payload || 0;\nlet reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n  count = msg.payload;\n} else if (count == 100) {\n  count = msg.payload;\n} else if (count == 0) {\n  count = msg.payload;\n} else {\n  count += 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count + \"ppm\";\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -2902,7 +2907,7 @@
         "low_color": "light-blue-lighten-3",
         "high_color": "light-blue-darken-3",
         "low_threshold": 30,
-        "high_threshold": 75,
+        "high_threshold": 60,
         "base_color": "grey-lighten-3",
         "needle_color": "white",
         "radius": 70,
@@ -3218,10 +3223,10 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "T",
-        "payload": "5",
+        "payload": "99",
         "payloadType": "num",
         "x": 350,
-        "y": 140,
+        "y": 160,
         "wires": [
             [
                 "b77fc9c19e405c8f"
@@ -3248,7 +3253,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "H",
-        "payload": "90",
+        "payload": "96",
         "payloadType": "num",
         "x": 340,
         "y": 240,
@@ -3278,7 +3283,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "S",
-        "payload": "10",
+        "payload": "60",
         "payloadType": "num",
         "x": 360,
         "y": 340,
@@ -3378,7 +3383,7 @@
         "z": "d08b8dbadb5935bb",
         "g": "384609e63dc0396a",
         "name": "smokscopeGenerate",
-        "func": "let count = context.get('count')||msg.payload||0;\nlet reset = flow.get('reset')\n\nif (reset == \"RESET\") {\n   count = msg.payload; \n}else if( count== 0){\n    count = msg.payload;\n}else{\n    count += 1;\n}\ncontext.set('count',count);\nmsg.payload = count;\nreturn msg;\n",
+        "func": "let count = context.get(\"count\") || msg.payload || 0;\nlet reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n  count = msg.payload;\n} else if (count == 100) {\n  count = msg.payload;\n} else if (count == 0) {\n  count = msg.payload;\n} else {\n  count += 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count + \"ppm\";\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -3477,7 +3482,7 @@
         "low_color": "light-blue-lighten-3",
         "high_color": "light-blue-darken-3",
         "low_threshold": 30,
-        "high_threshold": 75,
+        "high_threshold": 60,
         "base_color": "grey-lighten-3",
         "needle_color": "white",
         "radius": 70,
@@ -3956,7 +3961,7 @@
         "z": "209767b8b09c73ee",
         "g": "f5579862632dcc68",
         "name": "smokscopeGenerate",
-        "func": "let count = context.get('count')||msg.payload||0;\nlet reset = flow.get('reset')\n\nif (reset == \"RESET\") {\n   count = msg.payload; \n}else if( count== 0){\n    count = msg.payload;\n}else{\n    count += 1;\n}\ncontext.set('count',count);\nmsg.payload = count;\nreturn msg;\n",
+        "func": "let count = context.get(\"count\") || msg.payload || 0;\nlet reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n  count = msg.payload;\n} else if (count == 100) {\n  count = msg.payload;\n} else if (count == 0) {\n  count = msg.payload;\n} else {\n  count += 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count + \"ppm\";\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -4055,7 +4060,7 @@
         "low_color": "light-blue-lighten-3",
         "high_color": "light-blue-darken-3",
         "low_threshold": 30,
-        "high_threshold": 75,
+        "high_threshold": 60,
         "base_color": "grey-lighten-3",
         "needle_color": "white",
         "radius": 70,
