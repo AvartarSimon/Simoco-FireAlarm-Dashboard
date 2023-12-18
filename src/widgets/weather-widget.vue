@@ -131,7 +131,7 @@ export default {
 
   computed: {
     selectedDay() {
-      return new Date().getDay();
+      return new Date().getDay() - 1;
     },
     isExtremeWether() {
       return this.tempc > 35 || this.tempc < 10;
