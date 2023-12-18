@@ -1,0 +1,33 @@
+<script type="text/javascript">
+    RED.nodes.registerType('pick-attributes', {
+        category: 'function',
+        color: '#a6bbcf',
+        defaults: {
+            name: { value: "" },
+            selected_attributes: { value: "" },
+        },
+        inputs: 2,
+        outputs: 1,
+        icon: "file.svg",
+        label: function () {
+            return this.name || "pick-attributes";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="pick-attributes">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+        <small class="fd-indent">Name of the node</small>
+    </div>
+    <div class="form-row">
+        <label for="node-input-selected_attributes">Selected Attributes</label>
+        <input type="text" id="node-input-selected_attributes" class="fd-typed-input" placeholder="name,age" />
+        <br><small class="fd-indent">Pick the attribute you want to select from <tt>msg.payload</tt> using comma separated string, such as name, address</small>
+    </div>
+</script>
+
+<script type="text/html" data-help-name="pick-attributes">
+    <p>A simple node that can select attributes from message payloads</p>
+</script>

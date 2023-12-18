@@ -1935,6 +1935,9 @@ node-red-contrib-dwd-local-weather@^1.0.5:
     sax "~1.2.4"
     unzipper "~0.10.11"
 
+"node-red-contrib-pick-attributes@file:../cutom-nodes/node-red-contrib-pick-attributes":
+  version "1.0.0"
+
 node-red-node-openweathermap@^0.5.1:
   version "0.5.1"
   resolved "https://registry.npmmirror.com/node-red-node-openweathermap/-/node-red-node-openweathermap-0.5.1.tgz#786515dd58d4c9be69dee7396f5f870bf42c7c4a"

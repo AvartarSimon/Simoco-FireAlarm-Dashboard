@@ -1,7 +1,7 @@
 {
     "node-red": {
         "name": "node-red",
-        "version": "3.1.3",
+        "version": "3.1.3-git",
         "local": false,
         "user": false,
         "nodes": {
@@ -14,7 +14,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/common/05-junction.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/common/05-junction.js"
             },
             "inject": {
                 "name": "inject",
@@ -25,7 +25,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/common/20-inject.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/common/20-inject.js"
             },
             "debug": {
                 "name": "debug",
@@ -36,7 +36,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/common/21-debug.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/common/21-debug.js"
             },
             "complete": {
                 "name": "complete",
@@ -47,7 +47,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/common/24-complete.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/common/24-complete.js"
             },
             "catch": {
                 "name": "catch",
@@ -58,7 +58,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/common/25-catch.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/common/25-catch.js"
             },
             "status": {
                 "name": "status",
@@ -69,7 +69,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/common/25-status.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/common/25-status.js"
             },
             "link": {
                 "name": "link",
@@ -82,7 +82,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/common/60-link.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/common/60-link.js"
             },
             "comment": {
                 "name": "comment",
@@ -93,7 +93,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/common/90-comment.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/common/90-comment.js"
             },
             "global-config": {
                 "name": "global-config",
@@ -104,7 +104,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/common/91-global-config.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/common/91-global-config.js"
             },
             "unknown": {
                 "name": "unknown",
@@ -115,7 +115,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/common/98-unknown.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/common/98-unknown.js"
             },
             "function": {
                 "name": "function",
@@ -126,7 +126,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/function/10-function.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/function/10-function.js"
             },
             "switch": {
                 "name": "switch",
@@ -137,7 +137,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/function/10-switch.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/function/10-switch.js"
             },
             "change": {
                 "name": "change",
@@ -148,7 +148,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/function/15-change.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/function/15-change.js"
             },
             "range": {
                 "name": "range",
@@ -159,7 +159,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/function/16-range.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/function/16-range.js"
             },
             "template": {
                 "name": "template",
@@ -170,7 +170,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/function/80-template.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/function/80-template.js"
             },
             "delay": {
                 "name": "delay",
@@ -181,7 +181,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/function/89-delay.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/function/89-delay.js"
             },
             "trigger": {
                 "name": "trigger",
@@ -192,7 +192,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/function/89-trigger.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/function/89-trigger.js"
             },
             "exec": {
                 "name": "exec",
@@ -203,7 +203,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/function/90-exec.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/function/90-exec.js"
             },
             "rbe": {
                 "name": "rbe",
@@ -214,7 +214,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/function/rbe.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/function/rbe.js"
             },
             "tls": {
                 "name": "tls",
@@ -225,7 +225,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/network/05-tls.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/network/05-tls.js"
             },
             "httpproxy": {
                 "name": "httpproxy",
@@ -236,7 +236,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/network/06-httpproxy.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/network/06-httpproxy.js"
             },
             "mqtt": {
                 "name": "mqtt",
@@ -249,7 +249,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/network/10-mqtt.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/network/10-mqtt.js"
             },
             "httpin": {
                 "name": "httpin",
@@ -261,7 +261,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/network/21-httpin.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/network/21-httpin.js"
             },
             "httprequest": {
                 "name": "httprequest",
@@ -272,7 +272,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/network/21-httprequest.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/network/21-httprequest.js"
             },
             "websocket": {
                 "name": "websocket",
@@ -286,7 +286,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/network/22-websocket.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/network/22-websocket.js"
             },
             "tcpin": {
                 "name": "tcpin",
@@ -299,7 +299,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/network/31-tcpin.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/network/31-tcpin.js"
             },
             "udp": {
                 "name": "udp",
@@ -311,7 +311,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/network/32-udp.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/network/32-udp.js"
             },
             "CSV": {
                 "name": "CSV",
@@ -322,7 +322,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/parsers/70-CSV.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/parsers/70-CSV.js"
             },
             "HTML": {
                 "name": "HTML",
@@ -333,7 +333,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/parsers/70-HTML.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/parsers/70-HTML.js"
             },
             "JSON": {
                 "name": "JSON",
@@ -344,7 +344,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/parsers/70-JSON.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/parsers/70-JSON.js"
             },
             "XML": {
                 "name": "XML",
@@ -355,7 +355,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/parsers/70-XML.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/parsers/70-XML.js"
             },
             "YAML": {
                 "name": "YAML",
@@ -366,7 +366,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/parsers/70-YAML.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/parsers/70-YAML.js"
             },
             "split": {
                 "name": "split",
@@ -378,7 +378,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/sequence/17-split.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/sequence/17-split.js"
             },
             "sort": {
                 "name": "sort",
@@ -389,7 +389,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/sequence/18-sort.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/sequence/18-sort.js"
             },
             "batch": {
                 "name": "batch",
@@ -400,7 +400,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/sequence/19-batch.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/sequence/19-batch.js"
             },
             "file": {
                 "name": "file",
@@ -412,7 +412,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/storage/10-file.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/storage/10-file.js"
             },
             "watch": {
                 "name": "watch",
@@ -423,7 +423,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red",
-                "file": "/usr/src/node-red/node_modules/@node-red/nodes/core/storage/23-watch.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@node-red/nodes/core/storage/23-watch.js"
             }
         }
     },
@@ -442,7 +442,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-fd-corewidgets",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-fd-corewidgets/datetime.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-fd-corewidgets/datetime.js"
             },
             "flexdash dropdown-select": {
                 "name": "flexdash dropdown-select",
@@ -453,7 +453,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-fd-corewidgets",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-fd-corewidgets/dropdown-select.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-fd-corewidgets/dropdown-select.js"
             },
             "flexdash gauge": {
                 "name": "flexdash gauge",
@@ -464,7 +464,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-fd-corewidgets",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-fd-corewidgets/gauge.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-fd-corewidgets/gauge.js"
             },
             "flexdash iframe": {
                 "name": "flexdash iframe",
@@ -475,7 +475,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-fd-corewidgets",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-fd-corewidgets/iframe.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-fd-corewidgets/iframe.js"
             },
             "flexdash label": {
                 "name": "flexdash label",
@@ -486,7 +486,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-fd-corewidgets",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-fd-corewidgets/label.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-fd-corewidgets/label.js"
             },
             "flexdash markdown": {
                 "name": "flexdash markdown",
@@ -497,7 +497,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-fd-corewidgets",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-fd-corewidgets/markdown.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-fd-corewidgets/markdown.js"
             },
             "flexdash number-field": {
                 "name": "flexdash number-field",
@@ -508,7 +508,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-fd-corewidgets",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-fd-corewidgets/number-field.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-fd-corewidgets/number-field.js"
             },
             "flexdash popup-button": {
                 "name": "flexdash popup-button",
@@ -519,7 +519,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-fd-corewidgets",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-fd-corewidgets/popup-button.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-fd-corewidgets/popup-button.js"
             },
             "flexdash props-table": {
                 "name": "flexdash props-table",
@@ -530,7 +530,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-fd-corewidgets",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-fd-corewidgets/props-table.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-fd-corewidgets/props-table.js"
             },
             "flexdash push-button": {
                 "name": "flexdash push-button",
@@ -541,7 +541,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-fd-corewidgets",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-fd-corewidgets/push-button.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-fd-corewidgets/push-button.js"
             },
             "flexdash simple-table": {
                 "name": "flexdash simple-table",
@@ -552,7 +552,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-fd-corewidgets",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-fd-corewidgets/simple-table.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-fd-corewidgets/simple-table.js"
             },
             "flexdash slider": {
                 "name": "flexdash slider",
@@ -563,7 +563,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-fd-corewidgets",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-fd-corewidgets/slider.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-fd-corewidgets/slider.js"
             },
             "flexdash spark-line": {
                 "name": "flexdash spark-line",
@@ -574,7 +574,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-fd-corewidgets",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-fd-corewidgets/spark-line.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-fd-corewidgets/spark-line.js"
             },
             "flexdash stat": {
                 "name": "flexdash stat",
@@ -585,7 +585,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-fd-corewidgets",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-fd-corewidgets/stat.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-fd-corewidgets/stat.js"
             },
             "flexdash text-field": {
                 "name": "flexdash text-field",
@@ -596,7 +596,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-fd-corewidgets",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-fd-corewidgets/text-field.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-fd-corewidgets/text-field.js"
             },
             "flexdash text-view": {
                 "name": "flexdash text-view",
@@ -607,7 +607,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-fd-corewidgets",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-fd-corewidgets/text-view.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-fd-corewidgets/text-view.js"
             },
             "flexdash time-plot-raw": {
                 "name": "flexdash time-plot-raw",
@@ -618,7 +618,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-fd-corewidgets",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-fd-corewidgets/time-plot-raw.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-fd-corewidgets/time-plot-raw.js"
             },
             "flexdash time-plot": {
                 "name": "flexdash time-plot",
@@ -629,7 +629,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-fd-corewidgets",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-fd-corewidgets/time-plot.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-fd-corewidgets/time-plot.js"
             },
             "flexdash timeline-plot": {
                 "name": "flexdash timeline-plot",
@@ -640,7 +640,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-fd-corewidgets",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-fd-corewidgets/timeline-plot.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-fd-corewidgets/timeline-plot.js"
             },
             "flexdash toggle": {
                 "name": "flexdash toggle",
@@ -651,7 +651,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-fd-corewidgets",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-fd-corewidgets/toggle.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-fd-corewidgets/toggle.js"
             },
             "flexdash tree-view": {
                 "name": "flexdash tree-view",
@@ -662,7 +662,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-fd-corewidgets",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-fd-corewidgets/tree-view.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-fd-corewidgets/tree-view.js"
             },
             "flexdash value-sequence": {
                 "name": "flexdash value-sequence",
@@ -673,7 +673,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-fd-corewidgets",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-fd-corewidgets/value-sequence.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-fd-corewidgets/value-sequence.js"
             },
             "flexdash wind-plot": {
                 "name": "flexdash wind-plot",
@@ -684,7 +684,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-fd-corewidgets",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-fd-corewidgets/wind-plot.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-fd-corewidgets/wind-plot.js"
             }
         }
     },
@@ -703,7 +703,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-flexdash",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-flexdash/flexdash-dashboard.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-flexdash/flexdash-dashboard.js"
             },
             "flexdash container": {
                 "name": "flexdash container",
@@ -714,7 +714,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-flexdash",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-flexdash/flexdash-container.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-flexdash/flexdash-container.js"
             },
             "flexdash tab": {
                 "name": "flexdash tab",
@@ -725,7 +725,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-flexdash",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-flexdash/flexdash-tab.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-flexdash/flexdash-tab.js"
             },
             "flexdash iframe": {
                 "name": "flexdash iframe",
@@ -736,7 +736,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-flexdash",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-flexdash/flexdash-iframe.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-flexdash/flexdash-iframe.js"
             },
             "flexdash ctrl": {
                 "name": "flexdash ctrl",
@@ -747,7 +747,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-flexdash",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-flexdash/flexdash-ctrl.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-flexdash/flexdash-ctrl.js"
             },
             "flexdash dev server": {
                 "name": "flexdash dev server",
@@ -758,7 +758,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-flexdash",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-flexdash/flexdash-dev-server.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-flexdash/flexdash-dev-server.js"
             },
             "flexdash custom": {
                 "name": "flexdash custom",
@@ -769,7 +769,7 @@
                 "local": false,
                 "user": false,
                 "module": "@flexdash/node-red-flexdash",
-                "file": "/usr/src/node-red/node_modules/@flexdash/node-red-flexdash/flexdash-custom.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/@flexdash/node-red-flexdash/flexdash-custom.js"
             }
         }
     },
@@ -788,7 +788,7 @@
                 "local": false,
                 "user": false,
                 "module": "node-red-contrib-dwd-local-weather",
-                "file": "/usr/src/node-red/node_modules/node-red-contrib-dwd-local-weather/dwdweather.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/node-red-contrib-dwd-local-weather/dwdweather.js"
             }
         }
     },
@@ -808,7 +808,26 @@
                 "local": false,
                 "user": false,
                 "module": "node-red-node-openweathermap",
-                "file": "/usr/src/node-red/node_modules/node-red-node-openweathermap/weather.js"
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/node-red-node-openweathermap/weather.js"
+            }
+        }
+    },
+    "node-red-contrib-pick-attributes": {
+        "name": "node-red-contrib-pick-attributes",
+        "version": "1.0.0",
+        "local": false,
+        "user": false,
+        "nodes": {
+            "pick-attributes": {
+                "name": "pick-attributes",
+                "types": [
+                    "pick-attributes"
+                ],
+                "enabled": true,
+                "local": false,
+                "user": false,
+                "module": "node-red-contrib-pick-attributes",
+                "file": "/Users/yyz/Documents/Projects2024/Simoco/SimocoHomework/node_modules/node-red-contrib-pick-attributes/pick-attributes.js"
             }
         }
     }
