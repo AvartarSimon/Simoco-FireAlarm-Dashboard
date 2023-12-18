@@ -1,0 +1,19 @@
+
+################################################################################
+# docker-compose -f docker-compose.yml -p my-node-red up
+################################################################################
+version: "3.7"
+
+services:
+  my-node-red:
+    image: my-node-red-dashboard
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - TZ=Australia/Melbourne
+    ports:
+      - "1880:1880"
+    volumes:
+      - ./data:/data
+  
