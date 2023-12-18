@@ -1,0 +1,19 @@
+{
+  "name": "Simoco-FireAlarm-Dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-red -p 8080 -userDir ./data"
+  },
+  "author": "Simon Yuan",
+  "license": "ISC",
+  "dependencies": {
+    "@flexdash/node-red-fd-corewidgets": "^0.4.64",
+    "node-red": "^3.1.3",
+    "node-red-contrib-dwd-local-weather": "^1.0.5",
+    "node-red-node-openweathermap": "^0.5.1",
+    "nodemon": "^3.0.2",
+    "weather-icons": "^1.3.2"
+  }
+}
