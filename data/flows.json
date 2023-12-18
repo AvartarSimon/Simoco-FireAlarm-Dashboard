@@ -508,7 +508,7 @@
         "redServer": true,
         "saveConfig": true,
         "allOrigins": false,
-        "name": "Simoco-FireAlarm",
+        "name": "simoco fire alarm",
         "fd_children": ",faa3f6ef68ba47c6,46612d9ad1086276,ad1e7ea49c0a5684,fef6c0f6d48841d6"
     },
     {
@@ -2383,7 +2383,7 @@
             },
             {
                 "p": "labels",
-                "v": "[\"Temperature UTC\"]",
+                "v": "[\"Temperature\"]",
                 "vt": "str"
             },
             {
@@ -2977,7 +2977,7 @@
         "z": "5a9c45d6665294c2",
         "g": "300363b21332d0a9",
         "name": "temperatureGenerate",
-        "func": "let count = context.get(\"count\") || msg.payload || 0;\nconst reset = flow.get(\"reset\");\nnode.warn(reset)\nif (reset == \"True\") {\n  count = msg.payload;\n}\nif (count == 100) {\n  count = msg.payload;\n} else if (count == 0) {\n  count = msg.payload;\n} else {\n  count += 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count;\n\nif (msg.payload > 90) {\n  global.set(\"globalSimoco2001Alarm\", true);\n} else {\n  global.set(\"globalSimoco2001Alarm\", false);\n}\nreturn msg;\n",
+        "func": "let count = context.get(\"count\") || msg.payload || 0;\nconst reset = flow.get(\"reset\");\n\nif (reset == \"True\") {\n  count = msg.payload;\n}\nif (count == 100) {\n  count = msg.payload;\n} else if (count == 0) {\n  count = msg.payload;\n} else {\n  count += 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count;\n\nif (msg.payload > 90) {\n  global.set(\"globalSimoco2001Alarm\", true);\n} else {\n  global.set(\"globalSimoco2001Alarm\", false);\n}\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -3234,7 +3234,7 @@
             },
             {
                 "p": "labels",
-                "v": "[\"Temperature UTC\"]",
+                "v": "[\"Temperature\"]",
                 "vt": "str"
             },
             {

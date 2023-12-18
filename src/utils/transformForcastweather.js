@@ -153,7 +153,7 @@ function findOutMaxMinTempBelongsToOneDay(fullDataInDays) {
     3: "Wed",
     4: "Thu",
     5: "Fri",
-    6: "Sat"
+    6: "Sat",
   };
 
   const dataGroupInDifferentDays = fullDataInDays.reduce((acc, item) => {
@@ -167,7 +167,7 @@ function findOutMaxMinTempBelongsToOneDay(fullDataInDays) {
         min: item.main.temp_min,
         weather: item.weather[0].main,
         weatherDescription: item.weather[0].description,
-        weatherDateTime
+        weatherDateTime,
       };
     } else {
       if (item.main.temp_max > acc[dayName].max) {
@@ -255,7 +255,7 @@ function transformForecastData(originalTempDataWithMinMax) {
       temp_min,
       temp_max,
       weatherDescription: originalTempDataWithMinMax[day].weatherDescription,
-      weather: originalTempDataWithMinMax[day].weather
+      weather: originalTempDataWithMinMax[day].weather,
     };
   });
 }
@@ -285,8 +285,8 @@ msg = {
   payload: {
     weatherSeriesData,
     weatherFullReportInDays,
-    weatherFullReportLabels
+    weatherFullReportLabels,
   },
-  city: msg.data.city.name
+  city: msg.data.city.name,
 };
 return msg;
