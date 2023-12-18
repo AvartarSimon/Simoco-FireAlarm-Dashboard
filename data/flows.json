@@ -92,7 +92,7 @@
             "af8c030c62c22003",
             "0eedf40811743459"
         ],
-        "x": 194,
+        "x": 34,
         "y": 19,
         "w": 892,
         "h": 642
@@ -135,8 +135,8 @@
             "a9eff5ed481a78ac",
             "6c94903ba2c673aa"
         ],
-        "x": 134,
-        "y": 59,
+        "x": 14,
+        "y": 19,
         "w": 892,
         "h": 642
     },
@@ -177,8 +177,8 @@
             "fd67ac174e8d3345",
             "9639ec1088f6125e"
         ],
-        "x": 194,
-        "y": 239,
+        "x": 14,
+        "y": 19,
         "w": 892,
         "h": 642
     },
@@ -219,7 +219,7 @@
             "2ebaea2a8fc4007d",
             "5382c2a2c1667a90"
         ],
-        "x": 134,
+        "x": 14,
         "y": 19,
         "w": 892,
         "h": 642
@@ -261,8 +261,8 @@
             "8e30e349afeb86a8",
             "6e30734eec8e0e83"
         ],
-        "x": 234,
-        "y": 39,
+        "x": 34,
+        "y": 19,
         "w": 892,
         "h": 642
     },
@@ -303,8 +303,8 @@
             "0635b5ab40850706",
             "6f083c9d58a66c8c"
         ],
-        "x": 254,
-        "y": 39,
+        "x": 14,
+        "y": 19,
         "w": 892,
         "h": 602
     },
@@ -353,7 +353,7 @@
         "id": "fef6c0f6d48841d6",
         "type": "flexdash tab",
         "name": "Braisbane",
-        "icon": "mdi-home-lightning-bolt-outline",
+        "icon": "mdi-city",
         "title": "Braisbane",
         "fd_children": ",71ab2a3aff8e66bc,bfd2b1a765045cd2",
         "fd": "61e693942266360d"
@@ -362,7 +362,7 @@
         "id": "ad1e7ea49c0a5684",
         "type": "flexdash tab",
         "name": "Sydney",
-        "icon": "mdi-rocket",
+        "icon": "mdi-city-variant-outline",
         "title": "Sydney",
         "fd_children": ",1e4b71831666e0d3,17b567d94611a34e",
         "fd": "61e693942266360d"
@@ -392,7 +392,7 @@
         "id": "46612d9ad1086276",
         "type": "flexdash tab",
         "name": "Melbourne",
-        "icon": "mdi-view-dashboard",
+        "icon": "mdi-home-city",
         "title": "Melbourne",
         "fd_children": ",eec937d7b14488a6,e835914f613f0649",
         "fd": "61e693942266360d"
@@ -558,7 +558,7 @@
         "type": "flexdash custom",
         "z": "7d1f82b240d34d71",
         "g": "4a53d46b25bc2682",
-        "name": "Device Info widget",
+        "name": "Australia Map",
         "import_map": {
             "": ""
         },
@@ -568,7 +568,7 @@
         "fd_rows": 3,
         "fd_array": false,
         "fd_array_max": 10,
-        "x": 770,
+        "x": 760,
         "y": 300,
         "wires": [
             []
@@ -640,8 +640,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 240,
-        "y": 500,
+        "x": 120,
+        "y": 460,
         "wires": [
             [
                 "5f6f375bc7c84657"
@@ -661,8 +661,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 460,
-        "y": 500,
+        "x": 340,
+        "y": 460,
         "wires": [
             [
                 "a364fe92f5704b0b"
@@ -680,8 +680,8 @@
         "console": false,
         "tostatus": false,
         "complete": "false",
-        "x": 650,
-        "y": 500,
+        "x": 530,
+        "y": 460,
         "wires": []
     },
     {
@@ -702,8 +702,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 380,
-        "y": 560,
+        "x": 260,
+        "y": 520,
         "wires": [
             [
                 "5f6f375bc7c84657"
@@ -720,8 +720,8 @@
             "5f6f375bc7c84657"
         ],
         "uncaught": false,
-        "x": 230,
-        "y": 560,
+        "x": 110,
+        "y": 520,
         "wires": [
             [
                 "246940e1f1272419",
@@ -741,8 +741,8 @@
         "tostatus": false,
         "complete": "error",
         "targetType": "msg",
-        "x": 380,
-        "y": 620,
+        "x": 260,
+        "y": 580,
         "wires": []
     },
     {
@@ -765,8 +765,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 930,
-        "y": 580,
+        "x": 810,
+        "y": 540,
         "wires": [
             []
         ]
@@ -776,7 +776,7 @@
         "type": "function",
         "z": "7ca0877022020e2a",
         "g": "c5bebc746873d273",
-        "name": " ",
+        "name": " Return Function",
         "func": "\nreturn msg;",
         "outputs": 1,
         "timeout": "",
@@ -784,15 +784,13 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 725,
-        "y": 660,
+        "x": 640,
+        "y": 620,
         "wires": [
             [
                 "fa09142594f65ad3"
             ]
-        ],
-        "icon": "node-red/arrow-in.svg",
-        "l": false
+        ]
     },
     {
         "id": "c39562961a6fc182",
@@ -837,8 +835,8 @@
         "once": true,
         "onceDelay": "1",
         "topic": "",
-        "x": 230,
-        "y": 100,
+        "x": 110,
+        "y": 60,
         "wires": [
             [
                 "b5e69b05079a9f31"
@@ -859,8 +857,8 @@
         "targetType": "jsonata",
         "statusVal": "",
         "statusType": "auto",
-        "x": 860,
-        "y": 100,
+        "x": 740,
+        "y": 60,
         "wires": []
     },
     {
@@ -876,8 +874,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 490,
-        "y": 100,
+        "x": 370,
+        "y": 60,
         "wires": [
             [
                 "f4c1d472e0ceec89"
@@ -906,8 +904,8 @@
         "topic": "T",
         "payload": "20",
         "payloadType": "num",
-        "x": 250,
-        "y": 180,
+        "x": 130,
+        "y": 140,
         "wires": [
             [
                 "45a144db854e98bd"
@@ -936,8 +934,8 @@
         "topic": "H",
         "payload": "80",
         "payloadType": "num",
-        "x": 240,
-        "y": 260,
+        "x": 120,
+        "y": 220,
         "wires": [
             [
                 "57974a2ef4d7851a"
@@ -966,8 +964,8 @@
         "topic": "S",
         "payload": "20",
         "payloadType": "num",
-        "x": 260,
-        "y": 360,
+        "x": 140,
+        "y": 320,
         "wires": [
             [
                 "65ef0d87abb3708e"
@@ -1002,8 +1000,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 700,
-        "y": 260,
+        "x": 580,
+        "y": 220,
         "wires": [
             [
                 "678e8917bc34968b"
@@ -1023,15 +1021,15 @@
         "z": "7ca0877022020e2a",
         "g": "c5bebc746873d273",
         "name": "temperatureGenerate",
-        "func": "let count = context.get('count')||msg.payload||0;\nconst reset = flow.get('reset');\n\nif (reset == \"RESET\") {\n    count = msg.payload;\n    // msg.reset = false;\n}else{\n    if (count == 100) {\n        count = msg.payload;\n    } else if (count == 0) {\n        count = msg.payload;\n    } else {\n        count += 1;\n    }\n    context.set('count', count);\n    msg.payload = count;\n}\nif(msg.payload>90){\n    global.set(\"globalSimoco3001Alarm\",true);\n}else{\n    global.set(\"globalSimoco3001Alarm\",false);\n}\nreturn msg;\n",
+        "func": "let count = context.get(\"count\") || msg.payload || 0;\nconst reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n  count = msg.payload;\n}\nif (count == 100) {\n  count = msg.payload;\n} else if (count == 0) {\n  count = msg.payload;\n} else {\n  count += 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count;\n\nif (msg.payload > 90) {\n  global.set(\"globalSimoco3001Alarm\", true);\n} else {\n  global.set(\"globalSimoco3001Alarm\", false);\n}\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 490,
-        "y": 180,
+        "x": 370,
+        "y": 140,
         "wires": [
             [
                 "349d3e93ecbec99b"
@@ -1044,15 +1042,15 @@
         "z": "7ca0877022020e2a",
         "g": "c5bebc746873d273",
         "name": "humidityGenerate",
-        "func": "let count = context.get('count')||msg.payload||0;\nconst reset = flow.get('reset');\n\nif (reset == \"RESET\") {\n   count = msg.payload; \n}else if( count== 0){\n    count = msg.payload;\n}else{\n    count -= 1;\n}\ncontext.set('count',count);\nmsg.payload = count+\"%\";\nreturn msg;\n",
+        "func": "let count = context.get(\"count\") || msg.payload || 0;\nconst reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n  count = msg.payload;\n}\nif (count == 0) {\n  count = msg.payload;\n} else {\n  count -= 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count;\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 480,
-        "y": 260,
+        "x": 360,
+        "y": 220,
         "wires": [
             [
                 "349d3e93ecbec99b"
@@ -1065,15 +1063,15 @@
         "z": "7ca0877022020e2a",
         "g": "c5bebc746873d273",
         "name": "smokscopeGenerate",
-        "func": "let count = context.get(\"count\") || msg.payload || 0;\nlet reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n  count = msg.payload;\n} else if (count == 100) {\n  count = msg.payload;\n} else if (count == 0) {\n  count = msg.payload;\n} else {\n  count += 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count + \"ppm\";\nreturn msg;\n",
+        "func": "let count = context.get(\"count\") || msg.payload || 0;\nlet reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n  count = msg.payload;\n}\nif (count == 100) {\n  count = msg.payload;\n} else if (count == 0) {\n  count = msg.payload;\n} else {\n  count += 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count + \"ppm\";\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 490,
-        "y": 360,
+        "x": 370,
+        "y": 320,
         "wires": [
             [
                 "349d3e93ecbec99b"
@@ -1107,8 +1105,8 @@
         "needle_color": "white",
         "radius": 70,
         "stretch": false,
-        "x": 890,
-        "y": 200,
+        "x": 770,
+        "y": 160,
         "wires": []
     },
     {
@@ -1138,8 +1136,8 @@
         "needle_color": "white",
         "radius": 70,
         "stretch": false,
-        "x": 890,
-        "y": 340,
+        "x": 770,
+        "y": 300,
         "wires": []
     },
     {
@@ -1169,8 +1167,8 @@
         "needle_color": "white",
         "radius": 70,
         "stretch": false,
-        "x": 900,
-        "y": 260,
+        "x": 780,
+        "y": 220,
         "wires": []
     },
     {
@@ -1194,8 +1192,8 @@
         "on_value": "RESET",
         "off_value": "OFF",
         "show_value": true,
-        "x": 750,
-        "y": 580,
+        "x": 630,
+        "y": 540,
         "wires": [
             [
                 "61e8d4d3c2ce674c",
@@ -1209,7 +1207,7 @@
         "z": "7ca0877022020e2a",
         "g": "c5bebc746873d273",
         "name": "debug 1",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -1217,8 +1215,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 710,
-        "y": 400,
+        "x": 590,
+        "y": 360,
         "wires": []
     },
     {
@@ -1234,7 +1232,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 300,
+        "x": 140,
         "y": 460,
         "wires": [
             [
@@ -1255,7 +1253,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 520,
+        "x": 360,
         "y": 460,
         "wires": [
             [
@@ -1274,7 +1272,7 @@
         "console": false,
         "tostatus": false,
         "complete": "false",
-        "x": 710,
+        "x": 550,
         "y": 460,
         "wires": []
     },
@@ -1296,7 +1294,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 440,
+        "x": 280,
         "y": 520,
         "wires": [
             [
@@ -1314,7 +1312,7 @@
             "d7d08440.31b678"
         ],
         "uncaught": false,
-        "x": 290,
+        "x": 130,
         "y": 520,
         "wires": [
             [
@@ -1335,7 +1333,7 @@
         "tostatus": false,
         "complete": "error",
         "targetType": "msg",
-        "x": 440,
+        "x": 280,
         "y": 580,
         "wires": []
     },
@@ -1359,7 +1357,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 990,
+        "x": 830,
         "y": 540,
         "wires": [
             []
@@ -1378,7 +1376,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 785,
+        "x": 625,
         "y": 620,
         "wires": [
             [
@@ -1431,7 +1429,7 @@
         "once": true,
         "onceDelay": "1",
         "topic": "",
-        "x": 290,
+        "x": 130,
         "y": 60,
         "wires": [
             [
@@ -1453,7 +1451,7 @@
         "targetType": "jsonata",
         "statusVal": "",
         "statusType": "auto",
-        "x": 920,
+        "x": 760,
         "y": 60,
         "wires": []
     },
@@ -1470,7 +1468,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 580,
+        "x": 420,
         "y": 60,
         "wires": [
             [
@@ -1500,7 +1498,7 @@
         "topic": "T",
         "payload": "5",
         "payloadType": "num",
-        "x": 310,
+        "x": 150,
         "y": 140,
         "wires": [
             [
@@ -1530,7 +1528,7 @@
         "topic": "H",
         "payload": "99",
         "payloadType": "num",
-        "x": 300,
+        "x": 140,
         "y": 220,
         "wires": [
             [
@@ -1560,7 +1558,7 @@
         "topic": "S",
         "payload": "10",
         "payloadType": "num",
-        "x": 320,
+        "x": 160,
         "y": 320,
         "wires": [
             [
@@ -1596,7 +1594,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 760,
+        "x": 600,
         "y": 220,
         "wires": [
             [
@@ -1616,14 +1614,14 @@
         "z": "ef8739be854896a4",
         "g": "f81078994e7bf9a5",
         "name": "temperatureGenerate",
-        "func": "let count = context.get('count')||msg.payload||0;\nconst reset = flow.get('reset');\n\nif (reset == \"RESET\") {\n    count = msg.payload;\n    // msg.reset = false;\n}else{\n    if (count == 100) {\n        count = msg.payload;\n    } else if (count == 0) {\n        count = msg.payload;\n    } else {\n        count += 1;\n    }\n    context.set('count', count);\n    msg.payload = count;\n}\nif(msg.payload>90){\n    global.set(\"globalSimoco3002Alarm\",true);\n}else{\n    global.set(\"globalSimoco3002Alarm\",false);\n}\nreturn msg;\n",
+        "func": "let count = context.get(\"count\") || msg.payload || 0;\nconst reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n  count = msg.payload;\n}\nif (count == 100) {\n  count = msg.payload;\n} else if (count == 0) {\n  count = msg.payload;\n} else {\n  count += 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count;\n\nif (msg.payload > 90) {\n  global.set(\"globalSimoco3001Alarm\", true);\n} else {\n  global.set(\"globalSimoco3001Alarm\", false);\n}\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 550,
+        "x": 390,
         "y": 140,
         "wires": [
             [
@@ -1637,14 +1635,14 @@
         "z": "ef8739be854896a4",
         "g": "f81078994e7bf9a5",
         "name": "humidityGenerate",
-        "func": "let count = context.get('count')||msg.payload||0;\nconst reset = flow.get('reset');\n\nif (reset == \"RESET\") {\n   count = msg.payload; \n}else if( count== 0){\n    count = msg.payload;\n}else{\n    count -= 1;\n}\ncontext.set('count',count);\nmsg.payload = count;\nreturn msg;\n",
+        "func": "let count = context.get(\"count\") || msg.payload || 0;\nconst reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n  count = msg.payload;\n}\nif (count == 0) {\n  count = msg.payload;\n} else {\n  count -= 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count;\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 540,
+        "x": 380,
         "y": 220,
         "wires": [
             [
@@ -1658,14 +1656,14 @@
         "z": "ef8739be854896a4",
         "g": "f81078994e7bf9a5",
         "name": "smokscopeGenerate",
-        "func": "let count = context.get(\"count\") || msg.payload || 0;\nlet reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n  count = msg.payload;\n} else if (count == 100) {\n  count = msg.payload;\n} else if (count == 0) {\n  count = msg.payload;\n} else {\n  count += 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count + \"ppm\";\nreturn msg;\n",
+        "func": "let count = context.get(\"count\") || msg.payload || 0;\nlet reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n  count = msg.payload;\n}\nif (count == 100) {\n  count = msg.payload;\n} else if (count == 0) {\n  count = msg.payload;\n} else {\n  count += 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count + \"ppm\";\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 550,
+        "x": 390,
         "y": 320,
         "wires": [
             [
@@ -1700,7 +1698,7 @@
         "needle_color": "white",
         "radius": 70,
         "stretch": false,
-        "x": 950,
+        "x": 790,
         "y": 140,
         "wires": []
     },
@@ -1731,7 +1729,7 @@
         "needle_color": "white",
         "radius": 70,
         "stretch": false,
-        "x": 950,
+        "x": 790,
         "y": 320,
         "wires": []
     },
@@ -1762,7 +1760,7 @@
         "needle_color": "white",
         "radius": 70,
         "stretch": false,
-        "x": 960,
+        "x": 800,
         "y": 220,
         "wires": []
     },
@@ -1787,7 +1785,7 @@
         "on_value": "RESET",
         "off_value": "OFF",
         "show_value": true,
-        "x": 810,
+        "x": 650,
         "y": 540,
         "wires": [
             [
@@ -1809,8 +1807,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 300,
-        "y": 680,
+        "x": 120,
+        "y": 460,
         "wires": [
             [
                 "250fc877872c999f"
@@ -1830,8 +1828,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 520,
-        "y": 680,
+        "x": 340,
+        "y": 460,
         "wires": [
             [
                 "13229b54da88a21b"
@@ -1849,8 +1847,8 @@
         "console": false,
         "tostatus": false,
         "complete": "false",
-        "x": 710,
-        "y": 680,
+        "x": 530,
+        "y": 460,
         "wires": []
     },
     {
@@ -1871,8 +1869,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 440,
-        "y": 740,
+        "x": 260,
+        "y": 520,
         "wires": [
             [
                 "250fc877872c999f"
@@ -1889,8 +1887,8 @@
             "250fc877872c999f"
         ],
         "uncaught": false,
-        "x": 290,
-        "y": 740,
+        "x": 110,
+        "y": 520,
         "wires": [
             [
                 "fc2ea173d343dfdf",
@@ -1910,8 +1908,8 @@
         "tostatus": false,
         "complete": "error",
         "targetType": "msg",
-        "x": 440,
-        "y": 800,
+        "x": 260,
+        "y": 580,
         "wires": []
     },
     {
@@ -1934,8 +1932,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 990,
-        "y": 760,
+        "x": 810,
+        "y": 540,
         "wires": [
             []
         ]
@@ -1953,8 +1951,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 785,
-        "y": 840,
+        "x": 605,
+        "y": 620,
         "wires": [
             [
                 "f6085dedb2b19ae3"
@@ -2006,8 +2004,8 @@
         "once": true,
         "onceDelay": "1",
         "topic": "",
-        "x": 290,
-        "y": 280,
+        "x": 110,
+        "y": 60,
         "wires": [
             [
                 "7c24503dd37391b5"
@@ -2028,8 +2026,8 @@
         "targetType": "jsonata",
         "statusVal": "",
         "statusType": "auto",
-        "x": 920,
-        "y": 280,
+        "x": 740,
+        "y": 60,
         "wires": []
     },
     {
@@ -2045,8 +2043,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 580,
-        "y": 280,
+        "x": 400,
+        "y": 60,
         "wires": [
             [
                 "c093056e67d4a4dc"
@@ -2075,8 +2073,8 @@
         "topic": "T",
         "payload": "1",
         "payloadType": "num",
-        "x": 310,
-        "y": 360,
+        "x": 130,
+        "y": 140,
         "wires": [
             [
                 "752e6fd71c0c5086"
@@ -2105,8 +2103,8 @@
         "topic": "H",
         "payload": "45",
         "payloadType": "num",
-        "x": 300,
-        "y": 440,
+        "x": 120,
+        "y": 220,
         "wires": [
             [
                 "607f80762a961c8e"
@@ -2135,8 +2133,8 @@
         "topic": "S",
         "payload": "45",
         "payloadType": "num",
-        "x": 320,
-        "y": 540,
+        "x": 140,
+        "y": 320,
         "wires": [
             [
                 "cc9b2c9c876a3228"
@@ -2171,8 +2169,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 760,
-        "y": 440,
+        "x": 580,
+        "y": 220,
         "wires": [
             [
                 "0d5e9360b335a9d2"
@@ -2191,15 +2189,15 @@
         "z": "5a9c45d6665294c2",
         "g": "300363b21332d0a9",
         "name": "temperatureGenerate",
-        "func": "let count = context.get('count')||msg.payload||0;\nconst reset = flow.get('reset');\n\nif (reset == \"RESET\") {\n    count = msg.payload;\n    // msg.reset = false;\n}else{\n    if (count == 100) {\n        count = msg.payload;\n    } else if (count == 0) {\n        count = msg.payload;\n    } else {\n        count += 1;\n    }\n    context.set('count', count);\n    msg.payload = count;\n}\nif(msg.payload>90){\n    global.set(\"globalSimoco2001Alarm\",true);\n}else{\n    global.set(\"globalSimoco2001Alarm\",false);\n}\nreturn msg;\n",
+        "func": "let count = context.get(\"count\") || msg.payload || 0;\nconst reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n  count = msg.payload;\n}\nif (count == 100) {\n  count = msg.payload;\n} else if (count == 0) {\n  count = msg.payload;\n} else {\n  count += 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count;\n\nif (msg.payload > 90) {\n  global.set(\"globalSimoco3001Alarm\", true);\n} else {\n  global.set(\"globalSimoco3001Alarm\", false);\n}\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 550,
-        "y": 360,
+        "x": 370,
+        "y": 140,
         "wires": [
             [
                 "39a8d2b34bf80b3c"
@@ -2212,15 +2210,15 @@
         "z": "5a9c45d6665294c2",
         "g": "300363b21332d0a9",
         "name": "humidityGenerate",
-        "func": "let count = context.get('count')||msg.payload||0;\nconst reset = flow.get('reset');\n\nif (reset == \"RESET\") {\n   count = msg.payload; \n}else if( count== 0){\n    count = msg.payload;\n}else{\n    count -= 1;\n}\ncontext.set('count',count);\nmsg.payload = count;\nreturn msg;\n",
+        "func": "let count = context.get(\"count\") || msg.payload || 0;\nconst reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n  count = msg.payload;\n}\nif (count == 0) {\n  count = msg.payload;\n} else {\n  count -= 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count;\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 540,
-        "y": 440,
+        "x": 360,
+        "y": 220,
         "wires": [
             [
                 "39a8d2b34bf80b3c"
@@ -2233,15 +2231,15 @@
         "z": "5a9c45d6665294c2",
         "g": "300363b21332d0a9",
         "name": "smokscopeGenerate",
-        "func": "let count = context.get(\"count\") || msg.payload || 0;\nlet reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n  count = msg.payload;\n} else if (count == 100) {\n  count = msg.payload;\n} else if (count == 0) {\n  count = msg.payload;\n} else {\n  count += 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count + \"ppm\";\nreturn msg;\n",
+        "func": "let count = context.get(\"count\") || msg.payload || 0;\nlet reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n  count = msg.payload;\n}\nif (count == 100) {\n  count = msg.payload;\n} else if (count == 0) {\n  count = msg.payload;\n} else {\n  count += 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count + \"ppm\";\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 550,
-        "y": 540,
+        "x": 370,
+        "y": 320,
         "wires": [
             [
                 "39a8d2b34bf80b3c"
@@ -2275,8 +2273,8 @@
         "needle_color": "white",
         "radius": 70,
         "stretch": false,
-        "x": 950,
-        "y": 380,
+        "x": 770,
+        "y": 160,
         "wires": []
     },
     {
@@ -2306,8 +2304,8 @@
         "needle_color": "white",
         "radius": 70,
         "stretch": false,
-        "x": 950,
-        "y": 540,
+        "x": 770,
+        "y": 320,
         "wires": []
     },
     {
@@ -2337,8 +2335,8 @@
         "needle_color": "white",
         "radius": 70,
         "stretch": false,
-        "x": 960,
-        "y": 440,
+        "x": 780,
+        "y": 220,
         "wires": []
     },
     {
@@ -2362,8 +2360,8 @@
         "on_value": "RESET",
         "off_value": "OFF",
         "show_value": true,
-        "x": 810,
-        "y": 760,
+        "x": 630,
+        "y": 540,
         "wires": [
             [
                 "077c54ddd8250ed3",
@@ -2384,7 +2382,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 240,
+        "x": 120,
         "y": 460,
         "wires": [
             [
@@ -2405,7 +2403,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 460,
+        "x": 340,
         "y": 460,
         "wires": [
             [
@@ -2424,7 +2422,7 @@
         "console": false,
         "tostatus": false,
         "complete": "false",
-        "x": 650,
+        "x": 530,
         "y": 460,
         "wires": []
     },
@@ -2446,7 +2444,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 380,
+        "x": 260,
         "y": 520,
         "wires": [
             [
@@ -2464,7 +2462,7 @@
             "6029975ac383d528"
         ],
         "uncaught": false,
-        "x": 230,
+        "x": 110,
         "y": 520,
         "wires": [
             [
@@ -2485,7 +2483,7 @@
         "tostatus": false,
         "complete": "error",
         "targetType": "msg",
-        "x": 380,
+        "x": 260,
         "y": 580,
         "wires": []
     },
@@ -2509,7 +2507,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 930,
+        "x": 810,
         "y": 540,
         "wires": [
             []
@@ -2528,7 +2526,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 725,
+        "x": 605,
         "y": 620,
         "wires": [
             [
@@ -2581,7 +2579,7 @@
         "once": true,
         "onceDelay": "1",
         "topic": "",
-        "x": 230,
+        "x": 110,
         "y": 60,
         "wires": [
             [
@@ -2603,7 +2601,7 @@
         "targetType": "jsonata",
         "statusVal": "",
         "statusType": "auto",
-        "x": 860,
+        "x": 740,
         "y": 60,
         "wires": []
     },
@@ -2620,7 +2618,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 520,
+        "x": 400,
         "y": 60,
         "wires": [
             [
@@ -2650,7 +2648,7 @@
         "topic": "T",
         "payload": "5",
         "payloadType": "num",
-        "x": 250,
+        "x": 130,
         "y": 140,
         "wires": [
             [
@@ -2680,7 +2678,7 @@
         "topic": "H",
         "payload": "90",
         "payloadType": "num",
-        "x": 240,
+        "x": 120,
         "y": 220,
         "wires": [
             [
@@ -2710,7 +2708,7 @@
         "topic": "S",
         "payload": "45",
         "payloadType": "num",
-        "x": 260,
+        "x": 140,
         "y": 320,
         "wires": [
             [
@@ -2746,7 +2744,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 700,
+        "x": 580,
         "y": 220,
         "wires": [
             [
@@ -2766,14 +2764,14 @@
         "z": "9f7d8463b4050bdd",
         "g": "8ed62cf511a5169c",
         "name": "temperatureGenerate",
-        "func": "let count = context.get('count')||msg.payload||0;\nconst reset = flow.get('reset');\n\nif (reset == \"RESET\") {\n    count = msg.payload;\n    // msg.reset = false;\n}else{\n    if (count == 100) {\n        count = msg.payload;\n    } else if (count == 0) {\n        count = msg.payload;\n    } else {\n        count += 1;\n    }\n    context.set('count', count);\n    msg.payload = count;\n}\nif(msg.payload>90){\n    global.set(\"globalSimoco2002Alarm\",true);\n}else{\n    global.set(\"globalSimoco2002Alarm\",false);\n}\nreturn msg;\n",
+        "func": "let count = context.get(\"count\") || msg.payload || 0;\nconst reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n  count = msg.payload;\n}\nif (count == 100) {\n  count = msg.payload;\n} else if (count == 0) {\n  count = msg.payload;\n} else {\n  count += 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count;\n\nif (msg.payload > 90) {\n  global.set(\"globalSimoco3001Alarm\", true);\n} else {\n  global.set(\"globalSimoco3001Alarm\", false);\n}\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 490,
+        "x": 370,
         "y": 140,
         "wires": [
             [
@@ -2787,14 +2785,14 @@
         "z": "9f7d8463b4050bdd",
         "g": "8ed62cf511a5169c",
         "name": "humidityGenerate",
-        "func": "let count = context.get('count')||msg.payload||0;\nconst reset = flow.get('reset');\n\nif (reset == \"RESET\") {\n   count = msg.payload; \n}else if( count== 0){\n    count = msg.payload;\n}else{\n    count -= 1;\n}\ncontext.set('count',count);\nmsg.payload = count;\nreturn msg;\n",
+        "func": "let count = context.get(\"count\") || msg.payload || 0;\nconst reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n    count = msg.payload;\n}\nif (count == 0) {\n    count = msg.payload;\n} else {\n    count -= 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count;\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 480,
+        "x": 360,
         "y": 220,
         "wires": [
             [
@@ -2808,14 +2806,14 @@
         "z": "9f7d8463b4050bdd",
         "g": "8ed62cf511a5169c",
         "name": "smokscopeGenerate",
-        "func": "let count = context.get(\"count\") || msg.payload || 0;\nlet reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n  count = msg.payload;\n} else if (count == 100) {\n  count = msg.payload;\n} else if (count == 0) {\n  count = msg.payload;\n} else {\n  count += 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count + \"ppm\";\nreturn msg;\n",
+        "func": "let count = context.get(\"count\") || msg.payload || 0;\nlet reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n  count = msg.payload;\n}\nif (count == 100) {\n  count = msg.payload;\n} else if (count == 0) {\n  count = msg.payload;\n} else {\n  count += 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count + \"ppm\";\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 490,
+        "x": 370,
         "y": 320,
         "wires": [
             [
@@ -2850,7 +2848,7 @@
         "needle_color": "white",
         "radius": 70,
         "stretch": false,
-        "x": 890,
+        "x": 770,
         "y": 140,
         "wires": []
     },
@@ -2881,7 +2879,7 @@
         "needle_color": "white",
         "radius": 70,
         "stretch": false,
-        "x": 890,
+        "x": 770,
         "y": 320,
         "wires": []
     },
@@ -2912,7 +2910,7 @@
         "needle_color": "white",
         "radius": 70,
         "stretch": false,
-        "x": 900,
+        "x": 780,
         "y": 220,
         "wires": []
     },
@@ -2937,7 +2935,7 @@
         "on_value": "RESET",
         "off_value": "OFF",
         "show_value": true,
-        "x": 750,
+        "x": 630,
         "y": 540,
         "wires": [
             [
@@ -2989,8 +2987,8 @@
         "once": true,
         "onceDelay": "1",
         "topic": "",
-        "x": 330,
-        "y": 80,
+        "x": 130,
+        "y": 60,
         "wires": [
             [
                 "efa27e40f5acd546"
@@ -3011,8 +3009,8 @@
         "targetType": "jsonata",
         "statusVal": "",
         "statusType": "auto",
-        "x": 960,
-        "y": 80,
+        "x": 760,
+        "y": 60,
         "wires": []
     },
     {
@@ -3028,8 +3026,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 620,
-        "y": 80,
+        "x": 420,
+        "y": 60,
         "wires": [
             [
                 "8862337e16aab2e9"
@@ -3049,8 +3047,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 340,
-        "y": 480,
+        "x": 140,
+        "y": 460,
         "wires": [
             [
                 "f3dd1faa2827901b"
@@ -3070,8 +3068,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 560,
-        "y": 480,
+        "x": 360,
+        "y": 460,
         "wires": [
             [
                 "940298c424ec1eeb"
@@ -3089,8 +3087,8 @@
         "console": false,
         "tostatus": false,
         "complete": "false",
-        "x": 750,
-        "y": 480,
+        "x": 550,
+        "y": 460,
         "wires": []
     },
     {
@@ -3111,8 +3109,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 480,
-        "y": 540,
+        "x": 280,
+        "y": 520,
         "wires": [
             [
                 "f3dd1faa2827901b"
@@ -3129,8 +3127,8 @@
             "f3dd1faa2827901b"
         ],
         "uncaught": false,
-        "x": 330,
-        "y": 540,
+        "x": 130,
+        "y": 520,
         "wires": [
             [
                 "602406b82d25a693",
@@ -3150,8 +3148,8 @@
         "tostatus": false,
         "complete": "error",
         "targetType": "msg",
-        "x": 480,
-        "y": 600,
+        "x": 280,
+        "y": 580,
         "wires": []
     },
     {
@@ -3174,8 +3172,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1030,
-        "y": 560,
+        "x": 830,
+        "y": 540,
         "wires": [
             []
         ]
@@ -3193,8 +3191,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 825,
-        "y": 640,
+        "x": 625,
+        "y": 620,
         "wires": [
             [
                 "8b21a1f683e02ceb"
@@ -3225,8 +3223,8 @@
         "topic": "T",
         "payload": "99",
         "payloadType": "num",
-        "x": 350,
-        "y": 160,
+        "x": 150,
+        "y": 140,
         "wires": [
             [
                 "b77fc9c19e405c8f"
@@ -3255,8 +3253,8 @@
         "topic": "H",
         "payload": "96",
         "payloadType": "num",
-        "x": 340,
-        "y": 240,
+        "x": 140,
+        "y": 220,
         "wires": [
             [
                 "077d33ed13f2d1b2"
@@ -3285,8 +3283,8 @@
         "topic": "S",
         "payload": "60",
         "payloadType": "num",
-        "x": 360,
-        "y": 340,
+        "x": 160,
+        "y": 320,
         "wires": [
             [
                 "efc7bea3ad629173"
@@ -3321,8 +3319,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 800,
-        "y": 240,
+        "x": 600,
+        "y": 220,
         "wires": [
             [
                 "6e30734eec8e0e83"
@@ -3341,15 +3339,15 @@
         "z": "d08b8dbadb5935bb",
         "g": "384609e63dc0396a",
         "name": "temperatureGenerate",
-        "func": "let count = context.get('count')||msg.payload||0;\nconst reset = flow.get('reset');\n\nif (reset == \"RESET\") {\n    count = msg.payload;\n    // msg.reset = false;\n}else{\n    if (count == 100) {\n        count = msg.payload;\n    } else if (count == 0) {\n        count = msg.payload;\n    } else {\n        count += 1;\n    }\n    context.set('count', count);\n    msg.payload = count;\n}\nif(msg.payload>90){\n    global.set(\"globalSimoco7001Alarm\",true);\n}else{\n    global.set(\"globalSimoco7001Alarm\",false);\n}\nreturn msg;\n",
+        "func": "let count = context.get(\"count\") || msg.payload || 0;\nconst reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n  count = msg.payload;\n}\nif (count == 100) {\n  count = msg.payload;\n} else if (count == 0) {\n  count = msg.payload;\n} else {\n  count += 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count;\n\nif (msg.payload > 90) {\n  global.set(\"globalSimoco3001Alarm\", true);\n} else {\n  global.set(\"globalSimoco3001Alarm\", false);\n}\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 590,
-        "y": 160,
+        "x": 390,
+        "y": 140,
         "wires": [
             [
                 "e7708a698184d12d"
@@ -3362,15 +3360,15 @@
         "z": "d08b8dbadb5935bb",
         "g": "384609e63dc0396a",
         "name": "humidityGenerate",
-        "func": "let count = context.get('count')||msg.payload||0;\nconst reset = flow.get('reset');\n\nif (reset == \"RESET\") {\n   count = msg.payload; \n}else if( count== 0){\n    count = msg.payload;\n}else{\n    count -= 1;\n}\ncontext.set('count',count);\nmsg.payload = count;\nreturn msg;\n",
+        "func": "let count = context.get(\"count\") || msg.payload || 0;\nconst reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n  count = msg.payload;\n}\nif (count == 0) {\n  count = msg.payload;\n} else {\n  count -= 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count;\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 580,
-        "y": 240,
+        "x": 380,
+        "y": 220,
         "wires": [
             [
                 "e7708a698184d12d"
@@ -3383,15 +3381,15 @@
         "z": "d08b8dbadb5935bb",
         "g": "384609e63dc0396a",
         "name": "smokscopeGenerate",
-        "func": "let count = context.get(\"count\") || msg.payload || 0;\nlet reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n  count = msg.payload;\n} else if (count == 100) {\n  count = msg.payload;\n} else if (count == 0) {\n  count = msg.payload;\n} else {\n  count += 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count + \"ppm\";\nreturn msg;\n",
+        "func": "let count = context.get(\"count\") || msg.payload || 0;\nlet reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n  count = msg.payload;\n}\nif (count == 100) {\n  count = msg.payload;\n} else if (count == 0) {\n  count = msg.payload;\n} else {\n  count += 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count + \"ppm\";\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 590,
-        "y": 340,
+        "x": 390,
+        "y": 320,
         "wires": [
             [
                 "e7708a698184d12d"
@@ -3425,8 +3423,8 @@
         "needle_color": "white",
         "radius": 70,
         "stretch": false,
-        "x": 990,
-        "y": 180,
+        "x": 790,
+        "y": 160,
         "wires": []
     },
     {
@@ -3456,8 +3454,8 @@
         "needle_color": "white",
         "radius": 70,
         "stretch": false,
-        "x": 990,
-        "y": 340,
+        "x": 790,
+        "y": 320,
         "wires": []
     },
     {
@@ -3487,8 +3485,8 @@
         "needle_color": "white",
         "radius": 70,
         "stretch": false,
-        "x": 1000,
-        "y": 240,
+        "x": 800,
+        "y": 220,
         "wires": []
     },
     {
@@ -3512,8 +3510,8 @@
         "on_value": "RESET",
         "off_value": "OFF",
         "show_value": true,
-        "x": 850,
-        "y": 560,
+        "x": 650,
+        "y": 540,
         "wires": [
             [
                 "2c29b524f3203f41",
@@ -3564,8 +3562,8 @@
         "once": true,
         "onceDelay": "1",
         "topic": "",
-        "x": 350,
-        "y": 80,
+        "x": 110,
+        "y": 60,
         "wires": [
             [
                 "5c827eb22c36ae73"
@@ -3586,8 +3584,8 @@
         "targetType": "jsonata",
         "statusVal": "",
         "statusType": "auto",
-        "x": 980,
-        "y": 80,
+        "x": 740,
+        "y": 60,
         "wires": []
     },
     {
@@ -3603,8 +3601,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 640,
-        "y": 80,
+        "x": 400,
+        "y": 60,
         "wires": [
             [
                 "53f12a0e4d4c4396"
@@ -3624,8 +3622,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 360,
-        "y": 440,
+        "x": 120,
+        "y": 420,
         "wires": [
             [
                 "f322123d77617466"
@@ -3645,8 +3643,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 580,
-        "y": 440,
+        "x": 340,
+        "y": 420,
         "wires": [
             [
                 "9c0882d3634f13a2"
@@ -3667,8 +3665,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 770,
-        "y": 440,
+        "x": 530,
+        "y": 420,
         "wires": []
     },
     {
@@ -3689,8 +3687,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 500,
-        "y": 500,
+        "x": 260,
+        "y": 480,
         "wires": [
             [
                 "f322123d77617466"
@@ -3707,8 +3705,8 @@
             "f322123d77617466"
         ],
         "uncaught": false,
-        "x": 350,
-        "y": 500,
+        "x": 110,
+        "y": 480,
         "wires": [
             [
                 "181f5e12deb1f7a8",
@@ -3728,8 +3726,8 @@
         "tostatus": false,
         "complete": "error",
         "targetType": "msg",
-        "x": 500,
-        "y": 560,
+        "x": 260,
+        "y": 540,
         "wires": []
     },
     {
@@ -3752,8 +3750,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1050,
-        "y": 520,
+        "x": 810,
+        "y": 500,
         "wires": [
             []
         ]
@@ -3771,8 +3769,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 845,
-        "y": 600,
+        "x": 605,
+        "y": 580,
         "wires": [
             [
                 "78abd039fc8c7011"
@@ -3803,8 +3801,8 @@
         "topic": "T",
         "payload": "5",
         "payloadType": "num",
-        "x": 370,
-        "y": 160,
+        "x": 130,
+        "y": 140,
         "wires": [
             [
                 "acb939e404d583b7"
@@ -3833,8 +3831,8 @@
         "topic": "H",
         "payload": "90",
         "payloadType": "num",
-        "x": 360,
-        "y": 240,
+        "x": 120,
+        "y": 220,
         "wires": [
             [
                 "6116494f63d0b57f"
@@ -3863,8 +3861,8 @@
         "topic": "S",
         "payload": "10",
         "payloadType": "num",
-        "x": 380,
-        "y": 320,
+        "x": 140,
+        "y": 300,
         "wires": [
             [
                 "6d5d4f74d46e069a"
@@ -3899,8 +3897,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 800,
-        "y": 240,
+        "x": 560,
+        "y": 220,
         "wires": [
             [
                 "67e40ec147a30a51"
@@ -3919,15 +3917,15 @@
         "z": "209767b8b09c73ee",
         "g": "f5579862632dcc68",
         "name": "temperatureGenerate",
-        "func": "let count = context.get('count')||msg.payload||0;\nconst reset = flow.get('reset');\n\nif (reset == \"RESET\") {\n    count = msg.payload;\n    // msg.reset = false;\n}else{\n    if (count == 100) {\n        count = msg.payload;\n    } else if (count == 0) {\n        count = msg.payload;\n    } else {\n        count += 1;\n    }\n    context.set('count', count);\n    msg.payload = count;\n}\nif(msg.payload>90){\n    global.set(\"globalSimoco7002Alarm\",true);\n}else{\n    global.set(\"globalSimoco7002Alarm\",false);\n}\nreturn msg;\n",
+        "func": "let count = context.get(\"count\") || msg.payload || 0;\nconst reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n  count = msg.payload;\n}\nif (count == 100) {\n  count = msg.payload;\n} else if (count == 0) {\n  count = msg.payload;\n} else {\n  count += 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count;\n\nif (msg.payload > 90) {\n  global.set(\"globalSimoco3001Alarm\", true);\n} else {\n  global.set(\"globalSimoco3001Alarm\", false);\n}\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 580,
-        "y": 160,
+        "x": 340,
+        "y": 140,
         "wires": [
             [
                 "9edfe69503d019fe"
@@ -3940,15 +3938,15 @@
         "z": "209767b8b09c73ee",
         "g": "f5579862632dcc68",
         "name": "humidityGenerate",
-        "func": "let count = context.get('count')||msg.payload||0;\nconst reset = flow.get('reset');\n\nif (reset == \"RESET\") {\n   count = msg.payload; \n}else if( count== 0){\n    count = msg.payload;\n}else{\n    count -= 1;\n}\ncontext.set('count',count);\nmsg.payload = count;\nreturn msg;\n",
+        "func": "let count = context.get(\"count\") || msg.payload || 0;\nconst reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n  count = msg.payload;\n}\nif (count == 0) {\n  count = msg.payload;\n} else {\n  count -= 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count;\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 570,
-        "y": 240,
+        "x": 330,
+        "y": 220,
         "wires": [
             [
                 "9edfe69503d019fe"
@@ -3961,15 +3959,15 @@
         "z": "209767b8b09c73ee",
         "g": "f5579862632dcc68",
         "name": "smokscopeGenerate",
-        "func": "let count = context.get(\"count\") || msg.payload || 0;\nlet reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n  count = msg.payload;\n} else if (count == 100) {\n  count = msg.payload;\n} else if (count == 0) {\n  count = msg.payload;\n} else {\n  count += 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count + \"ppm\";\nreturn msg;\n",
+        "func": "let count = context.get(\"count\") || msg.payload || 0;\nlet reset = flow.get(\"reset\");\n\nif (reset == \"RESET\") {\n  count = msg.payload;\n}\nif (count == 100) {\n  count = msg.payload;\n} else if (count == 0) {\n  count = msg.payload;\n} else {\n  count += 1;\n}\ncontext.set(\"count\", count);\nmsg.payload = count + \"ppm\";\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 580,
-        "y": 320,
+        "x": 340,
+        "y": 300,
         "wires": [
             [
                 "9edfe69503d019fe"
@@ -4003,8 +4001,8 @@
         "needle_color": "white",
         "radius": 70,
         "stretch": false,
-        "x": 1010,
-        "y": 160,
+        "x": 770,
+        "y": 140,
         "wires": []
     },
     {
@@ -4034,8 +4032,8 @@
         "needle_color": "white",
         "radius": 70,
         "stretch": false,
-        "x": 1010,
-        "y": 320,
+        "x": 770,
+        "y": 300,
         "wires": []
     },
     {
@@ -4065,8 +4063,8 @@
         "needle_color": "white",
         "radius": 70,
         "stretch": false,
-        "x": 1020,
-        "y": 240,
+        "x": 780,
+        "y": 220,
         "wires": []
     },
     {
@@ -4090,8 +4088,8 @@
         "on_value": "RESET",
         "off_value": "OFF",
         "show_value": true,
-        "x": 870,
-        "y": 520,
+        "x": 630,
+        "y": 500,
         "wires": [
             [
                 "2249a709e794f9cf",
