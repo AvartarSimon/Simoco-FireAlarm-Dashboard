@@ -42,7 +42,7 @@
     {
         "id": "d08b8dbadb5935bb",
         "type": "tab",
-        "label": "Braisbane-Simoco7001",
+        "label": "Brisbane-Simoco7001",
         "disabled": false,
         "info": "",
         "env": []
@@ -50,7 +50,7 @@
     {
         "id": "209767b8b09c73ee",
         "type": "tab",
-        "label": "Braisbane-Simoco7002",
+        "label": "Brisbane-Simoco7002",
         "disabled": false,
         "info": "",
         "env": []
@@ -113,13 +113,9 @@
         "nodes": [
             "793612058d6a039b",
             "5f6f375bc7c84657",
-            "a364fe92f5704b0b",
             "246940e1f1272419",
             "9d122703e2521fa1",
             "c67c5af0aec50f1c",
-            "61e8d4d3c2ce674c",
-            "fa09142594f65ad3",
-            "51397cae17b8519c",
             "c39562961a6fc182",
             "f4c1d472e0ceec89",
             "b5e69b05079a9f31",
@@ -133,12 +129,16 @@
             "678e8917bc34968b",
             "e88d7db3c1c3f62b",
             "a9eff5ed481a78ac",
-            "6c94903ba2c673aa"
+            "6c94903ba2c673aa",
+            "d4f8f3316fa44251",
+            "d2be6a8afe0a58e7",
+            "657b2dbdab740345",
+            "701862db58ce06dc"
         ],
         "x": 14,
         "y": 19,
         "w": 892,
-        "h": 642
+        "h": 602
     },
     {
         "id": "300363b21332d0a9",
@@ -328,10 +328,129 @@
             "6cf70bad26da70ac",
             "cf38127b0f1242b4"
         ],
-        "x": 94,
-        "y": 179,
+        "x": 14,
+        "y": 19,
         "w": 792,
         "h": 162
+    },
+    {
+        "id": "2eaa55a3838d35fd",
+        "type": "group",
+        "z": "7d1f82b240d34d71",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "cff0654c34ad0a47",
+            "e15794d65b9ffe88",
+            "7f6375a8f6eca578",
+            "bc712874f21174ac",
+            "80e10f5157343e1a",
+            "2a296ec9266ecc2f"
+        ],
+        "x": 14,
+        "y": 219,
+        "w": 432,
+        "h": 202
+    },
+    {
+        "id": "48c022e0110ee1e7",
+        "type": "group",
+        "z": "9f7d8463b4050bdd",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "236ef0baa700e6ac",
+            "90ce23bfe53567a6",
+            "83f285170395537d",
+            "b21b2799754a0e9c",
+            "14b7401b2c81c81a",
+            "c41971c1e7b65928",
+            "2d7d6ff39c6f172d",
+            "0f2b56f6635019ad",
+            "5e96bc443b668ebd",
+            "158579e394c43fc9",
+            "ad7354dd247881a3"
+        ],
+        "x": 14,
+        "y": 699,
+        "w": 1252,
+        "h": 482
+    },
+    {
+        "id": "acb7b0c87d617fb3",
+        "type": "group",
+        "z": "d08b8dbadb5935bb",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "9eb69df2af23039c",
+            "dd96a1b7a3ef2575",
+            "5820566ef408c78d",
+            "d933ae7718c59d69",
+            "be66ec6af0ebd96a",
+            "64a681c1b7e1ee19",
+            "8e442d964dfe6fa5",
+            "d8b76e2b0a6b9e32",
+            "f59dfb8b9978c4b6",
+            "a706694cb1c599ef",
+            "0fa07def82104a13"
+        ],
+        "x": 34,
+        "y": 679,
+        "w": 1252,
+        "h": 482
+    },
+    {
+        "id": "80eb3268ec88e507",
+        "type": "group",
+        "z": "ef8739be854896a4",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "54f79f07dc20c956",
+            "0c92723a3a3424a5",
+            "fb9282a00e71c234",
+            "c1fdc87d4ab8e430",
+            "e0c9c9cab4044efa",
+            "9be9253cea9aa492",
+            "e5ebabf8867f2253",
+            "94aa2ccdb054f6d3",
+            "ce6c68ed96f7201a",
+            "ac1050bdfb296f26",
+            "b039767b3b60fd7f"
+        ],
+        "x": 34,
+        "y": 699,
+        "w": 1252,
+        "h": 482
     },
     {
         "id": "b55ad710670cabdb",
@@ -339,7 +458,7 @@
         "name": "Simoco-FireAlarm-Home",
         "title": "Simoco FireAlarm Home Page",
         "kind": "StdGrid",
-        "fd_children": ",cf38127b0f1242b4,58796f9a219de9dd",
+        "fd_children": ",cf38127b0f1242b4,58796f9a219de9dd,cff0654c34ad0a47,7f6375a8f6eca578,80e10f5157343e1a",
         "tab": "faa3f6ef68ba47c6",
         "min_cols": 1,
         "max_cols": 20,
@@ -403,7 +522,7 @@
         "name": "Melbourne-Simoco3001",
         "title": "Melbourne-Simoco3001",
         "kind": "StdGrid",
-        "fd_children": ",678e8917bc34968b,a9eff5ed481a78ac,e88d7db3c1c3f62b,fa09142594f65ad3",
+        "fd_children": ",678e8917bc34968b,e88d7db3c1c3f62b,a9eff5ed481a78ac,d4f8f3316fa44251,701862db58ce06dc",
         "tab": "46612d9ad1086276",
         "min_cols": 1,
         "max_cols": 20,
@@ -435,7 +554,7 @@
         "name": "Sydney-Simoco2002",
         "title": "Sydney-Simoco2002",
         "kind": "StdGrid",
-        "fd_children": ",ab783fbbe1642c11,5382c2a2c1667a90,2ebaea2a8fc4007d,3a5541cffd4ea14f",
+        "fd_children": ",ab783fbbe1642c11,5382c2a2c1667a90,2ebaea2a8fc4007d,3a5541cffd4ea14f,b21b2799754a0e9c,158579e394c43fc9",
         "tab": "ad1e7ea49c0a5684",
         "min_cols": 1,
         "max_cols": 20,
@@ -451,7 +570,7 @@
         "name": "Melbourne-Simoco3002",
         "title": "Melbourne-Simoco3002",
         "kind": "StdGrid",
-        "fd_children": ",8738856eb139723d,0eedf40811743459,af8c030c62c22003,30a25415e9358e70",
+        "fd_children": ",8738856eb139723d,0eedf40811743459,af8c030c62c22003,30a25415e9358e70,c1fdc87d4ab8e430,ac1050bdfb296f26",
         "tab": "46612d9ad1086276",
         "min_cols": 1,
         "max_cols": 20,
@@ -467,10 +586,10 @@
         "name": "Braisbane-Simoco7001",
         "title": "Braisbane-Simoco7001",
         "kind": "StdGrid",
-        "fd_children": ",6e30734eec8e0e83,8e30e349afeb86a8,942043689bf59e58,8b21a1f683e02ceb",
+        "fd_children": ",942043689bf59e58,8e30e349afeb86a8,6e30734eec8e0e83,d933ae7718c59d69,a706694cb1c599ef,8b21a1f683e02ceb",
         "tab": "fef6c0f6d48841d6",
         "min_cols": 1,
-        "max_cols": 20,
+        "max_cols": 23,
         "unicast": "ignore",
         "parent": "",
         "solid": false,
@@ -503,6 +622,30 @@
         "fd": "cfb4a2e975d21658"
     },
     {
+        "id": "16a969d2d1daa7f4",
+        "type": "flexdash container",
+        "name": "toggle sparkline",
+        "title": "toggle sparkline",
+        "kind": "StdGrid",
+        "fd_children": "",
+        "tab": "5de79445aee2f018",
+        "min_cols": "1",
+        "max_cols": "20",
+        "parent": "",
+        "solid": false,
+        "cols": "1",
+        "rows": "1"
+    },
+    {
+        "id": "5de79445aee2f018",
+        "type": "flexdash tab",
+        "name": "toggle tab",
+        "icon": "mdi-toggle-switch",
+        "title": "toggle tab",
+        "fd_children": ",16a969d2d1daa7f4",
+        "fd": "cfb4a2e975d21658"
+    },
+    {
         "id": "d31c6e07c918a3d7",
         "type": "function",
         "z": "7d1f82b240d34d71",
@@ -515,8 +658,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 480,
-        "y": 220,
+        "x": 400,
+        "y": 60,
         "wires": [
             [
                 "cf38127b0f1242b4"
@@ -545,8 +688,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 210,
-        "y": 220,
+        "x": 130,
+        "y": 60,
         "wires": [
             [
                 "d31c6e07c918a3d7"
@@ -568,8 +711,8 @@
         "fd_rows": 3,
         "fd_array": false,
         "fd_array_max": 10,
-        "x": 760,
-        "y": 300,
+        "x": 680,
+        "y": 140,
         "wires": [
             []
         ]
@@ -592,8 +735,8 @@
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 220,
-        "y": 300,
+        "x": 140,
+        "y": 140,
         "wires": [
             [
                 "58796f9a219de9dd"
@@ -621,10 +764,256 @@
         "align": null,
         "click": null,
         "sort": null,
-        "x": 770,
-        "y": 220,
+        "x": 690,
+        "y": 60,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "cff0654c34ad0a47",
+        "type": "flexdash custom",
+        "z": "7d1f82b240d34d71",
+        "g": "2eaa55a3838d35fd",
+        "name": "Device Info widget",
+        "import_map": {
+            "": ""
+        },
+        "sfc_source": "<template>\n  <v-card :loading=\"loading\" class=\"mx-auto my-12\" height=\"100%\" width=\"100%\">\n    <template v-slot:loader=\"{ isActive }\">\n      <v-progress-linear :active=\"isActive\" color=\"deep-purple\" height=\"4\" indeterminate></v-progress-linear>\n    </template>\n\n    <v-img cover height=\"300\" :src=deviceImage></v-img>\n\n    <v-card-item>\n      <v-card-title>{{this.deviceName }} {{ this.deviceNumber }}</v-card-title>\n      <div class=\"text-subtitle-1\">\n        <span class=\"me-1\">{{this.deviceDescription}}</span>\n      </div>\n    </v-card-item>\n    <v-list disabled>\n      <v-list-item v-for=\"(item, i) in computedItems\" :key=\"i\" :value=\"item\" color=\"primary\" rounded=\"shaped\">\n        <div class=\"d-flex align-center justify-space-between\">\n          <div class=\"d-flex align-center\">\n            <v-icon :icon=\"item.icon\" size=\"small\"></v-icon>\n            <v-list-item-title v-text=\"item.text\" class=\"pl-4\"></v-list-item-title>\n          </div>\n          <div class=\"text-subtitle-1\">{{ item.value }}</div>\n        </div>\n      </v-list-item>\n    </v-list>\n  </v-card>\n</template>\n\n<script>\n  export default {\n  props: {\n    payload: { type: Object, default: null },\n    deviceImage: { type: String, default: \"https://cdn.vuetifyjs.com/images/cards/cooking.png\" },\n    deviceName: { type: String, default: \"Device\" },\n    deviceNumber: { type: String, default: 0, tip: \"device serial number\" },\n    deviceDescription: { type: String, default: \"Device\" },\n    deviceLocation: { type: String, default: \"\" },\n    deviceCreationTime: { type: String, default: 0 },\n    deviceHealthStatus: { type: String, default: \"Healthy\" },\n  },\n\n  data: () => ({\n    loading: false,\n    selection: 1,\n  }),\n\n  computed: {\n    computedItems() {\n      const items = [\n        { text: \"Name\", icon: \"mdi-devices\", value: this.deviceNumber},\n        { text: \"Location\", icon: \"mdi-map-marker\", value: this.deviceLocation },\n        {\n          text: \"Installation date\",\n          icon: \"mdi-calendar-range\",\n          value: this.deviceCreationTime,\n        },\n        {\n          text: \"Health Status\",\n          icon: \"mdi-heart-pulse\",\n          value: this.deviceHealthStatus,\n        },\n      ];\n      return items;\n    },\n  },\n\n  methods: {\n    reserve() {\n      this.loading = true;\n\n      setTimeout(() => (this.loading = false), 2000);\n    },\n  },\n};\n</script>",
+        "fd_container": "b55ad710670cabdb",
+        "fd_cols": 3,
+        "fd_rows": 7,
+        "fd_array": false,
+        "fd_array_max": 10,
+        "x": 330,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e15794d65b9ffe88",
+        "type": "inject",
+        "z": "7d1f82b240d34d71",
+        "g": "2eaa55a3838d35fd",
+        "name": "Device 1",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "deviceName",
+                "v": "Velocity ",
+                "vt": "str"
+            },
+            {
+                "p": "deviceNumber",
+                "v": "EC-800",
+                "vt": "str"
+            },
+            {
+                "p": "deviceCreationTime",
+                "v": "2018-08-23",
+                "vt": "str"
+            },
+            {
+                "p": "deviceLocation",
+                "v": "Melbourne",
+                "vt": "str"
+            },
+            {
+                "p": "deviceHealthStatus",
+                "v": "Healthy",
+                "vt": "str"
+            },
+            {
+                "p": "deviceDescription",
+                "v": "This is an alarm device in Melbourne University",
+                "vt": "str"
+            },
+            {
+                "p": "deviceImage",
+                "v": "https://simocowirelesssolutions.com/wp-content/uploads/2021/07/Velocity-600x600-1.jpg",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{   deviceNumber: 20223,   deviceLocation: \"Melbourne\",   deviceCreationTime: \"2018-08-23\",   deviceHealthStatus: \"Healthy\", }",
+        "payloadType": "str",
+        "x": 120,
+        "y": 260,
+        "wires": [
+            [
+                "cff0654c34ad0a47"
+            ]
+        ]
+    },
+    {
+        "id": "7f6375a8f6eca578",
+        "type": "flexdash custom",
+        "z": "7d1f82b240d34d71",
+        "g": "2eaa55a3838d35fd",
+        "name": "Device Info widget",
+        "import_map": {
+            "": ""
+        },
+        "sfc_source": "<template>\n  <v-card :loading=\"loading\" class=\"mx-auto my-12\" height=\"100%\" width=\"100%\">\n    <template v-slot:loader=\"{ isActive }\">\n      <v-progress-linear :active=\"isActive\" color=\"deep-purple\" height=\"4\" indeterminate></v-progress-linear>\n    </template>\n\n    <v-img cover height=\"300\" :src=deviceImage></v-img>\n\n    <v-card-item>\n      <v-card-title>{{this.deviceName }} {{ this.deviceNumber }}</v-card-title>\n      <div class=\"text-subtitle-1\">\n        <span class=\"me-1\">{{this.deviceDescription}}</span>\n      </div>\n    </v-card-item>\n    <v-list disabled>\n      <v-list-item v-for=\"(item, i) in computedItems\" :key=\"i\" :value=\"item\" color=\"primary\" rounded=\"shaped\">\n        <div class=\"d-flex align-center justify-space-between\">\n          <div class=\"d-flex align-center\">\n            <v-icon :icon=\"item.icon\" size=\"small\"></v-icon>\n            <v-list-item-title v-text=\"item.text\" class=\"pl-4\"></v-list-item-title>\n          </div>\n          <div class=\"text-subtitle-1\">{{ item.value }}</div>\n        </div>\n      </v-list-item>\n    </v-list>\n  </v-card>\n</template>\n\n<script>\n  export default {\n  props: {\n    payload: { type: Object, default: null },\n    deviceImage: { type: String, default: \"https://cdn.vuetifyjs.com/images/cards/cooking.png\" },\n    deviceName: { type: String, default: \"Device\" },\n    deviceNumber: { type: String, default: 0, tip: \"device serial number\" },\n    deviceDescription: { type: String, default: \"Device\" },\n    deviceLocation: { type: String, default: \"\" },\n    deviceCreationTime: { type: String, default: 0 },\n    deviceHealthStatus: { type: String, default: \"Healthy\" },\n  },\n\n  data: () => ({\n    loading: false,\n    selection: 1,\n  }),\n\n  computed: {\n    computedItems() {\n      const items = [\n        { text: \"Name\", icon: \"mdi-devices\", value: this.deviceNumber},\n        { text: \"Location\", icon: \"mdi-map-marker\", value: this.deviceLocation },\n        {\n          text: \"Installation date\",\n          icon: \"mdi-calendar-range\",\n          value: this.deviceCreationTime,\n        },\n        {\n          text: \"Health Status\",\n          icon: \"mdi-heart-pulse\",\n          value: this.deviceHealthStatus,\n        },\n      ];\n      return items;\n    },\n  },\n\n  methods: {\n    reserve() {\n      this.loading = true;\n\n      setTimeout(() => (this.loading = false), 2000);\n    },\n  },\n};\n</script>",
+        "fd_container": "b55ad710670cabdb",
+        "fd_cols": 3,
+        "fd_rows": 7,
+        "fd_array": false,
+        "fd_array_max": 10,
+        "x": 330,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bc712874f21174ac",
+        "type": "inject",
+        "z": "7d1f82b240d34d71",
+        "g": "2eaa55a3838d35fd",
+        "name": "Device 2",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "deviceName",
+                "v": "Velocity ",
+                "vt": "str"
+            },
+            {
+                "p": "deviceNumber",
+                "v": "EC-800",
+                "vt": "str"
+            },
+            {
+                "p": "deviceCreationTime",
+                "v": "2018-08-23",
+                "vt": "str"
+            },
+            {
+                "p": "deviceLocation",
+                "v": "Sydney",
+                "vt": "str"
+            },
+            {
+                "p": "deviceHealthStatus",
+                "v": "Healthy",
+                "vt": "str"
+            },
+            {
+                "p": "deviceDescription",
+                "v": "This is an alarm device in Sydney University",
+                "vt": "str"
+            },
+            {
+                "p": "deviceImage",
+                "v": "https://simocowirelesssolutions.com/wp-content/uploads/2021/07/Velocity-600x600-1.jpg",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 120,
+        "y": 320,
+        "wires": [
+            [
+                "7f6375a8f6eca578"
+            ]
+        ]
+    },
+    {
+        "id": "80e10f5157343e1a",
+        "type": "flexdash custom",
+        "z": "7d1f82b240d34d71",
+        "g": "2eaa55a3838d35fd",
+        "name": "Device Info widget",
+        "import_map": {
+            "": ""
+        },
+        "sfc_source": "<template>\n  <v-card :loading=\"loading\" class=\"mx-auto my-12\" height=\"100%\" width=\"100%\">\n    <template v-slot:loader=\"{ isActive }\">\n      <v-progress-linear :active=\"isActive\" color=\"deep-purple\" height=\"4\" indeterminate></v-progress-linear>\n    </template>\n\n    <v-img cover height=\"300\" :src=deviceImage></v-img>\n\n    <v-card-item>\n      <v-card-title>{{this.deviceName }} {{ this.deviceNumber }}</v-card-title>\n      <div class=\"text-subtitle-1\">\n        <span class=\"me-1\">{{this.deviceDescription}}</span>\n      </div>\n    </v-card-item>\n    <v-list disabled>\n      <v-list-item v-for=\"(item, i) in computedItems\" :key=\"i\" :value=\"item\" color=\"primary\" rounded=\"shaped\">\n        <div class=\"d-flex align-center justify-space-between\">\n          <div class=\"d-flex align-center\">\n            <v-icon :icon=\"item.icon\" size=\"small\"></v-icon>\n            <v-list-item-title v-text=\"item.text\" class=\"pl-4\"></v-list-item-title>\n          </div>\n          <div class=\"text-subtitle-1\">{{ item.value }}</div>\n        </div>\n      </v-list-item>\n    </v-list>\n  </v-card>\n</template>\n\n<script>\n  export default {\n  props: {\n    payload: { type: Object, default: null },\n    deviceImage: { type: String, default: \"https://cdn.vuetifyjs.com/images/cards/cooking.png\" },\n    deviceName: { type: String, default: \"Device\" },\n    deviceNumber: { type: String, default: 0, tip: \"device serial number\" },\n    deviceDescription: { type: String, default: \"Device\" },\n    deviceLocation: { type: String, default: \"\" },\n    deviceCreationTime: { type: String, default: 0 },\n    deviceHealthStatus: { type: String, default: \"Healthy\" },\n  },\n\n  data: () => ({\n    loading: false,\n    selection: 1,\n  }),\n\n  computed: {\n    computedItems() {\n      const items = [\n        { text: \"Name\", icon: \"mdi-devices\", value: this.deviceNumber},\n        { text: \"Location\", icon: \"mdi-map-marker\", value: this.deviceLocation },\n        {\n          text: \"Installation date\",\n          icon: \"mdi-calendar-range\",\n          value: this.deviceCreationTime,\n        },\n        {\n          text: \"Health Status\",\n          icon: \"mdi-heart-pulse\",\n          value: this.deviceHealthStatus,\n        },\n      ];\n      return items;\n    },\n  },\n\n  methods: {\n    reserve() {\n      this.loading = true;\n\n      setTimeout(() => (this.loading = false), 2000);\n    },\n  },\n};\n</script>",
+        "fd_container": "b55ad710670cabdb",
+        "fd_cols": 3,
+        "fd_rows": 7,
+        "fd_array": false,
+        "fd_array_max": 10,
+        "x": 330,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2a296ec9266ecc2f",
+        "type": "inject",
+        "z": "7d1f82b240d34d71",
+        "g": "2eaa55a3838d35fd",
+        "name": "Device 3",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "deviceName",
+                "v": "Velocity ",
+                "vt": "str"
+            },
+            {
+                "p": "deviceNumber",
+                "v": "EC-800",
+                "vt": "str"
+            },
+            {
+                "p": "deviceCreationTime",
+                "v": "2018-08-23",
+                "vt": "str"
+            },
+            {
+                "p": "deviceLocation",
+                "v": "Brisbane",
+                "vt": "str"
+            },
+            {
+                "p": "deviceHealthStatus",
+                "v": "Healthy",
+                "vt": "str"
+            },
+            {
+                "p": "deviceDescription",
+                "v": "This is an alarm device in Brisbane",
+                "vt": "str"
+            },
+            {
+                "p": "deviceImage",
+                "v": "https://simocowirelesssolutions.com/wp-content/uploads/2021/07/Velocity-600x600-1.jpg",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 120,
+        "y": 380,
+        "wires": [
+            [
+                "80e10f5157343e1a"
+            ]
         ]
     },
     {
@@ -664,25 +1053,8 @@
         "x": 340,
         "y": 460,
         "wires": [
-            [
-                "a364fe92f5704b0b"
-            ]
+            []
         ]
-    },
-    {
-        "id": "a364fe92f5704b0b",
-        "type": "debug",
-        "z": "7ca0877022020e2a",
-        "g": "c5bebc746873d273",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "x": 530,
-        "y": 460,
-        "wires": []
     },
     {
         "id": "246940e1f1272419",
@@ -744,53 +1116,6 @@
         "x": 260,
         "y": 580,
         "wires": []
-    },
-    {
-        "id": "61e8d4d3c2ce674c",
-        "type": "change",
-        "z": "7ca0877022020e2a",
-        "g": "c5bebc746873d273",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "reset",
-                "pt": "flow",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 810,
-        "y": 540,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "51397cae17b8519c",
-        "type": "function",
-        "z": "7ca0877022020e2a",
-        "g": "c5bebc746873d273",
-        "name": " Return Function",
-        "func": "\nreturn msg;",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 640,
-        "y": 620,
-        "wires": [
-            [
-                "fa09142594f65ad3"
-            ]
-        ]
     },
     {
         "id": "c39562961a6fc182",
@@ -1172,36 +1497,6 @@
         "wires": []
     },
     {
-        "id": "fa09142594f65ad3",
-        "type": "fd-toggle",
-        "z": "7ca0877022020e2a",
-        "g": "c5bebc746873d273",
-        "fd_container": "eec937d7b14488a6",
-        "fd_cols": 1,
-        "fd_rows": 1,
-        "fd_array": false,
-        "fd_array_max": 10,
-        "fd_output_topic": "",
-        "fd_loopback": false,
-        "name": "on/off reset",
-        "title": "Reset",
-        "popup_info": "",
-        "value": "",
-        "enabled": true,
-        "color": "",
-        "on_value": "RESET",
-        "off_value": "OFF",
-        "show_value": true,
-        "x": 630,
-        "y": 540,
-        "wires": [
-            [
-                "61e8d4d3c2ce674c",
-                "51397cae17b8519c"
-            ]
-        ]
-    },
-    {
         "id": "6c94903ba2c673aa",
         "type": "debug",
         "z": "7ca0877022020e2a",
@@ -1218,6 +1513,112 @@
         "x": 590,
         "y": 360,
         "wires": []
+    },
+    {
+        "id": "d2be6a8afe0a58e7",
+        "type": "change",
+        "z": "7ca0877022020e2a",
+        "g": "c5bebc746873d273",
+        "name": "change flow reset value",
+        "rules": [
+            {
+                "t": "set",
+                "p": "reset",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 770,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "657b2dbdab740345",
+        "type": "function",
+        "z": "7ca0877022020e2a",
+        "g": "c5bebc746873d273",
+        "name": " ",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 525,
+        "y": 540,
+        "wires": [
+            [
+                "d4f8f3316fa44251"
+            ]
+        ],
+        "icon": "node-red/arrow-in.svg",
+        "l": false
+    },
+    {
+        "id": "701862db58ce06dc",
+        "type": "fd-push-button",
+        "z": "7ca0877022020e2a",
+        "g": "c5bebc746873d273",
+        "fd_container": "eec937d7b14488a6",
+        "fd_cols": "3",
+        "fd_rows": 1,
+        "fd_array": false,
+        "fd_array_max": 10,
+        "fd_output_topic": "",
+        "fd_loopback": false,
+        "name": "restart metrics",
+        "title": "reset metric",
+        "popup_info": "",
+        "enabled": "true",
+        "color": "green-lighten-3",
+        "output_value": "Monitor:OFF",
+        "icon": "",
+        "x": 540,
+        "y": 580,
+        "wires": [
+            [
+                "d2be6a8afe0a58e7"
+            ]
+        ]
+    },
+    {
+        "id": "d4f8f3316fa44251",
+        "type": "fd-toggle",
+        "z": "7ca0877022020e2a",
+        "g": "c5bebc746873d273",
+        "fd_container": "eec937d7b14488a6",
+        "fd_cols": "3",
+        "fd_rows": 1,
+        "fd_array": false,
+        "fd_array_max": 10,
+        "fd_output_topic": "",
+        "fd_loopback": false,
+        "name": "on/off reset",
+        "title": "Device Monitoring",
+        "popup_info": "",
+        "value": "",
+        "enabled": true,
+        "color": "green-lighten-3",
+        "on_value": "Monitor:ON",
+        "off_value": "Monitor:OFF",
+        "show_value": true,
+        "x": 550,
+        "y": 460,
+        "wires": [
+            [
+                "d2be6a8afe0a58e7",
+                "657b2dbdab740345"
+            ]
+        ]
     },
     {
         "id": "27e61f12.c1a15",
@@ -1793,6 +2194,281 @@
                 "b71f1b12fd7a1d9c"
             ]
         ]
+    },
+    {
+        "id": "54f79f07dc20c956",
+        "type": "inject",
+        "z": "ef8739be854896a4",
+        "g": "80eb3268ec88e507",
+        "name": "Refresh per hour",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "3600",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "2",
+        "topic": "Refresh per hour",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 170,
+        "y": 800,
+        "wires": [
+            [
+                "0c92723a3a3424a5",
+                "fb9282a00e71c234"
+            ]
+        ]
+    },
+    {
+        "id": "0c92723a3a3424a5",
+        "type": "openweathermap",
+        "z": "ef8739be854896a4",
+        "g": "80eb3268ec88e507",
+        "name": "Current Weather",
+        "wtype": "current",
+        "lon": "",
+        "lat": "",
+        "city": "Melbourne",
+        "country": "AU",
+        "language": "en",
+        "x": 380,
+        "y": 740,
+        "wires": [
+            [
+                "e0c9c9cab4044efa"
+            ]
+        ]
+    },
+    {
+        "id": "fb9282a00e71c234",
+        "type": "openweathermap",
+        "z": "ef8739be854896a4",
+        "g": "80eb3268ec88e507",
+        "name": "5 Day Forecast",
+        "wtype": "forecast",
+        "lon": "",
+        "lat": "",
+        "city": "Melbourne",
+        "country": "AU",
+        "language": "en",
+        "x": 380,
+        "y": 920,
+        "wires": [
+            [
+                "9be9253cea9aa492"
+            ]
+        ]
+    },
+    {
+        "id": "c1fdc87d4ab8e430",
+        "type": "flexdash custom",
+        "z": "ef8739be854896a4",
+        "g": "80eb3268ec88e507",
+        "name": "weather report widget",
+        "sfc_source": "<template>\n  <v-card class=\"mx-auto\" max-width=\"420\" width=\"100%\" height=\"100%\">\n    <v-card-item :title=\"city\">\n      <template v-if=\"isExtremeWether\" v-slot:subtitle>\n        <v-icon icon=\"mdi-alert\" size=\"18\" color=\"error\" class=\"me-1 pb-1\"></v-icon>\n        Extreme Weather Alert\n      </template>\n      <template v-else v-slot:subtitle>\n        {{ weather }}\n      </template>\n    </v-card-item>\n\n    <v-card-text class=\"py-0\">\n      <v-row align=\"center\" no-gutters>\n        <v-col class=\"text-h2\" cols=\"6\"> {{ tempc }} &deg;C </v-col>\n\n        <v-col cols=\"6\" class=\"text-right\">\n          <v-icon color=\"error\" :icon=\"customWeatherIcon\" size=\"88\"></v-icon>\n        </v-col>\n      </v-row>\n    </v-card-text>\n\n    <div class=\"d-flex py-3 justify-space-between\">\n      <v-list-item density=\"compact\" prepend-icon=\"mdi-weather-windy\">\n        <v-list-item-subtitle>{{ windspeed }} m/s</v-list-item-subtitle>\n      </v-list-item>\n\n      <v-list-item density=\"compact\" prepend-icon=\"mdi-water-percent\">\n        <v-list-item-subtitle>{{ humidity }}%</v-list-item-subtitle>\n      </v-list-item>\n    </div>\n\n    <div class=\"py-4\">\n      <v-slider v-model=\"selectedDay\" :max=\"5\" :step=\"1\" :ticks=\"weatherFullReportLabels\" class=\"mx-4\" color=\"primary\"\n        density=\"compact\" hide-details show-ticks=\"always\" thumb-size=\"8\" @click=\"sliderClickHander\"></v-slider>\n    </div>\n\n    <v-list class=\"weather-forecast-5-days bg-transparent\">\n      <v-list-item v-for=\"item in weatherFullReportInDays\" :key=\"item.day\" :value=\"item\" class=\"py-2\">\n        <div class=\"d-flex align-center justify-space-between\">\n          <span class=\"text-subtitle-1\">{{ item.day }}</span>\n\n          <div class=\"weather-condition d-flex align-center justify-space-between\">\n            <v-list-item-title>\n              <v-icon :icon=\"item.icon\" color=\"error\" size=\"small\"></v-icon>\n              <span class=\"pl-4\">{{ item.temp }}</span>\n            </v-list-item-title>\n            <div class=\"text-body-2\">{{ item.weatherDescription }}</div>\n          </div>\n        </div>\n      </v-list-item>\n    </v-list>\n  </v-card>\n</template>\n\n<style scoped>\n  .weather-forecast-5-days .weather-condition {\n    flex-basis: 78%;\n  }\n</style>\n\n<script>\n  export default {\n  props: {\n    payload: { type: Object, default: null },\n    weatherFullReportLabels: {\n      type: Object,\n      default: {\n        \"0\": \"Sun\",\n        \"1\": \"Mon\",\n        \"2\": \"Tue\",\n        \"3\": \"Wes\",\n        \"4\": \"Thu\",\n        \"5\": \"Fri\"\n      }\n    },\n    weatherFullReportInDays: {\n      type: Array,\n      default: [\n        {\n          day: \"Sun\",\n          icon: \"mdi-weather-sunny\",\n          temp: \"18.01 / 16.92°C\",\n          temp_min: 16.92,\n          temp_max: 18.01,\n          weatherDescription: \"clear sky\",\n          weather: \"Clear\"\n        }\n      ]\n    },\n    city: { type: String, default: \"Melbourne\" },\n    weather: { type: String, default: \"\" },\n    weatherDetail: { type: String, default: \"\" },\n    windspeed: { type: Number, default: 0, tip: \"wind speed\" },\n    humidity: { type: Number, default: 0 },\n    tempc: { type: Number, default: 0 },\n    temp_maxc: { type: Number, default: 0 },\n    temp_min: { type: Number, default: 0 }\n  },\n\n  data: () => ({\n  }),\n\n  methods: {\n    sliderClickHander() {\n      console.log(this.selectedDay);\n    }\n  },\n\n  computed: {\n    selectedDay() {\n      console.log(this.city,\" this.city\");\n      return new Date().getDay();\n    },\n    isExtremeWether() {\n      return this.tempc > 35 || this.tempc < 10;\n    },\n    customWeatherIcon() {\n      let weatherIcon = \"\";\n      switch (this.weather) {\n        case \"Clouds\":\n          weatherIcon = \"mdi-weather-cloudy\";\n          break;\n        case \"Snow\":\n          weatherIcon = \"mdi-weather-snowy\";\n          break;\n        case \"Rain\":\n          weatherIcon = \"mdi-weather-rainy\";\n          break;\n        case \"Clear\":\n          weatherIcon = \"mdi-weather-sunny\";\n          break;\n        case \"Wind\":\n          weatherIcon = \"mdi-weather-windy\";\n          break;\n        default:\n          weatherIcon = \"mdi-weather-sunny\";\n      }\n      return weatherIcon;\n    }\n  }\n};\n</script>",
+        "fd_container": "e835914f613f0649",
+        "fd_cols": 3,
+        "fd_rows": 7,
+        "fd_array": false,
+        "fd_array_max": 10,
+        "x": 1100,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e0c9c9cab4044efa",
+        "type": "function",
+        "z": "ef8739be854896a4",
+        "g": "80eb3268ec88e507",
+        "name": "transform weather report data",
+        "func": "msg.city = msg.payload.location;\nmsg.weather = msg.payload.weather;\nmsg.weatherDetail = msg.payload.detail;\nmsg.windspeed = msg.payload.windspeed;\nmsg.humidity = msg.payload.humidity;\nmsg.tempc = msg.payload.tempc;\nmsg.temp_maxc = msg.payload.temp_maxc;\nmsg.temp_min = msg.payload.temp_min;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 740,
+        "wires": [
+            [
+                "c1fdc87d4ab8e430",
+                "b039767b3b60fd7f"
+            ]
+        ]
+    },
+    {
+        "id": "9be9253cea9aa492",
+        "type": "function",
+        "z": "ef8739be854896a4",
+        "g": "80eb3268ec88e507",
+        "name": "transform forecast data",
+        "func": "/*\nUsed for weather trend time plot\n### Public method\nreturn type: Array\n[\n  [ 1702774800, 18.01 ], [ 1702785600, 17.23 ],\n  [ 1702796400, 16.59 ], [ 1702807200, 19.67 ],\n]\n*/\nfunction transformWeatherResponseForWeatherTrendsInDays(fullDataInDays) {\n  const transformedData = fullDataInDays.map(\n    transformWeatherResponseToTimestampArrary\n  );\n  return transformedData;\n}\n\n/*\nUsed for weather 5 days forecast full report\n### Public method \nexpected input type: Array[ \n  {\n    \"dt\": 1702814400,\n    \"main\": {\n      \"temp\": 18.01,\n      \"feels_like\": 17.59,\n      \"temp_min\": 16.92,\n      \"temp_max\": 18.01,\n      \"pressure\": 1014,\n      \"sea_level\": 1014,\n      \"grnd_level\": 1010,\n      \"humidity\": 66,\n      \"temp_kf\": 1.09\n    },\n    \"weather\": [\n      { \"id\": 800, \"main\": \"Clear\", \"description\": \"clear sky\", \"icon\": \"01n\" }\n    ],\n    \"clouds\": { \"all\": 0 },\n    \"wind\": { \"speed\": 1.99, \"deg\": 210, \"gust\": 2.5 },\n    \"visibility\": 10000,\n    \"pop\": 0,\n    \"sys\": { \"pod\": \"n\" },\n    \"dt_txt\": \"2023-12-17 12:00:00\"\n  }, ......\n] \n\nexpected return type: Array [\n  {\n    day: 'Sun',\n    icon: 'mdi-weather-sunny',\n    temp: '18.01 / 16.92°C',\n    temp_min: 16.92,\n    temp_max: 18.01,\n    weatherDescription: 'clear sky',\n    weather: 'Clear'\n  },\n  ...\n]\n*/\nfunction getWeatherForecastDataIndaysFromOriginResponse(fullDataInDays) {\n  const maxMinTempBelongsToOneDay =\n    findOutMaxMinTempBelongsToOneDay(fullDataInDays);\n  return transformForecastData(maxMinTempBelongsToOneDay);\n}\n\n/*\nUsed for weather 5 days full report labels\n### Public method \nexpected input type: Array[ \n  {\n    \"dt\": 1702814400,\n    \"main\": {\n      \"temp\": 18.01,\n      \"feels_like\": 17.59,\n      \"temp_min\": 16.92,\n      \"temp_max\": 18.01,\n      \"pressure\": 1014,\n      \"sea_level\": 1014,\n      \"grnd_level\": 1010,\n      \"humidity\": 66,\n      \"temp_kf\": 1.09\n    },\n    \"weather\": [\n      { \"id\": 800, \"main\": \"Clear\", \"description\": \"clear sky\", \"icon\": \"01n\" }\n    ],\n    \"clouds\": { \"all\": 0 },\n    \"wind\": { \"speed\": 1.99, \"deg\": 210, \"gust\": 2.5 },\n    \"visibility\": 10000,\n    \"pop\": 0,\n    \"sys\": { \"pod\": \"n\" },\n    \"dt_txt\": \"2023-12-17 12:00:00\"\n  }, ......\n] \nexpected return type: Object{\n      \"0\": \"Sun\",\n      \"1\": \"Mon\",\n      \"2\": \"Tue\",\n      \"3\": \"Wes\",\n      \"4\": \"Thu\",\n      \"5\": \"Fri\"\n    }\n*/\nfunction getWeatherLabelsForDifferentDays(fullDataInDays) {\n  const weatherDataInObjectForEachDay =\n    findOutMaxMinTempBelongsToOneDay(fullDataInDays);\n  const labels = Object.keys(weatherDataInObjectForEachDay).reduce(\n    (acc, day, currentIndex) => {\n      acc[currentIndex] = day;\n      return acc;\n    },\n    {}\n  );\n  return labels;\n}\n\n//Private method\nfunction transformWeatherResponseToTimestampArrary(item) {\n  const weatherDateTime = item.dt_txt;\n  const weatherTimeStamp = new Date(weatherDateTime).valueOf() / 1000;\n  const weatherTempFeelsLike = item.main.feels_like;\n  const weatherTempMin = item.main.temp_min;\n  const weatherTempMax = item.main.temp_max;\n  const weatherTemp = item.main.temp;\n  return [weatherTimeStamp, weatherTemp];\n}\n\n/*\nPrivate method\nexpect input type: FullDataInDays\n\nexpected return type:\nObject {\n  Sun: {\n    max: 18.01,\n    min: 16.92,\n    weather: \"Clear\",\n    weatherDescription: \"clear sky\",\n    weatherDateTime: \"2023-12-17 12:00:00z\"\n  },\n  Mon: {\n    max: 31.17,\n    min: 15.68,\n    weather: \"Clouds\",\n    weatherDescription: \"scattered clouds\",\n    weatherDateTime: \"2023-12-17 15:00:00z\"\n  }\n};\n*/\nfunction findOutMaxMinTempBelongsToOneDay(fullDataInDays) {\n  const daysMapping = {\n    0: \"Sun\",\n    1: \"Mon\",\n    2: \"Tue\",\n    3: \"Wed\",\n    4: \"Thu\",\n    5: \"Fri\",\n    6: \"Sat\"\n  };\n\n  const dataGroupInDifferentDays = fullDataInDays.reduce((acc, item) => {\n    //add timezone to date\n    const weatherDateTime = item.dt_txt + \"z\";\n    const weatherDayInNumber = new Date(weatherDateTime).getDay();\n    const dayName = daysMapping[weatherDayInNumber];\n    if (acc[dayName] === undefined) {\n      acc[dayName] = {\n        max: item.main.temp_max,\n        min: item.main.temp_min,\n        weather: item.weather[0].main,\n        weatherDescription: item.weather[0].description,\n        weatherDateTime\n      };\n    } else {\n      if (item.main.temp_max > acc[dayName].max) {\n        acc[dayName].max = item.main.temp_max;\n      }\n\n      if (item.main.temp_min < acc[dayName].min) {\n        acc[dayName].min = item.main.temp_min;\n      }\n    }\n    return acc;\n  }, {});\n\n  return dataGroupInDifferentDays;\n}\n\n//Private method\nfunction customWeatherIcon(weather) {\n  let weatherIcon = \"\";\n  switch (weather) {\n    case \"Clouds\":\n      weatherIcon = \"mdi-weather-cloudy\";\n      break;\n    case \"Snow\":\n      weatherIcon = \"mdi-weather-snowy\";\n      break;\n    case \"Rain\":\n      weatherIcon = \"mdi-weather-rainy\";\n      break;\n    case \"Clear\":\n      weatherIcon = \"mdi-weather-sunny\";\n      break;\n    case \"Wind\":\n      weatherIcon = \"mdi-weather-windy\";\n      break;\n    default:\n      weatherIcon = \"mdi-weather-sunny\";\n  }\n  return weatherIcon;\n}\n\n/*\n//Private method\nexpected input type: Object {\n  Sun: {\n    max: 18.01,\n    min: 16.92,\n    weather: \"Clear\",\n    weatherDescription: \"clear sky\",\n    weatherDateTime: \"2023-12-17 12:00:00z\"\n  } ....\n} \n\nexpected return type: Array [\n  {\n    day: 'Sun',\n    icon: 'mdi-weather-sunny',\n    temp: '18.01 / 16.92°C',\n    temp_min: 16.92,\n    temp_max: 18.01,\n    weatherDescription: 'clear sky',\n    weather: 'Clear'\n  },\n  {\n    day: 'Mon',\n    icon: 'mdi-weather-cloudy',\n    temp: '31.17 / 15.68°C',\n    temp_min: 15.68,\n    temp_max: 31.17,\n    weatherDescription: 'scattered clouds',\n    weather: 'Clouds'\n  }\n]\n*/\nfunction transformForecastData(originalTempDataWithMinMax) {\n  return Object.keys(originalTempDataWithMinMax).map((day) => {\n    const icon = customWeatherIcon(originalTempDataWithMinMax[day].weather);\n    const temp_min = originalTempDataWithMinMax[day].min;\n    const temp_max = originalTempDataWithMinMax[day].max;\n    const temp = temp_max + \" / \" + temp_min + \"\\u00B0C\";\n    return {\n      day,\n      icon,\n      temp,\n      temp_min,\n      temp_max,\n      weatherDescription: originalTempDataWithMinMax[day].weatherDescription,\n      weather: originalTempDataWithMinMax[day].weather\n    };\n  });\n}\n\n/*\nNode-Red specific code\nconst fullDataInDays = msg.payload;\n*/\nconst fullDataInDays = msg.payload;\n// const fullDataInDays = fiveDaysMelboure;\nconst weatherSeriesData =\n  transformWeatherResponseForWeatherTrendsInDays(fullDataInDays);\nconst weatherFullReportInDays =\n  getWeatherForecastDataIndaysFromOriginResponse(fullDataInDays);\n\nconst weatherFullReportLabels =\n  getWeatherLabelsForDifferentDays(fullDataInDays);\n\nconsole.log(\"weatherSeriesData\", weatherSeriesData);\nconsole.log(\"weatherFullReportInDays\", weatherFullReportInDays);\nconsole.log(\"weatherFullReportLabels\", weatherFullReportLabels);\n\n/*\nNode-Red specific code\n*/\nmsg = {\n  payload: {\n    weatherSeriesData,\n    weatherFullReportInDays,\n    weatherFullReportLabels\n  },\n  city: msg.data.city.name\n};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 920,
+        "wires": [
+            [
+                "e5ebabf8867f2253",
+                "94aa2ccdb054f6d3"
+            ]
+        ]
+    },
+    {
+        "id": "e5ebabf8867f2253",
+        "type": "function",
+        "z": "ef8739be854896a4",
+        "g": "80eb3268ec88e507",
+        "name": "filter series data",
+        "func": "msg = {\n    payload: msg.payload.weatherSeriesData,\n    title:  msg.city+ \" 5 days forecast\"\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 1020,
+        "wires": [
+            [
+                "ac1050bdfb296f26"
+            ]
+        ]
+    },
+    {
+        "id": "94aa2ccdb054f6d3",
+        "type": "function",
+        "z": "ef8739be854896a4",
+        "g": "80eb3268ec88e507",
+        "name": "filter full report data",
+        "func": "msg.weatherFullReportInDays = msg.payload.weatherFullReportInDays;\nmsg.weatherFullReportLabels = msg.payload.weatherFullReportLabels;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 880,
+        "wires": [
+            [
+                "c1fdc87d4ab8e430"
+            ]
+        ]
+    },
+    {
+        "id": "ce6c68ed96f7201a",
+        "type": "inject",
+        "z": "ef8739be854896a4",
+        "g": "80eb3268ec88e507",
+        "name": "Inject other data for 5 days forecast",
+        "props": [
+            {
+                "p": "widths",
+                "v": "[3]",
+                "vt": "json"
+            },
+            {
+                "p": "span_gaps",
+                "v": "[true]",
+                "vt": "json"
+            },
+            {
+                "p": "colors",
+                "v": "[\"orange\"]",
+                "vt": "json"
+            },
+            {
+                "p": "labels",
+                "v": "[\"Temperature UTC\"]",
+                "vt": "str"
+            },
+            {
+                "p": "left_unit",
+                "v": "\\u00B0C",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 810,
+        "y": 1140,
+        "wires": [
+            [
+                "ac1050bdfb296f26"
+            ]
+        ]
+    },
+    {
+        "id": "ac1050bdfb296f26",
+        "type": "fd-time-plot",
+        "z": "ef8739be854896a4",
+        "g": "80eb3268ec88e507",
+        "fd_container": "e835914f613f0649",
+        "fd_cols": "6",
+        "fd_rows": "3",
+        "fd_array": false,
+        "fd_array_max": 10,
+        "name": "5 days forecast trend widget",
+        "title": "5 days forecast",
+        "popup_info": "",
+        "data": "",
+        "labels": [],
+        "colors": [],
+        "axes": [],
+        "widths": [],
+        "points": null,
+        "span_gaps": [],
+        "left_unit": "",
+        "left_min": null,
+        "left_max": null,
+        "left_decimals": 1,
+        "left_isoprefix": false,
+        "left_log": false,
+        "right_unit": "",
+        "right_min": null,
+        "right_max": null,
+        "right_decimals": 1,
+        "right_isoprefix": false,
+        "right_log": false,
+        "reverse_legend": false,
+        "x": 1140,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "b039767b3b60fd7f",
+        "type": "debug",
+        "z": "ef8739be854896a4",
+        "g": "80eb3268ec88e507",
+        "name": "debug 31",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 800,
+        "wires": []
     },
     {
         "id": "fced9681f082291f",
@@ -2945,6 +3621,281 @@
         ]
     },
     {
+        "id": "236ef0baa700e6ac",
+        "type": "inject",
+        "z": "9f7d8463b4050bdd",
+        "g": "48c022e0110ee1e7",
+        "name": "Refresh per hour",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "3600",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "2",
+        "topic": "Refresh per hour",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 150,
+        "y": 800,
+        "wires": [
+            [
+                "90ce23bfe53567a6",
+                "83f285170395537d"
+            ]
+        ]
+    },
+    {
+        "id": "90ce23bfe53567a6",
+        "type": "openweathermap",
+        "z": "9f7d8463b4050bdd",
+        "g": "48c022e0110ee1e7",
+        "name": "Current Weather",
+        "wtype": "current",
+        "lon": "",
+        "lat": "",
+        "city": "Sydney",
+        "country": "AU",
+        "language": "en",
+        "x": 360,
+        "y": 740,
+        "wires": [
+            [
+                "14b7401b2c81c81a"
+            ]
+        ]
+    },
+    {
+        "id": "83f285170395537d",
+        "type": "openweathermap",
+        "z": "9f7d8463b4050bdd",
+        "g": "48c022e0110ee1e7",
+        "name": "5 Day Forecast",
+        "wtype": "forecast",
+        "lon": "",
+        "lat": "",
+        "city": "Sydney",
+        "country": "AU",
+        "language": "en",
+        "x": 360,
+        "y": 920,
+        "wires": [
+            [
+                "c41971c1e7b65928"
+            ]
+        ]
+    },
+    {
+        "id": "b21b2799754a0e9c",
+        "type": "flexdash custom",
+        "z": "9f7d8463b4050bdd",
+        "g": "48c022e0110ee1e7",
+        "name": "weather report widget",
+        "sfc_source": "<template>\n  <v-card class=\"mx-auto\" max-width=\"420\" width=\"100%\" height=\"100%\">\n    <v-card-item :title=\"city\">\n      <template v-if=\"isExtremeWether\" v-slot:subtitle>\n        <v-icon icon=\"mdi-alert\" size=\"18\" color=\"error\" class=\"me-1 pb-1\"></v-icon>\n        Extreme Weather Alert\n      </template>\n      <template v-else v-slot:subtitle>\n        {{ weather }}\n      </template>\n    </v-card-item>\n\n    <v-card-text class=\"py-0\">\n      <v-row align=\"center\" no-gutters>\n        <v-col class=\"text-h2\" cols=\"6\"> {{ tempc }} &deg;C </v-col>\n\n        <v-col cols=\"6\" class=\"text-right\">\n          <v-icon color=\"error\" :icon=\"customWeatherIcon\" size=\"88\"></v-icon>\n        </v-col>\n      </v-row>\n    </v-card-text>\n\n    <div class=\"d-flex py-3 justify-space-between\">\n      <v-list-item density=\"compact\" prepend-icon=\"mdi-weather-windy\">\n        <v-list-item-subtitle>{{ windspeed }} m/s</v-list-item-subtitle>\n      </v-list-item>\n\n      <v-list-item density=\"compact\" prepend-icon=\"mdi-water-percent\">\n        <v-list-item-subtitle>{{ humidity }}%</v-list-item-subtitle>\n      </v-list-item>\n    </div>\n\n    <div class=\"py-4\">\n      <v-slider v-model=\"selectedDay\" :max=\"5\" :step=\"1\" :ticks=\"weatherFullReportLabels\" class=\"mx-4\" color=\"primary\"\n        density=\"compact\" hide-details show-ticks=\"always\" thumb-size=\"8\" @click=\"sliderClickHander\"></v-slider>\n    </div>\n\n    <v-list class=\"weather-forecast-5-days bg-transparent\">\n      <v-list-item v-for=\"item in weatherFullReportInDays\" :key=\"item.day\" :value=\"item\" class=\"py-2\">\n        <div class=\"d-flex align-center justify-space-between\">\n          <span class=\"text-subtitle-1\">{{ item.day }}</span>\n\n          <div class=\"weather-condition d-flex align-center justify-space-between\">\n            <v-list-item-title>\n              <v-icon :icon=\"item.icon\" color=\"error\" size=\"small\"></v-icon>\n              <span class=\"pl-4\">{{ item.temp }}</span>\n            </v-list-item-title>\n            <div class=\"text-body-2\">{{ item.weatherDescription }}</div>\n          </div>\n        </div>\n      </v-list-item>\n    </v-list>\n  </v-card>\n</template>\n\n<style scoped>\n  .weather-forecast-5-days .weather-condition {\n    flex-basis: 78%;\n  }\n</style>\n\n<script>\n  export default {\n  props: {\n    payload: { type: Object, default: null },\n    weatherFullReportLabels: {\n      type: Object,\n      default: {\n        \"0\": \"Sun\",\n        \"1\": \"Mon\",\n        \"2\": \"Tue\",\n        \"3\": \"Wes\",\n        \"4\": \"Thu\",\n        \"5\": \"Fri\"\n      }\n    },\n    weatherFullReportInDays: {\n      type: Array,\n      default: [\n        {\n          day: \"Sun\",\n          icon: \"mdi-weather-sunny\",\n          temp: \"18.01 / 16.92°C\",\n          temp_min: 16.92,\n          temp_max: 18.01,\n          weatherDescription: \"clear sky\",\n          weather: \"Clear\"\n        }\n      ]\n    },\n    city: { type: String, default: \"Melbourne\" },\n    weather: { type: String, default: \"\" },\n    weatherDetail: { type: String, default: \"\" },\n    windspeed: { type: Number, default: 0, tip: \"wind speed\" },\n    humidity: { type: Number, default: 0 },\n    tempc: { type: Number, default: 0 },\n    temp_maxc: { type: Number, default: 0 },\n    temp_min: { type: Number, default: 0 }\n  },\n\n  data: () => ({\n  }),\n\n  methods: {\n    sliderClickHander() {\n      console.log(this.selectedDay);\n    }\n  },\n\n  computed: {\n    selectedDay() {\n      console.log(this.city,\" this.city\");\n      return new Date().getDay();\n    },\n    isExtremeWether() {\n      return this.tempc > 35 || this.tempc < 10;\n    },\n    customWeatherIcon() {\n      let weatherIcon = \"\";\n      switch (this.weather) {\n        case \"Clouds\":\n          weatherIcon = \"mdi-weather-cloudy\";\n          break;\n        case \"Snow\":\n          weatherIcon = \"mdi-weather-snowy\";\n          break;\n        case \"Rain\":\n          weatherIcon = \"mdi-weather-rainy\";\n          break;\n        case \"Clear\":\n          weatherIcon = \"mdi-weather-sunny\";\n          break;\n        case \"Wind\":\n          weatherIcon = \"mdi-weather-windy\";\n          break;\n        default:\n          weatherIcon = \"mdi-weather-sunny\";\n      }\n      return weatherIcon;\n    }\n  }\n};\n</script>",
+        "fd_container": "17b567d94611a34e",
+        "fd_cols": 3,
+        "fd_rows": 7,
+        "fd_array": false,
+        "fd_array_max": 10,
+        "x": 1080,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "14b7401b2c81c81a",
+        "type": "function",
+        "z": "9f7d8463b4050bdd",
+        "g": "48c022e0110ee1e7",
+        "name": "transform weather report data",
+        "func": "msg.city = msg.payload.location;\nmsg.weather = msg.payload.weather;\nmsg.weatherDetail = msg.payload.detail;\nmsg.windspeed = msg.payload.windspeed;\nmsg.humidity = msg.payload.humidity;\nmsg.tempc = msg.payload.tempc;\nmsg.temp_maxc = msg.payload.temp_maxc;\nmsg.temp_min = msg.payload.temp_min;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 740,
+        "wires": [
+            [
+                "b21b2799754a0e9c",
+                "ad7354dd247881a3"
+            ]
+        ]
+    },
+    {
+        "id": "c41971c1e7b65928",
+        "type": "function",
+        "z": "9f7d8463b4050bdd",
+        "g": "48c022e0110ee1e7",
+        "name": "transform forecast data",
+        "func": "/*\nUsed for weather trend time plot\n### Public method\nreturn type: Array\n[\n  [ 1702774800, 18.01 ], [ 1702785600, 17.23 ],\n  [ 1702796400, 16.59 ], [ 1702807200, 19.67 ],\n]\n*/\nfunction transformWeatherResponseForWeatherTrendsInDays(fullDataInDays) {\n  const transformedData = fullDataInDays.map(\n    transformWeatherResponseToTimestampArrary\n  );\n  return transformedData;\n}\n\n/*\nUsed for weather 5 days forecast full report\n### Public method \nexpected input type: Array[ \n  {\n    \"dt\": 1702814400,\n    \"main\": {\n      \"temp\": 18.01,\n      \"feels_like\": 17.59,\n      \"temp_min\": 16.92,\n      \"temp_max\": 18.01,\n      \"pressure\": 1014,\n      \"sea_level\": 1014,\n      \"grnd_level\": 1010,\n      \"humidity\": 66,\n      \"temp_kf\": 1.09\n    },\n    \"weather\": [\n      { \"id\": 800, \"main\": \"Clear\", \"description\": \"clear sky\", \"icon\": \"01n\" }\n    ],\n    \"clouds\": { \"all\": 0 },\n    \"wind\": { \"speed\": 1.99, \"deg\": 210, \"gust\": 2.5 },\n    \"visibility\": 10000,\n    \"pop\": 0,\n    \"sys\": { \"pod\": \"n\" },\n    \"dt_txt\": \"2023-12-17 12:00:00\"\n  }, ......\n] \n\nexpected return type: Array [\n  {\n    day: 'Sun',\n    icon: 'mdi-weather-sunny',\n    temp: '18.01 / 16.92°C',\n    temp_min: 16.92,\n    temp_max: 18.01,\n    weatherDescription: 'clear sky',\n    weather: 'Clear'\n  },\n  ...\n]\n*/\nfunction getWeatherForecastDataIndaysFromOriginResponse(fullDataInDays) {\n  const maxMinTempBelongsToOneDay =\n    findOutMaxMinTempBelongsToOneDay(fullDataInDays);\n  return transformForecastData(maxMinTempBelongsToOneDay);\n}\n\n/*\nUsed for weather 5 days full report labels\n### Public method \nexpected input type: Array[ \n  {\n    \"dt\": 1702814400,\n    \"main\": {\n      \"temp\": 18.01,\n      \"feels_like\": 17.59,\n      \"temp_min\": 16.92,\n      \"temp_max\": 18.01,\n      \"pressure\": 1014,\n      \"sea_level\": 1014,\n      \"grnd_level\": 1010,\n      \"humidity\": 66,\n      \"temp_kf\": 1.09\n    },\n    \"weather\": [\n      { \"id\": 800, \"main\": \"Clear\", \"description\": \"clear sky\", \"icon\": \"01n\" }\n    ],\n    \"clouds\": { \"all\": 0 },\n    \"wind\": { \"speed\": 1.99, \"deg\": 210, \"gust\": 2.5 },\n    \"visibility\": 10000,\n    \"pop\": 0,\n    \"sys\": { \"pod\": \"n\" },\n    \"dt_txt\": \"2023-12-17 12:00:00\"\n  }, ......\n] \nexpected return type: Object{\n      \"0\": \"Sun\",\n      \"1\": \"Mon\",\n      \"2\": \"Tue\",\n      \"3\": \"Wes\",\n      \"4\": \"Thu\",\n      \"5\": \"Fri\"\n    }\n*/\nfunction getWeatherLabelsForDifferentDays(fullDataInDays) {\n  const weatherDataInObjectForEachDay =\n    findOutMaxMinTempBelongsToOneDay(fullDataInDays);\n  const labels = Object.keys(weatherDataInObjectForEachDay).reduce(\n    (acc, day, currentIndex) => {\n      acc[currentIndex] = day;\n      return acc;\n    },\n    {}\n  );\n  return labels;\n}\n\n//Private method\nfunction transformWeatherResponseToTimestampArrary(item) {\n  const weatherDateTime = item.dt_txt;\n  const weatherTimeStamp = new Date(weatherDateTime).valueOf() / 1000;\n  const weatherTempFeelsLike = item.main.feels_like;\n  const weatherTempMin = item.main.temp_min;\n  const weatherTempMax = item.main.temp_max;\n  const weatherTemp = item.main.temp;\n  return [weatherTimeStamp, weatherTemp];\n}\n\n/*\nPrivate method\nexpect input type: FullDataInDays\n\nexpected return type:\nObject {\n  Sun: {\n    max: 18.01,\n    min: 16.92,\n    weather: \"Clear\",\n    weatherDescription: \"clear sky\",\n    weatherDateTime: \"2023-12-17 12:00:00z\"\n  },\n  Mon: {\n    max: 31.17,\n    min: 15.68,\n    weather: \"Clouds\",\n    weatherDescription: \"scattered clouds\",\n    weatherDateTime: \"2023-12-17 15:00:00z\"\n  }\n};\n*/\nfunction findOutMaxMinTempBelongsToOneDay(fullDataInDays) {\n  const daysMapping = {\n    0: \"Sun\",\n    1: \"Mon\",\n    2: \"Tue\",\n    3: \"Wed\",\n    4: \"Thu\",\n    5: \"Fri\",\n    6: \"Sat\"\n  };\n\n  const dataGroupInDifferentDays = fullDataInDays.reduce((acc, item) => {\n    //add timezone to date\n    const weatherDateTime = item.dt_txt + \"z\";\n    const weatherDayInNumber = new Date(weatherDateTime).getDay();\n    const dayName = daysMapping[weatherDayInNumber];\n    if (acc[dayName] === undefined) {\n      acc[dayName] = {\n        max: item.main.temp_max,\n        min: item.main.temp_min,\n        weather: item.weather[0].main,\n        weatherDescription: item.weather[0].description,\n        weatherDateTime\n      };\n    } else {\n      if (item.main.temp_max > acc[dayName].max) {\n        acc[dayName].max = item.main.temp_max;\n      }\n\n      if (item.main.temp_min < acc[dayName].min) {\n        acc[dayName].min = item.main.temp_min;\n      }\n    }\n    return acc;\n  }, {});\n\n  return dataGroupInDifferentDays;\n}\n\n//Private method\nfunction customWeatherIcon(weather) {\n  let weatherIcon = \"\";\n  switch (weather) {\n    case \"Clouds\":\n      weatherIcon = \"mdi-weather-cloudy\";\n      break;\n    case \"Snow\":\n      weatherIcon = \"mdi-weather-snowy\";\n      break;\n    case \"Rain\":\n      weatherIcon = \"mdi-weather-rainy\";\n      break;\n    case \"Clear\":\n      weatherIcon = \"mdi-weather-sunny\";\n      break;\n    case \"Wind\":\n      weatherIcon = \"mdi-weather-windy\";\n      break;\n    default:\n      weatherIcon = \"mdi-weather-sunny\";\n  }\n  return weatherIcon;\n}\n\n/*\n//Private method\nexpected input type: Object {\n  Sun: {\n    max: 18.01,\n    min: 16.92,\n    weather: \"Clear\",\n    weatherDescription: \"clear sky\",\n    weatherDateTime: \"2023-12-17 12:00:00z\"\n  } ....\n} \n\nexpected return type: Array [\n  {\n    day: 'Sun',\n    icon: 'mdi-weather-sunny',\n    temp: '18.01 / 16.92°C',\n    temp_min: 16.92,\n    temp_max: 18.01,\n    weatherDescription: 'clear sky',\n    weather: 'Clear'\n  },\n  {\n    day: 'Mon',\n    icon: 'mdi-weather-cloudy',\n    temp: '31.17 / 15.68°C',\n    temp_min: 15.68,\n    temp_max: 31.17,\n    weatherDescription: 'scattered clouds',\n    weather: 'Clouds'\n  }\n]\n*/\nfunction transformForecastData(originalTempDataWithMinMax) {\n  return Object.keys(originalTempDataWithMinMax).map((day) => {\n    const icon = customWeatherIcon(originalTempDataWithMinMax[day].weather);\n    const temp_min = originalTempDataWithMinMax[day].min;\n    const temp_max = originalTempDataWithMinMax[day].max;\n    const temp = temp_max + \" / \" + temp_min + \"\\u00B0C\";\n    return {\n      day,\n      icon,\n      temp,\n      temp_min,\n      temp_max,\n      weatherDescription: originalTempDataWithMinMax[day].weatherDescription,\n      weather: originalTempDataWithMinMax[day].weather\n    };\n  });\n}\n\n/*\nNode-Red specific code\nconst fullDataInDays = msg.payload;\n*/\nconst fullDataInDays = msg.payload;\n// const fullDataInDays = fiveDaysMelboure;\nconst weatherSeriesData =\n  transformWeatherResponseForWeatherTrendsInDays(fullDataInDays);\nconst weatherFullReportInDays =\n  getWeatherForecastDataIndaysFromOriginResponse(fullDataInDays);\n\nconst weatherFullReportLabels =\n  getWeatherLabelsForDifferentDays(fullDataInDays);\n\nconsole.log(\"weatherSeriesData\", weatherSeriesData);\nconsole.log(\"weatherFullReportInDays\", weatherFullReportInDays);\nconsole.log(\"weatherFullReportLabels\", weatherFullReportLabels);\n\n/*\nNode-Red specific code\n*/\nmsg = {\n  payload: {\n    weatherSeriesData,\n    weatherFullReportInDays,\n    weatherFullReportLabels\n  },\n  city: msg.data.city.name\n};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 920,
+        "wires": [
+            [
+                "2d7d6ff39c6f172d",
+                "0f2b56f6635019ad"
+            ]
+        ]
+    },
+    {
+        "id": "2d7d6ff39c6f172d",
+        "type": "function",
+        "z": "9f7d8463b4050bdd",
+        "g": "48c022e0110ee1e7",
+        "name": "filter series data",
+        "func": "msg = {\n    payload: msg.payload.weatherSeriesData,\n    title:  msg.city+ \" 5 days forecast\"\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 1020,
+        "wires": [
+            [
+                "158579e394c43fc9"
+            ]
+        ]
+    },
+    {
+        "id": "0f2b56f6635019ad",
+        "type": "function",
+        "z": "9f7d8463b4050bdd",
+        "g": "48c022e0110ee1e7",
+        "name": "filter full report data",
+        "func": "msg.weatherFullReportInDays = msg.payload.weatherFullReportInDays;\nmsg.weatherFullReportLabels = msg.payload.weatherFullReportLabels;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 880,
+        "wires": [
+            [
+                "b21b2799754a0e9c"
+            ]
+        ]
+    },
+    {
+        "id": "5e96bc443b668ebd",
+        "type": "inject",
+        "z": "9f7d8463b4050bdd",
+        "g": "48c022e0110ee1e7",
+        "name": "Inject other data for 5 days forecast",
+        "props": [
+            {
+                "p": "widths",
+                "v": "[3]",
+                "vt": "json"
+            },
+            {
+                "p": "span_gaps",
+                "v": "[true]",
+                "vt": "json"
+            },
+            {
+                "p": "colors",
+                "v": "[\"orange\"]",
+                "vt": "json"
+            },
+            {
+                "p": "labels",
+                "v": "[\"Temperature UTC\"]",
+                "vt": "str"
+            },
+            {
+                "p": "left_unit",
+                "v": "\\u00B0C",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 790,
+        "y": 1140,
+        "wires": [
+            [
+                "158579e394c43fc9"
+            ]
+        ]
+    },
+    {
+        "id": "158579e394c43fc9",
+        "type": "fd-time-plot",
+        "z": "9f7d8463b4050bdd",
+        "g": "48c022e0110ee1e7",
+        "fd_container": "17b567d94611a34e",
+        "fd_cols": "6",
+        "fd_rows": "3",
+        "fd_array": false,
+        "fd_array_max": 10,
+        "name": "5 days forecast trend widget",
+        "title": "5 days forecast",
+        "popup_info": "",
+        "data": "",
+        "labels": [],
+        "colors": [],
+        "axes": [],
+        "widths": [],
+        "points": null,
+        "span_gaps": [],
+        "left_unit": "",
+        "left_min": null,
+        "left_max": null,
+        "left_decimals": 1,
+        "left_isoprefix": false,
+        "left_log": false,
+        "right_unit": "",
+        "right_min": null,
+        "right_max": null,
+        "right_decimals": 1,
+        "right_isoprefix": false,
+        "right_log": false,
+        "reverse_legend": false,
+        "x": 1120,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "ad7354dd247881a3",
+        "type": "debug",
+        "z": "9f7d8463b4050bdd",
+        "g": "48c022e0110ee1e7",
+        "name": "debug 29",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 800,
+        "wires": []
+    },
+    {
         "id": "3427cbfea0edc842",
         "type": "inject",
         "z": "d08b8dbadb5935bb",
@@ -2958,7 +3909,7 @@
             },
             {
                 "p": "city",
-                "v": "Braisbane",
+                "v": "Brisbane",
                 "vt": "str"
             },
             {
@@ -3402,8 +4353,8 @@
         "z": "d08b8dbadb5935bb",
         "g": "384609e63dc0396a",
         "fd_container": "71ab2a3aff8e66bc",
-        "fd_cols": "3",
-        "fd_rows": "3",
+        "fd_cols": "2",
+        "fd_rows": "2",
         "fd_array": false,
         "fd_array_max": 10,
         "name": "Temperature",
@@ -3433,8 +4384,8 @@
         "z": "d08b8dbadb5935bb",
         "g": "384609e63dc0396a",
         "fd_container": "71ab2a3aff8e66bc",
-        "fd_cols": 3,
-        "fd_rows": 3,
+        "fd_cols": "2",
+        "fd_rows": "2",
         "fd_array": false,
         "fd_array_max": 10,
         "name": "Smokescope",
@@ -3464,8 +4415,8 @@
         "z": "d08b8dbadb5935bb",
         "g": "384609e63dc0396a",
         "fd_container": "71ab2a3aff8e66bc",
-        "fd_cols": "3",
-        "fd_rows": "3",
+        "fd_cols": "2",
+        "fd_rows": "2",
         "fd_array": false,
         "fd_array_max": 10,
         "name": "Humidity ",
@@ -3520,6 +4471,281 @@
         ]
     },
     {
+        "id": "9eb69df2af23039c",
+        "type": "inject",
+        "z": "d08b8dbadb5935bb",
+        "g": "acb7b0c87d617fb3",
+        "name": "Refresh per hour",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "3600",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "2",
+        "topic": "Refresh per hour",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 170,
+        "y": 780,
+        "wires": [
+            [
+                "dd96a1b7a3ef2575",
+                "5820566ef408c78d"
+            ]
+        ]
+    },
+    {
+        "id": "dd96a1b7a3ef2575",
+        "type": "openweathermap",
+        "z": "d08b8dbadb5935bb",
+        "g": "acb7b0c87d617fb3",
+        "name": "Current Weather",
+        "wtype": "current",
+        "lon": "",
+        "lat": "",
+        "city": "Brisbane",
+        "country": "AU",
+        "language": "en",
+        "x": 380,
+        "y": 720,
+        "wires": [
+            [
+                "be66ec6af0ebd96a"
+            ]
+        ]
+    },
+    {
+        "id": "5820566ef408c78d",
+        "type": "openweathermap",
+        "z": "d08b8dbadb5935bb",
+        "g": "acb7b0c87d617fb3",
+        "name": "5 Day Forecast",
+        "wtype": "forecast",
+        "lon": "",
+        "lat": "",
+        "city": "Brisbane",
+        "country": "AU",
+        "language": "en",
+        "x": 380,
+        "y": 900,
+        "wires": [
+            [
+                "64a681c1b7e1ee19"
+            ]
+        ]
+    },
+    {
+        "id": "d933ae7718c59d69",
+        "type": "flexdash custom",
+        "z": "d08b8dbadb5935bb",
+        "g": "acb7b0c87d617fb3",
+        "name": "weather report widget",
+        "sfc_source": "<template>\n  <v-card class=\"mx-auto\" max-width=\"420\" width=\"100%\" height=\"100%\">\n    <v-card-item :title=\"city\">\n      <template v-if=\"isExtremeWether\" v-slot:subtitle>\n        <v-icon icon=\"mdi-alert\" size=\"18\" color=\"error\" class=\"me-1 pb-1\"></v-icon>\n        Extreme Weather Alert\n      </template>\n      <template v-else v-slot:subtitle>\n        {{ weather }}\n      </template>\n    </v-card-item>\n\n    <v-card-text class=\"py-0\">\n      <v-row align=\"center\" no-gutters>\n        <v-col class=\"text-h2\" cols=\"6\"> {{ tempc }} &deg;C </v-col>\n\n        <v-col cols=\"6\" class=\"text-right\">\n          <v-icon color=\"error\" :icon=\"customWeatherIcon\" size=\"88\"></v-icon>\n        </v-col>\n      </v-row>\n    </v-card-text>\n\n    <div class=\"d-flex py-3 justify-space-between\">\n      <v-list-item density=\"compact\" prepend-icon=\"mdi-weather-windy\">\n        <v-list-item-subtitle>{{ windspeed }} m/s</v-list-item-subtitle>\n      </v-list-item>\n\n      <v-list-item density=\"compact\" prepend-icon=\"mdi-water-percent\">\n        <v-list-item-subtitle>{{ humidity }}%</v-list-item-subtitle>\n      </v-list-item>\n    </div>\n\n    <div class=\"py-4\">\n      <v-slider v-model=\"selectedDay\" :max=\"5\" :step=\"1\" :ticks=\"weatherFullReportLabels\" class=\"mx-4\" color=\"primary\"\n        density=\"compact\" hide-details show-ticks=\"always\" thumb-size=\"8\" @click=\"sliderClickHander\"></v-slider>\n    </div>\n\n    <v-list class=\"weather-forecast-5-days bg-transparent\">\n      <v-list-item v-for=\"item in weatherFullReportInDays\" :key=\"item.day\" :value=\"item\" class=\"py-2\">\n        <div class=\"d-flex align-center justify-space-between\">\n          <span class=\"text-subtitle-1\">{{ item.day }}</span>\n\n          <div class=\"weather-condition d-flex align-center justify-space-between\">\n            <v-list-item-title>\n              <v-icon :icon=\"item.icon\" color=\"error\" size=\"small\"></v-icon>\n              <span class=\"pl-4\">{{ item.temp }}</span>\n            </v-list-item-title>\n            <div class=\"text-body-2\">{{ item.weatherDescription }}</div>\n          </div>\n        </div>\n      </v-list-item>\n    </v-list>\n  </v-card>\n</template>\n\n<style scoped>\n  .weather-forecast-5-days .weather-condition {\n    flex-basis: 78%;\n  }\n</style>\n\n<script>\n  export default {\n  props: {\n    payload: { type: Object, default: null },\n    weatherFullReportLabels: {\n      type: Object,\n      default: {\n        \"0\": \"Sun\",\n        \"1\": \"Mon\",\n        \"2\": \"Tue\",\n        \"3\": \"Wes\",\n        \"4\": \"Thu\",\n        \"5\": \"Fri\"\n      }\n    },\n    weatherFullReportInDays: {\n      type: Array,\n      default: [\n        {\n          day: \"Sun\",\n          icon: \"mdi-weather-sunny\",\n          temp: \"18.01 / 16.92°C\",\n          temp_min: 16.92,\n          temp_max: 18.01,\n          weatherDescription: \"clear sky\",\n          weather: \"Clear\"\n        }\n      ]\n    },\n    city: { type: String, default: \"Melbourne\" },\n    weather: { type: String, default: \"\" },\n    weatherDetail: { type: String, default: \"\" },\n    windspeed: { type: Number, default: 0, tip: \"wind speed\" },\n    humidity: { type: Number, default: 0 },\n    tempc: { type: Number, default: 0 },\n    temp_maxc: { type: Number, default: 0 },\n    temp_min: { type: Number, default: 0 }\n  },\n\n  data: () => ({\n  }),\n\n  methods: {\n    sliderClickHander() {\n      console.log(this.selectedDay);\n    }\n  },\n\n  computed: {\n    selectedDay() {\n      console.log(this.city,\" this.city\");\n      return new Date().getDay();\n    },\n    isExtremeWether() {\n      return this.tempc > 35 || this.tempc < 10;\n    },\n    customWeatherIcon() {\n      let weatherIcon = \"\";\n      switch (this.weather) {\n        case \"Clouds\":\n          weatherIcon = \"mdi-weather-cloudy\";\n          break;\n        case \"Snow\":\n          weatherIcon = \"mdi-weather-snowy\";\n          break;\n        case \"Rain\":\n          weatherIcon = \"mdi-weather-rainy\";\n          break;\n        case \"Clear\":\n          weatherIcon = \"mdi-weather-sunny\";\n          break;\n        case \"Wind\":\n          weatherIcon = \"mdi-weather-windy\";\n          break;\n        default:\n          weatherIcon = \"mdi-weather-sunny\";\n      }\n      return weatherIcon;\n    }\n  }\n};\n</script>",
+        "fd_container": "71ab2a3aff8e66bc",
+        "fd_cols": 4,
+        "fd_rows": 8,
+        "fd_array": false,
+        "fd_array_max": 10,
+        "x": 1100,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "be66ec6af0ebd96a",
+        "type": "function",
+        "z": "d08b8dbadb5935bb",
+        "g": "acb7b0c87d617fb3",
+        "name": "transform weather report data",
+        "func": "msg.city = msg.payload.location;\nmsg.weather = msg.payload.weather;\nmsg.weatherDetail = msg.payload.detail;\nmsg.windspeed = msg.payload.windspeed;\nmsg.humidity = msg.payload.humidity;\nmsg.tempc = msg.payload.tempc;\nmsg.temp_maxc = msg.payload.temp_maxc;\nmsg.temp_min = msg.payload.temp_min;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 720,
+        "wires": [
+            [
+                "d933ae7718c59d69",
+                "0fa07def82104a13"
+            ]
+        ]
+    },
+    {
+        "id": "64a681c1b7e1ee19",
+        "type": "function",
+        "z": "d08b8dbadb5935bb",
+        "g": "acb7b0c87d617fb3",
+        "name": "transform forecast data",
+        "func": "/*\nUsed for weather trend time plot\n### Public method\nreturn type: Array\n[\n  [ 1702774800, 18.01 ], [ 1702785600, 17.23 ],\n  [ 1702796400, 16.59 ], [ 1702807200, 19.67 ],\n]\n*/\nfunction transformWeatherResponseForWeatherTrendsInDays(fullDataInDays) {\n  const transformedData = fullDataInDays.map(\n    transformWeatherResponseToTimestampArrary\n  );\n  return transformedData;\n}\n\n/*\nUsed for weather 5 days forecast full report\n### Public method \nexpected input type: Array[ \n  {\n    \"dt\": 1702814400,\n    \"main\": {\n      \"temp\": 18.01,\n      \"feels_like\": 17.59,\n      \"temp_min\": 16.92,\n      \"temp_max\": 18.01,\n      \"pressure\": 1014,\n      \"sea_level\": 1014,\n      \"grnd_level\": 1010,\n      \"humidity\": 66,\n      \"temp_kf\": 1.09\n    },\n    \"weather\": [\n      { \"id\": 800, \"main\": \"Clear\", \"description\": \"clear sky\", \"icon\": \"01n\" }\n    ],\n    \"clouds\": { \"all\": 0 },\n    \"wind\": { \"speed\": 1.99, \"deg\": 210, \"gust\": 2.5 },\n    \"visibility\": 10000,\n    \"pop\": 0,\n    \"sys\": { \"pod\": \"n\" },\n    \"dt_txt\": \"2023-12-17 12:00:00\"\n  }, ......\n] \n\nexpected return type: Array [\n  {\n    day: 'Sun',\n    icon: 'mdi-weather-sunny',\n    temp: '18.01 / 16.92°C',\n    temp_min: 16.92,\n    temp_max: 18.01,\n    weatherDescription: 'clear sky',\n    weather: 'Clear'\n  },\n  ...\n]\n*/\nfunction getWeatherForecastDataIndaysFromOriginResponse(fullDataInDays) {\n  const maxMinTempBelongsToOneDay =\n    findOutMaxMinTempBelongsToOneDay(fullDataInDays);\n  return transformForecastData(maxMinTempBelongsToOneDay);\n}\n\n/*\nUsed for weather 5 days full report labels\n### Public method \nexpected input type: Array[ \n  {\n    \"dt\": 1702814400,\n    \"main\": {\n      \"temp\": 18.01,\n      \"feels_like\": 17.59,\n      \"temp_min\": 16.92,\n      \"temp_max\": 18.01,\n      \"pressure\": 1014,\n      \"sea_level\": 1014,\n      \"grnd_level\": 1010,\n      \"humidity\": 66,\n      \"temp_kf\": 1.09\n    },\n    \"weather\": [\n      { \"id\": 800, \"main\": \"Clear\", \"description\": \"clear sky\", \"icon\": \"01n\" }\n    ],\n    \"clouds\": { \"all\": 0 },\n    \"wind\": { \"speed\": 1.99, \"deg\": 210, \"gust\": 2.5 },\n    \"visibility\": 10000,\n    \"pop\": 0,\n    \"sys\": { \"pod\": \"n\" },\n    \"dt_txt\": \"2023-12-17 12:00:00\"\n  }, ......\n] \nexpected return type: Object{\n      \"0\": \"Sun\",\n      \"1\": \"Mon\",\n      \"2\": \"Tue\",\n      \"3\": \"Wes\",\n      \"4\": \"Thu\",\n      \"5\": \"Fri\"\n    }\n*/\nfunction getWeatherLabelsForDifferentDays(fullDataInDays) {\n  const weatherDataInObjectForEachDay =\n    findOutMaxMinTempBelongsToOneDay(fullDataInDays);\n  const labels = Object.keys(weatherDataInObjectForEachDay).reduce(\n    (acc, day, currentIndex) => {\n      acc[currentIndex] = day;\n      return acc;\n    },\n    {}\n  );\n  return labels;\n}\n\n//Private method\nfunction transformWeatherResponseToTimestampArrary(item) {\n  const weatherDateTime = item.dt_txt;\n  const weatherTimeStamp = new Date(weatherDateTime).valueOf() / 1000;\n  const weatherTempFeelsLike = item.main.feels_like;\n  const weatherTempMin = item.main.temp_min;\n  const weatherTempMax = item.main.temp_max;\n  const weatherTemp = item.main.temp;\n  return [weatherTimeStamp, weatherTemp];\n}\n\n/*\nPrivate method\nexpect input type: FullDataInDays\n\nexpected return type:\nObject {\n  Sun: {\n    max: 18.01,\n    min: 16.92,\n    weather: \"Clear\",\n    weatherDescription: \"clear sky\",\n    weatherDateTime: \"2023-12-17 12:00:00z\"\n  },\n  Mon: {\n    max: 31.17,\n    min: 15.68,\n    weather: \"Clouds\",\n    weatherDescription: \"scattered clouds\",\n    weatherDateTime: \"2023-12-17 15:00:00z\"\n  }\n};\n*/\nfunction findOutMaxMinTempBelongsToOneDay(fullDataInDays) {\n  const daysMapping = {\n    0: \"Sun\",\n    1: \"Mon\",\n    2: \"Tue\",\n    3: \"Wed\",\n    4: \"Thu\",\n    5: \"Fri\",\n    6: \"Sat\"\n  };\n\n  const dataGroupInDifferentDays = fullDataInDays.reduce((acc, item) => {\n    //add timezone to date\n    const weatherDateTime = item.dt_txt + \"z\";\n    const weatherDayInNumber = new Date(weatherDateTime).getDay();\n    const dayName = daysMapping[weatherDayInNumber];\n    if (acc[dayName] === undefined) {\n      acc[dayName] = {\n        max: item.main.temp_max,\n        min: item.main.temp_min,\n        weather: item.weather[0].main,\n        weatherDescription: item.weather[0].description,\n        weatherDateTime\n      };\n    } else {\n      if (item.main.temp_max > acc[dayName].max) {\n        acc[dayName].max = item.main.temp_max;\n      }\n\n      if (item.main.temp_min < acc[dayName].min) {\n        acc[dayName].min = item.main.temp_min;\n      }\n    }\n    return acc;\n  }, {});\n\n  return dataGroupInDifferentDays;\n}\n\n//Private method\nfunction customWeatherIcon(weather) {\n  let weatherIcon = \"\";\n  switch (weather) {\n    case \"Clouds\":\n      weatherIcon = \"mdi-weather-cloudy\";\n      break;\n    case \"Snow\":\n      weatherIcon = \"mdi-weather-snowy\";\n      break;\n    case \"Rain\":\n      weatherIcon = \"mdi-weather-rainy\";\n      break;\n    case \"Clear\":\n      weatherIcon = \"mdi-weather-sunny\";\n      break;\n    case \"Wind\":\n      weatherIcon = \"mdi-weather-windy\";\n      break;\n    default:\n      weatherIcon = \"mdi-weather-sunny\";\n  }\n  return weatherIcon;\n}\n\n/*\n//Private method\nexpected input type: Object {\n  Sun: {\n    max: 18.01,\n    min: 16.92,\n    weather: \"Clear\",\n    weatherDescription: \"clear sky\",\n    weatherDateTime: \"2023-12-17 12:00:00z\"\n  } ....\n} \n\nexpected return type: Array [\n  {\n    day: 'Sun',\n    icon: 'mdi-weather-sunny',\n    temp: '18.01 / 16.92°C',\n    temp_min: 16.92,\n    temp_max: 18.01,\n    weatherDescription: 'clear sky',\n    weather: 'Clear'\n  },\n  {\n    day: 'Mon',\n    icon: 'mdi-weather-cloudy',\n    temp: '31.17 / 15.68°C',\n    temp_min: 15.68,\n    temp_max: 31.17,\n    weatherDescription: 'scattered clouds',\n    weather: 'Clouds'\n  }\n]\n*/\nfunction transformForecastData(originalTempDataWithMinMax) {\n  return Object.keys(originalTempDataWithMinMax).map((day) => {\n    const icon = customWeatherIcon(originalTempDataWithMinMax[day].weather);\n    const temp_min = originalTempDataWithMinMax[day].min;\n    const temp_max = originalTempDataWithMinMax[day].max;\n    const temp = temp_max + \" / \" + temp_min + \"\\u00B0C\";\n    return {\n      day,\n      icon,\n      temp,\n      temp_min,\n      temp_max,\n      weatherDescription: originalTempDataWithMinMax[day].weatherDescription,\n      weather: originalTempDataWithMinMax[day].weather\n    };\n  });\n}\n\n/*\nNode-Red specific code\nconst fullDataInDays = msg.payload;\n*/\nconst fullDataInDays = msg.payload;\n// const fullDataInDays = fiveDaysMelboure;\nconst weatherSeriesData =\n  transformWeatherResponseForWeatherTrendsInDays(fullDataInDays);\nconst weatherFullReportInDays =\n  getWeatherForecastDataIndaysFromOriginResponse(fullDataInDays);\n\nconst weatherFullReportLabels =\n  getWeatherLabelsForDifferentDays(fullDataInDays);\n\nconsole.log(\"weatherSeriesData\", weatherSeriesData);\nconsole.log(\"weatherFullReportInDays\", weatherFullReportInDays);\nconsole.log(\"weatherFullReportLabels\", weatherFullReportLabels);\n\n/*\nNode-Red specific code\n*/\nmsg = {\n  payload: {\n    weatherSeriesData,\n    weatherFullReportInDays,\n    weatherFullReportLabels\n  },\n  city: msg.data.city.name\n};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 900,
+        "wires": [
+            [
+                "8e442d964dfe6fa5",
+                "d8b76e2b0a6b9e32"
+            ]
+        ]
+    },
+    {
+        "id": "8e442d964dfe6fa5",
+        "type": "function",
+        "z": "d08b8dbadb5935bb",
+        "g": "acb7b0c87d617fb3",
+        "name": "filter series data",
+        "func": "msg = {\n    payload: msg.payload.weatherSeriesData,\n    title:  msg.city+ \" 5 days forecast\"\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 1000,
+        "wires": [
+            [
+                "a706694cb1c599ef"
+            ]
+        ]
+    },
+    {
+        "id": "d8b76e2b0a6b9e32",
+        "type": "function",
+        "z": "d08b8dbadb5935bb",
+        "g": "acb7b0c87d617fb3",
+        "name": "filter full report data",
+        "func": "msg.weatherFullReportInDays = msg.payload.weatherFullReportInDays;\nmsg.weatherFullReportLabels = msg.payload.weatherFullReportLabels;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 860,
+        "wires": [
+            [
+                "d933ae7718c59d69"
+            ]
+        ]
+    },
+    {
+        "id": "f59dfb8b9978c4b6",
+        "type": "inject",
+        "z": "d08b8dbadb5935bb",
+        "g": "acb7b0c87d617fb3",
+        "name": "Inject other data for 5 days forecast",
+        "props": [
+            {
+                "p": "widths",
+                "v": "[3]",
+                "vt": "json"
+            },
+            {
+                "p": "span_gaps",
+                "v": "[true]",
+                "vt": "json"
+            },
+            {
+                "p": "colors",
+                "v": "[\"orange\"]",
+                "vt": "json"
+            },
+            {
+                "p": "labels",
+                "v": "[\"Temperature UTC\"]",
+                "vt": "str"
+            },
+            {
+                "p": "left_unit",
+                "v": "\\u00B0C",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 810,
+        "y": 1120,
+        "wires": [
+            [
+                "a706694cb1c599ef"
+            ]
+        ]
+    },
+    {
+        "id": "a706694cb1c599ef",
+        "type": "fd-time-plot",
+        "z": "d08b8dbadb5935bb",
+        "g": "acb7b0c87d617fb3",
+        "fd_container": "71ab2a3aff8e66bc",
+        "fd_cols": "6",
+        "fd_rows": "4",
+        "fd_array": false,
+        "fd_array_max": 10,
+        "name": "5 days forecast trend widget",
+        "title": "5 days forecast",
+        "popup_info": "",
+        "data": "",
+        "labels": [],
+        "colors": [],
+        "axes": [],
+        "widths": [],
+        "points": null,
+        "span_gaps": [],
+        "left_unit": "",
+        "left_min": null,
+        "left_max": null,
+        "left_decimals": 1,
+        "left_isoprefix": false,
+        "left_log": false,
+        "right_unit": "",
+        "right_min": null,
+        "right_max": null,
+        "right_decimals": 1,
+        "right_isoprefix": false,
+        "right_log": false,
+        "reverse_legend": false,
+        "x": 1140,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "0fa07def82104a13",
+        "type": "debug",
+        "z": "d08b8dbadb5935bb",
+        "g": "acb7b0c87d617fb3",
+        "name": "debug 30",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 780,
+        "wires": []
+    },
+    {
         "id": "02bc14a0c90853ae",
         "type": "inject",
         "z": "209767b8b09c73ee",
@@ -3533,7 +4759,7 @@
             },
             {
                 "p": "city",
-                "v": "Braisbane",
+                "v": "Brisbane",
                 "vt": "str"
             },
             {
