@@ -3,7 +3,34 @@ function isValidUser(username) {
     return validUsers.indexOf(username) !== -1;
 }
 
+// const axios = require('axios');
+// async function authenticateUser(username, password) {
+//     // Encode the username and password in Base64
+//     const credentials = Buffer.from(`${username}:${password}`).toString('base64');
+
+//     try {
+//         const response = await axios.post(
+//             'https://api.example.com/validateUser', // Replace with your API endpoint
+//             {}, // Empty body for this example
+//             {
+//                 headers: {
+//                     'Authorization': `Basic ${credentials}`, // Add credentials to the Authorization header
+//                     'Content-Type': 'application/json' // Specify the content type
+//                 }
+//             }
+//         );
+
+//         console.log('Authentication successful:', response.data);
+//         return response.data;
+//     } catch (error) {
+//         console.error('Authentication failed:', error.response?.data || error.message);
+//         throw error;
+//     }
+// }
 function validAuthenticatedAdmins(username, password) {
+    // This is a simple example. In a real application, you would hash the password and
+    // compare it to a hashed password stored in the database.
+    const axios = require('axios');
     const validAdmins = [{
         username: "Simon",
         password: "password"
