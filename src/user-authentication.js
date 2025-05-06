@@ -60,7 +60,7 @@ module.exports = {
             // If no default user exists, resolve with null.
             resolve({
                 anonymous: true,
-                permissions: "read"
+                // permissions: "read"
             });
         });
     }
