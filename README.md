@@ -6,7 +6,13 @@
 yarn install
 yarn start
 ```
+### Visit Node-Red editor:
 
+http://localhost:8080/
+
+### Visit Flex dashboard:
+
+http://localhost:8080/simoco/
 ### Start with Docker
 
 ```sh

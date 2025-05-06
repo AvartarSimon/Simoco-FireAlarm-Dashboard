@@ -372,7 +372,8 @@
             "d8b76e2b0a6b9e32",
             "f59dfb8b9978c4b6",
             "a706694cb1c599ef",
-            "0fa07def82104a13"
+            "0fa07def82104a13",
+            "887432bfc8dc4763"
         ],
         "x": 34,
         "y": 679,
@@ -404,13 +405,14 @@
             "ce6c68ed96f7201a",
             "ac1050bdfb296f26",
             "b039767b3b60fd7f",
-            "45a7ae0d734e2e31",
-            "3076e115e7b67777"
+            "3076e115e7b67777",
+            "cf91c4ea3dff993b",
+            "00bc66b542a4842f"
         ],
         "x": 34,
-        "y": 699,
+        "y": 679,
         "w": 1252,
-        "h": 482
+        "h": 502
     },
     {
         "id": "48c022e0110ee1e7",
@@ -1017,7 +1019,7 @@
             },
             {
                 "p": "text",
-                "v": "All devices are healthy",
+                "v": "Simoco-7001 now is Alarming,Please inform the related ones!",
                 "vt": "str"
             },
             {
@@ -1105,62 +1107,6 @@
         "wires": [
             []
         ]
-    },
-    {
-        "id": "2d75506cdef3b5c1",
-        "type": "pick-attributes",
-        "z": "7d1f82b240d34d71",
-        "name": "pic",
-        "selected_attributes": "age",
-        "x": 710,
-        "y": 300,
-        "wires": [
-            [
-                "2b28f1f84a7932ae"
-            ]
-        ]
-    },
-    {
-        "id": "e79d0ec791f8c77d",
-        "type": "inject",
-        "z": "7d1f82b240d34d71",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "{\"name\":\"tom\",\"age\":12}",
-        "payloadType": "json",
-        "x": 610,
-        "y": 260,
-        "wires": [
-            [
-                "2d75506cdef3b5c1"
-            ]
-        ]
-    },
-    {
-        "id": "2b28f1f84a7932ae",
-        "type": "debug",
-        "z": "7d1f82b240d34d71",
-        "name": "debug 32",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 820,
-        "y": 360,
-        "wires": []
     },
     {
         "id": "cf38127b0f1242b4",
@@ -2320,8 +2266,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 650,
-        "y": 740,
+        "x": 670,
+        "y": 720,
         "wires": [
             [
                 "c1fdc87d4ab8e430",
@@ -2347,7 +2293,8 @@
         "wires": [
             [
                 "e5ebabf8867f2253",
-                "94aa2ccdb054f6d3"
+                "94aa2ccdb054f6d3",
+                "cf91c4ea3dff993b"
             ]
         ]
     },
@@ -2389,6 +2336,7 @@
         "y": 860,
         "wires": [
             [
+                "00bc66b542a4842f",
                 "c1fdc87d4ab8e430"
             ]
         ]
@@ -2454,6 +2402,24 @@
         "statusType": "auto",
         "x": 860,
         "y": 800,
+        "wires": []
+    },
+    {
+        "id": "3076e115e7b67777",
+        "type": "debug",
+        "z": "ef8739be854896a4",
+        "g": "80eb3268ec88e507",
+        "name": "debug 33",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1070,
+        "y": 940,
         "wires": []
     },
     {
@@ -2617,36 +2583,37 @@
         ]
     },
     {
-        "id": "45a7ae0d734e2e31",
-        "type": "pick-attributes",
-        "z": "ef8739be854896a4",
-        "g": "80eb3268ec88e507",
-        "name": "filterWeatherData",
-        "selected_attributes": "weatherFullReportInDays，weatherFullReportLabels",
-        "x": 890,
-        "y": 940,
-        "wires": [
-            [
-                "3076e115e7b67777"
-            ]
-        ]
-    },
-    {
-        "id": "3076e115e7b67777",
+        "id": "cf91c4ea3dff993b",
         "type": "debug",
         "z": "ef8739be854896a4",
         "g": "80eb3268ec88e507",
-        "name": "debug 33",
-        "active": true,
+        "name": "debug 34",
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
+        "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1070,
-        "y": 940,
+        "x": 690,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "00bc66b542a4842f",
+        "type": "debug",
+        "z": "ef8739be854896a4",
+        "g": "80eb3268ec88e507",
+        "name": "debug 35",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1090,
+        "y": 860,
         "wires": []
     },
     {
@@ -4604,7 +4571,7 @@
         "z": "d08b8dbadb5935bb",
         "g": "acb7b0c87d617fb3",
         "name": "weather report widget",
-        "sfc_source": "<template>\n  <v-card class=\"mx-auto\" max-width=\"420\" width=\"100%\" height=\"100%\">\n    <v-card-item :title=\"city\">\n      <template v-if=\"isExtremeWether\" v-slot:subtitle>\n        <v-icon icon=\"mdi-alert\" size=\"18\" color=\"error\" class=\"me-1 pb-1\"></v-icon>\n        Extreme Weather Alert\n      </template>\n      <template v-else v-slot:subtitle>\n        {{ weather }}\n      </template>\n    </v-card-item>\n\n    <v-card-text class=\"py-0\">\n      <v-row align=\"center\" no-gutters>\n        <v-col class=\"text-h3\" cols=\"6\"> {{ tempc }} &deg;C </v-col>\n\n        <v-col cols=\"6\" class=\"text-right\">\n          <v-icon color=\"error\" :icon=\"customWeatherIcon\" size=\"88\"></v-icon>\n        </v-col>\n      </v-row>\n    </v-card-text>\n\n    <div class=\"d-flex py-3 justify-space-between\">\n      <v-list-item density=\"compact\" prepend-icon=\"mdi-weather-windy\">\n        <v-list-item-subtitle>{{ windspeed }} m/s</v-list-item-subtitle>\n      </v-list-item>\n\n      <v-list-item density=\"compact\" prepend-icon=\"mdi-water-percent\">\n        <v-list-item-subtitle>{{ humidity }}%</v-list-item-subtitle>\n      </v-list-item>\n    </div>\n\n    <div class=\"py-4\">\n      <v-slider v-model=\"selectedDay\" :max=\"5\" :step=\"1\" :ticks=\"weatherFullReportLabels\" class=\"mx-4\" color=\"primary\"\n        density=\"compact\" hide-details show-ticks=\"always\" thumb-size=\"8\" @click=\"sliderClickHander\"></v-slider>\n    </div>\n\n    <v-list class=\"weather-forecast-5-days bg-transparent\">\n      <v-list-item v-for=\"item in weatherFullReportInDays\" :key=\"item.day\" :value=\"item\" class=\"py-2\">\n        <div class=\"d-flex align-center justify-space-between\">\n          <span class=\"text-subtitle-1\">{{ item.day }}</span>\n\n          <div class=\"weather-condition d-flex align-center justify-space-between\">\n            <v-list-item-title>\n              <v-icon :icon=\"item.icon\" color=\"error\" size=\"small\"></v-icon>\n              <span class=\"pl-4\">{{ item.temp }}</span>\n            </v-list-item-title>\n            <div class=\"text-body-2\">{{ item.weatherDescription }}</div>\n          </div>\n        </div>\n      </v-list-item>\n    </v-list>\n  </v-card>\n</template>\n\n<style scoped>\n  .weather-forecast-5-days .weather-condition {\n    flex-basis: 78%;\n  }\n</style>\n\n<script>\n  export default {\n  props: {\n    payload: { type: Object, default: null },\n    weatherFullReportLabels: {\n      type: Object,\n      default: {\n        0: \"Sun\",\n        1: \"Mon\",\n        2: \"Tue\",\n        3: \"Wes\",\n        4: \"Thu\",\n        5: \"Fri\",\n      },\n    },\n    weatherFullReportInDays: {\n      type: Array,\n      default: [\n        {\n          day: \"Sun\",\n          icon: \"mdi-weather-sunny\",\n          temp: \"18.01 / 16.92°C\",\n          temp_min: 16.92,\n          temp_max: 18.01,\n          weatherDescription: \"clear sky\",\n          weather: \"Clear\",\n        },\n      ],\n    },\n    city: { type: String, default: \"Melbourne\" },\n    weather: { type: String, default: \"\" },\n    weatherDetail: { type: String, default: \"\" },\n    windspeed: { type: Number, default: 0, tip: \"wind speed\" },\n    humidity: { type: Number, default: 0 },\n    tempc: { type: Number, default: 0 },\n    temp_maxc: { type: Number, default: 0 },\n    temp_min: { type: Number, default: 0 },\n  },\n\n  data: () => ({}),\n\n  methods: {\n    sliderClickHander() {\n      console.log(this.selectedDay);\n    },\n  },\n\n  computed: {\n    selectedDay() {\n      return new Date().getDay() - 1;\n    },\n    isExtremeWether() {\n      return this.tempc > 35 || this.tempc < 10;\n    },\n    customWeatherIcon() {\n      let weatherIcon = \"\";\n      switch (this.weather) {\n        case \"Clouds\":\n          weatherIcon = \"mdi-weather-cloudy\";\n          break;\n        case \"Snow\":\n          weatherIcon = \"mdi-weather-snowy\";\n          break;\n        case \"Rain\":\n          weatherIcon = \"mdi-weather-rainy\";\n          break;\n        case \"Clear\":\n          weatherIcon = \"mdi-weather-sunny\";\n          break;\n        case \"Wind\":\n          weatherIcon = \"mdi-weather-windy\";\n          break;\n        default:\n          weatherIcon = \"mdi-weather-sunny\";\n      }\n      return weatherIcon;\n    },\n  },\n};\n</script>",
+        "sfc_source": "<template>\n  <v-card class=\"mx-auto\" max-width=\"420\" width=\"100%\" height=\"100%\">\n    <v-card-item :title=\"city\">\n      <template v-if=\"isExtremeWether\" v-slot:subtitle>\n        <v-icon icon=\"mdi-alert\" size=\"18\" color=\"error\" class=\"me-1 pb-1\"></v-icon>\n        Extreme Weather Alert\n      </template>\n      <template v-else v-slot:subtitle>\n        {{ weather }}\n      </template>\n    </v-card-item>\n\n    <v-card-text class=\"py-0\">\n      <v-row align=\"center\" no-gutters>\n        <v-col class=\"text-h3\" cols=\"6\"> {{ tempc }} &deg;C </v-col>\n\n        <v-col cols=\"6\" class=\"text-right\">\n          <v-icon color=\"error\" :icon=\"customWeatherIcon\" size=\"88\"></v-icon>\n        </v-col>\n      </v-row>\n    </v-card-text>\n\n    <div class=\"d-flex py-3 justify-space-between\">\n      <v-list-item density=\"compact\" prepend-icon=\"mdi-weather-windy\">\n        <v-list-item-subtitle>{{ windspeed }} m/s</v-list-item-subtitle>\n      </v-list-item>\n\n      <v-list-item density=\"compact\" prepend-icon=\"mdi-water-percent\">\n        <v-list-item-subtitle>{{ humidity }}%</v-list-item-subtitle>\n      </v-list-item>\n    </div>\n\n    <div class=\"py-4\">\n      <v-slider v-model=\"selectedDay\" :max=\"5\" :step=\"1\" :ticks=\"weatherFullReportLabels\" class=\"mx-4\" color=\"primary\"\n        density=\"compact\" hide-details show-ticks=\"always\" thumb-size=\"8\" @click=\"sliderClickHander\"></v-slider>\n    </div>\n\n    <v-list class=\"weather-forecast-5-days bg-transparent\">\n      <v-list-item v-for=\"item in weatherFullReportInDays\" :key=\"item.day\" :value=\"item\" class=\"py-2\">\n        <div class=\"d-flex align-center justify-space-between\">\n          <span class=\"text-subtitle-1\">{{ item.day }}</span>\n\n          <div class=\"weather-condition d-flex align-center justify-space-between\">\n            <v-list-item-title>\n              <v-icon :icon=\"item.icon\" color=\"error\" size=\"small\"></v-icon>\n              <span class=\"pl-4\">{{ item.temp }}</span>\n            </v-list-item-title>\n            <div class=\"text-body-2\">{{ item.weatherDescription }}</div>\n          </div>\n        </div>\n      </v-list-item>\n    </v-list>\n  </v-card>\n</template>\n\n<style scoped>\n  .weather-forecast-5-days .weather-condition {\n    flex-basis: 78%;\n  }\n</style>\n\n<script>\n  export default {\n  props: {\n    payload: { type: Object, default: null },\n    weatherFullReportLabels: {\n      type: Object,\n      default: {\n        0: \"Sun\",\n        1: \"Mon\",\n        2: \"Tue\",\n        3: \"Wes\",\n        4: \"Thu\",\n        5: \"Fri\",\n      },\n    },\n    weatherFullReportInDays: {\n      type: Array,\n      default: [\n        {\n          day: \"Sun\",\n          icon: \"mdi-weather-sunny\",\n          temp: \"18.01 / 16.92°C\",\n          temp_min: 16.92,\n          temp_max: 18.01,\n          weatherDescription: \"clear sky\",\n          weather: \"Clear\",\n        },\n      ],\n    },\n    city: { type: String, default: \"Melbourne\" },\n    weather: { type: String, default: \"\" },\n    weatherDetail: { type: String, default: \"\" },\n    windspeed: { type: Number, default: 0, tip: \"wind speed\" },\n    humidity: { type: Number, default: 0 },\n    tempc: { type: Number, default: 0 },\n    temp_maxc: { type: Number, default: 0 },\n    temp_min: { type: Number, default: 0 },\n  },\n\n  data: () => ({}),\n\n  methods: {\n    sliderClickHander() {\n      console.log(this.weatherFullReportInDays,this.payload);\n    },\n  },\n\n  computed: {\n    selectedDay() {\n      return new Date().getDay() - 1;\n    },\n    isExtremeWether() {\n      return this.tempc > 35 || this.tempc < 10;\n    },\n    customWeatherIcon() {\n      let weatherIcon = \"\";\n      switch (this.weather) {\n        case \"Clouds\":\n          weatherIcon = \"mdi-weather-cloudy\";\n          break;\n        case \"Snow\":\n          weatherIcon = \"mdi-weather-snowy\";\n          break;\n        case \"Rain\":\n          weatherIcon = \"mdi-weather-rainy\";\n          break;\n        case \"Clear\":\n          weatherIcon = \"mdi-weather-sunny\";\n          break;\n        case \"Wind\":\n          weatherIcon = \"mdi-weather-windy\";\n          break;\n        default:\n          weatherIcon = \"mdi-weather-sunny\";\n      }\n      return weatherIcon;\n    },\n  },\n};\n</script>",
         "fd_container": "71ab2a3aff8e66bc",
         "fd_cols": 4,
         "fd_rows": 7,
@@ -4698,7 +4665,8 @@
         "y": 860,
         "wires": [
             [
-                "d933ae7718c59d69"
+                "d933ae7718c59d69",
+                "887432bfc8dc4763"
             ]
         ]
     },
@@ -4754,7 +4722,7 @@
         "z": "d08b8dbadb5935bb",
         "g": "acb7b0c87d617fb3",
         "name": "debug 30",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -4924,6 +4892,23 @@
                 "6ce7341368ac4082"
             ]
         ]
+    },
+    {
+        "id": "887432bfc8dc4763",
+        "type": "debug",
+        "z": "d08b8dbadb5935bb",
+        "g": "acb7b0c87d617fb3",
+        "name": "debug 36",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1070,
+        "y": 880,
+        "wires": []
     },
     {
         "id": "02bc14a0c90853ae",
