@@ -10,11 +10,12 @@
   "license": "ISC",
   "dependencies": {
     "@flexdash/node-red-fd-corewidgets": "^0.4.64",
+    "axios": "^1.9.0",
     "node-red": "^3.1.3",
     "node-red-contrib-dwd-local-weather": "^1.0.5",
+    "node-red-contrib-pick-attributes": "../cutom-nodes/node-red-contrib-pick-attributes",
     "node-red-node-openweathermap": "^0.5.1",
     "nodemon": "^3.0.2",
-    "weather-icons": "^1.3.2",
-    "node-red-contrib-pick-attributes": "../cutom-nodes/node-red-contrib-pick-attributes"
+    "weather-icons": "^1.3.2"
   }
 }
