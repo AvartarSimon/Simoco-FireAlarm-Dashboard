@@ -413,7 +413,6 @@
             "ce6c68ed96f7201a",
             "ac1050bdfb296f26",
             "b039767b3b60fd7f",
-            "3076e115e7b67777",
             "cf91c4ea3dff993b",
             "00bc66b542a4842f"
         ],
@@ -788,7 +787,7 @@
         "z": "7d1f82b240d34d71",
         "g": "4a53d46b25bc2682",
         "name": "getAllEquipmentInfo",
-        "func": "\nconst getInfo1= global.get(`globalSimoco3001Info`);\nconst alarm1 = global.get(\"globalSimoco3001Alarm\");\nconst equiptmentInfo1 = [getInfo1.equipNum,getInfo1.city,getInfo1.location,alarm1];\n\nconst getInfo2 = global.get(`globalSimoco3002Info`);\nconst alarm2 = global.get(\"globalSimoco3002Alarm\");\nconst equiptmentInfo2 = [getInfo2.equipNum, getInfo2.city, getInfo2.location, alarm2]\n\nconst getInfo3= global.get(`globalSimoco2001Info`);\nconst alarm3 = global.get(\"globalSimoco2002Alarm\");\nconst equiptmentInfo3 = [getInfo3.equipNum, getInfo3.city, getInfo3.location, alarm3];\n\nconst getInfo4 = global.get(`globalSimoco2002Info`);\nconst alarm4 = global.get(\"globalSimoco2002Alarm\");\nconst equiptmentInfo4 = [getInfo4.equipNum, getInfo4.city, getInfo4.location, alarm4]\n\nconst getInfo5 = global.get(`globalSimoco7001Info`);\nconst alarm5 = global.get(\"globalSimoco7001Alarm\");\nconst equiptmentInfo5 = [getInfo5.equipNum, getInfo5.city, getInfo5.location, alarm5]\n\nconst getInfo6 = global.get(`globalSimoco7002Info`);\nconst alarm6 = global.get(\"globalSimoco7002Alarm\");\nconst equiptmentInfo6 = [getInfo6.equipNum, getInfo6.city, getInfo6.location, alarm6]\n\nconst finalmsg = [equiptmentInfo1, equiptmentInfo2, equiptmentInfo3, equiptmentInfo4, equiptmentInfo5, equiptmentInfo6];\n// node.send(finalmsg)\nmsg.payload = finalmsg;\nreturn msg;",
+        "func": "\nconst getInfo1= global.get(`globalSimoco3001Info`);\nconst alarm1 = global.get(\"globalSimoco3001Alarm\");\nconst equiptmentInfo1 = [getInfo1.equipNum,getInfo1.city,getInfo1.location,alarm1];\n\nconst getInfo2 = global.get(`globalSimoco3002Info`);\nconst alarm2 = global.get(\"globalSimoco3002Alarm\");\nconst equiptmentInfo2 = [getInfo2.equipNum, getInfo2.city, getInfo2.location, alarm2]\n\nconst getInfo3= global.get(`globalSimoco2001Info`);\nconst alarm3 = global.get(\"globalSimoco2002Alarm\");\nconst equiptmentInfo3 = [getInfo3.equipNum, getInfo3.city, getInfo3.location, alarm3];\n\nconst getInfo4 = global.get(`globalSimoco2002Info`);\nconst alarm4 = global.get(\"globalSimoco2002Alarm\");\nconst equiptmentInfo4 = [getInfo4.equipNum, getInfo4.city, getInfo4.location, alarm4]\n\nconst getInfo5 = global.get(`globalSimoco7001Info`);\nconst alarm5 = global.get(\"globalSimoco7001Alarm\");\nconst equiptmentInfo5 = [getInfo5.equipNum, getInfo5.city, getInfo5.location, alarm5]\n\nconst getInfo6 = global.get(`globalSimoco7002Info`);\nconst alarm6 = global.get(\"globalSimoco7002Alarm\");\nconst equiptmentInfo6 = [getInfo6.equipNum, getInfo6.city, getInfo6.location, alarm6]\n\nconst finalmsg = [equiptmentInfo1, equiptmentInfo2, equiptmentInfo3, equiptmentInfo4, equiptmentInfo5, equiptmentInfo6];\n// node.send(finalmsg)\nmsg.payload = finalmsg;\nreturn msg;\n\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -842,7 +841,7 @@
         "import_map": {
             "": ""
         },
-        "sfc_source": "<template>\n  <v-card :loading=\"loading\" class=\"mx-auto my-12\" height=\"100%\" width=\"100%\">\n    <template v-slot:loader=\"{ isActive }\">\n      <v-progress-linear :active=\"isActive\" color=\"deep-purple\" height=\"4\" indeterminate></v-progress-linear>\n    </template>\n    <v-img cover height=\"300\" :src=\"AustraliaImage\"></v-img>\n  </v-card>\n</template>\n\n<script>\n  export default {\n  props: {\n    payload: { type: Object, default: null },\n    AustraliaImage: {\n      type: String,\n      default: \"./data/image/Australia.webp\",\n    },\n  },\n\n  data: () => ({\n    loading: false,\n    selection: 1,\n  }),\n\n  methods: {\n    reserve() {\n      this.loading = true;\n      setTimeout(() => (this.loading = false), 2000);\n    },\n  },\n};\n</script>",
+        "sfc_source": "<template>\n  <v-card :loading=\"loading\" class=\"mx-auto my-12\" height=\"100%\" width=\"100%\">\n    <template v-slot:loader=\"{ isActive }\">\n      <v-progress-linear :active=\"isActive\" color=\"deep-purple\" height=\"4\" indeterminate></v-progress-linear>\n    </template>\n    <v-img cover height=\"300\" :src=\"AustraliaImage\"></v-img>\n  </v-card>\n</template>\n\n<script>\n  export default {\n  props: {\n    payload: { type: Object, default: null },\n    AustraliaImage: {\n      type: String,\n      default: \"./data/image/Australia.webp\",\n    },\n  },\n\n  data: () => ({\n    loading: false,\n    selection: 1,\n  }),\n\n  methods: {\n    reserve() {\n      this.loading = true;\n      setTimeout(() => (this.loading = false), 2000);\n    },\n    changeImage() {\n    this.AustraliaImage = \"./data/image/NewImage.webp\"; // 这里修改图片路径\n    },\n  },\n};\n</script>",
         "fd_container": "b55ad710670cabdb",
         "fd_cols": 3,
         "fd_rows": 3,
@@ -1265,7 +1264,7 @@
         "fd_array_max": 10,
         "fd_output_topic": "",
         "fd_loopback": false,
-        "name": "Fire Alarm Monitor Table",
+        "name": "Simco Monitor Table",
         "title": "Device Monitor Table",
         "popup_info": "",
         "data": "",
@@ -1274,7 +1273,7 @@
         "align": null,
         "click": null,
         "sort": null,
-        "x": 710,
+        "x": 700,
         "y": 60,
         "wires": [
             []
@@ -2550,24 +2549,6 @@
         "wires": []
     },
     {
-        "id": "3076e115e7b67777",
-        "type": "debug",
-        "z": "ef8739be854896a4",
-        "g": "80eb3268ec88e507",
-        "name": "debug 33",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1070,
-        "y": 940,
-        "wires": []
-    },
-    {
         "id": "cf91c4ea3dff993b",
         "type": "debug",
         "z": "ef8739be854896a4",
@@ -3300,7 +3281,6 @@
         "id": "b21b2799754a0e9c",
         "type": "flexdash custom",
         "z": "5a9c45d6665294c2",
-        "d": true,
         "g": "48c022e0110ee1e7",
         "name": "weather report widget",
         "sfc_source": "<template>\n  <v-card class=\"mx-auto\" max-width=\"420\" width=\"100%\" height=\"100%\">\n    <v-card-item :title=\"city\">\n      <template v-if=\"isExtremeWether\" v-slot:subtitle>\n        <v-icon icon=\"mdi-alert\" size=\"18\" color=\"error\" class=\"me-1 pb-1\"></v-icon>\n        Extreme Weather Alert\n      </template>\n      <template v-else v-slot:subtitle>\n        {{ weather }}\n      </template>\n    </v-card-item>\n\n    <v-card-text class=\"py-0\">\n      <v-row align=\"center\" no-gutters>\n        <v-col class=\"text-h3\" cols=\"6\"> {{ tempc }} &deg;C </v-col>\n\n        <v-col cols=\"6\" class=\"text-right\">\n          <v-icon color=\"error\" :icon=\"customWeatherIcon\" size=\"88\"></v-icon>\n        </v-col>\n      </v-row>\n    </v-card-text>\n\n    <div class=\"d-flex py-3 justify-space-between\">\n      <v-list-item density=\"compact\" prepend-icon=\"mdi-weather-windy\">\n        <v-list-item-subtitle>{{ windspeed }} m/s</v-list-item-subtitle>\n      </v-list-item>\n\n      <v-list-item density=\"compact\" prepend-icon=\"mdi-water-percent\">\n        <v-list-item-subtitle>{{ humidity }}%</v-list-item-subtitle>\n      </v-list-item>\n    </div>\n\n    <div class=\"py-4\">\n      <v-slider v-model=\"selectedDay\" :max=\"5\" :step=\"1\" :ticks=\"weatherFullReportLabels\" class=\"mx-4\" color=\"primary\"\n        density=\"compact\" hide-details show-ticks=\"always\" thumb-size=\"8\" @click=\"sliderClickHander\"></v-slider>\n    </div>\n\n    <v-list class=\"weather-forecast-5-days bg-transparent\">\n      <v-list-item v-for=\"item in weatherFullReportInDays\" :key=\"item.day\" :value=\"item\" class=\"py-2\">\n        <div class=\"d-flex align-center justify-space-between\">\n          <span class=\"text-subtitle-1\">{{ item.day }}</span>\n\n          <div class=\"weather-condition d-flex align-center justify-space-between\">\n            <v-list-item-title>\n              <v-icon :icon=\"item.icon\" color=\"error\" size=\"small\"></v-icon>\n              <span class=\"pl-4\">{{ item.temp }}</span>\n            </v-list-item-title>\n            <div class=\"text-body-2\">{{ item.weatherDescription }}</div>\n          </div>\n        </div>\n      </v-list-item>\n    </v-list>\n  </v-card>\n</template>\n\n<style scoped>\n  .weather-forecast-5-days .weather-condition {\n    flex-basis: 78%;\n  }\n</style>\n\n<script>\n  export default {\n  props: {\n    payload: { type: Object, default: null },\n    weatherFullReportLabels: {\n      type: Object,\n      default: {\n        0: \"Sun\",\n        1: \"Mon\",\n        2: \"Tue\",\n        3: \"Wes\",\n        4: \"Thu\",\n        5: \"Fri\",\n      },\n    },\n    weatherFullReportInDays: {\n      type: Array,\n      default: [\n        {\n          day: \"Sun\",\n          icon: \"mdi-weather-sunny\",\n          temp: \"18.01 / 16.92°C\",\n          temp_min: 16.92,\n          temp_max: 18.01,\n          weatherDescription: \"clear sky\",\n          weather: \"Clear\",\n        },\n      ],\n    },\n    city: { type: String, default: \"Melbourne\" },\n    weather: { type: String, default: \"\" },\n    weatherDetail: { type: String, default: \"\" },\n    windspeed: { type: Number, default: 0, tip: \"wind speed\" },\n    humidity: { type: Number, default: 0 },\n    tempc: { type: Number, default: 0 },\n    temp_maxc: { type: Number, default: 0 },\n    temp_min: { type: Number, default: 0 },\n  },\n\n  data: () => ({}),\n\n  methods: {\n    sliderClickHander() {\n      console.log(this.selectedDay);\n    },\n  },\n\n  computed: {\n    selectedDay() {\n      return new Date().getDay() - 1;\n    },\n    isExtremeWether() {\n      return this.tempc > 35 || this.tempc < 10;\n    },\n    customWeatherIcon() {\n      let weatherIcon = \"\";\n      switch (this.weather) {\n        case \"Clouds\":\n          weatherIcon = \"mdi-weather-cloudy\";\n          break;\n        case \"Snow\":\n          weatherIcon = \"mdi-weather-snowy\";\n          break;\n        case \"Rain\":\n          weatherIcon = \"mdi-weather-rainy\";\n          break;\n        case \"Clear\":\n          weatherIcon = \"mdi-weather-sunny\";\n          break;\n        case \"Wind\":\n          weatherIcon = \"mdi-weather-windy\";\n          break;\n        default:\n          weatherIcon = \"mdi-weather-sunny\";\n      }\n      return weatherIcon;\n    },\n  },\n};\n</script>",
