@@ -1,4 +1,4 @@
-# Simoco-FireAlarm-Dashboard
+# Simoco-Monitor-Dashboard
 
 ### Start without docker
 

@@ -37,7 +37,6 @@
 
     <div class="py-4">
       <v-slider
-        v-model="selectedDay"
         :max="5"
         :step="1"
         :ticks="weatherFullReportLabels"
