@@ -485,7 +485,7 @@
         "kind": "StdGrid",
         "fd_children": ",cf38127b0f1242b4,58796f9a219de9dd,cff0654c34ad0a47,7f6375a8f6eca578,80e10f5157343e1a,afd0c6822973e96f",
         "tab": "faa3f6ef68ba47c6",
-        "min_cols": 1,
+        "min_cols": 10,
         "max_cols": 20,
         "unicast": "ignore",
         "parent": "",
