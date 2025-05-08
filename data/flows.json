@@ -56,6 +56,14 @@
         "env": []
     },
     {
+        "id": "194b60237c3d364f",
+        "type": "tab",
+        "label": "React",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "f81078994e7bf9a5",
         "type": "group",
         "z": "ef8739be854896a4",
@@ -372,7 +380,8 @@
             "d8b76e2b0a6b9e32",
             "f59dfb8b9978c4b6",
             "a706694cb1c599ef",
-            "0fa07def82104a13"
+            "0fa07def82104a13",
+            "887432bfc8dc4763"
         ],
         "x": 34,
         "y": 679,
@@ -404,13 +413,14 @@
             "ce6c68ed96f7201a",
             "ac1050bdfb296f26",
             "b039767b3b60fd7f",
-            "45a7ae0d734e2e31",
-            "3076e115e7b67777"
+            "3076e115e7b67777",
+            "cf91c4ea3dff993b",
+            "00bc66b542a4842f"
         ],
         "x": 34,
-        "y": 699,
+        "y": 679,
         "w": 1252,
-        "h": 482
+        "h": 502
     },
     {
         "id": "48c022e0110ee1e7",
@@ -511,7 +521,7 @@
         "saveConfig": true,
         "allOrigins": false,
         "name": "simoco fire alarm",
-        "fd_children": ",faa3f6ef68ba47c6,46612d9ad1086276,ad1e7ea49c0a5684,fef6c0f6d48841d6"
+        "fd_children": ",faa3f6ef68ba47c6,46612d9ad1086276,ad1e7ea49c0a5684,fef6c0f6d48841d6,5de79445aee2f018,67119b1601e6ea6e"
     },
     {
         "id": "faa3f6ef68ba47c6",
@@ -630,11 +640,147 @@
     {
         "id": "5de79445aee2f018",
         "type": "flexdash tab",
-        "name": "toggle tab",
+        "name": "React",
         "icon": "mdi-toggle-switch",
-        "title": "toggle tab",
+        "title": "React",
+        "fd_children": ",56206f55bcd5826e",
+        "fd": "61e693942266360d",
+        "info": "{\n  \"tabs\": [\n    {\n      \"name\": \"REACT_APP\",  // 你的 Tab 名称\n      \"icon\": \"mdi-react\",  // 可选图标\n      \"content\": [          // 直接定义 Tab 内容\n        {\n          \"type\": \"html\",\n          \"html\": \"<iframe src='https://localhost:3000' style='width:100%; height:100vh; border:none;'></iframe>\"\n        }\n      ]\n    }\n  ]\n}"
+    },
+    {
+        "id": "4f2938e44607208b",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "94aade6072488f3b",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "",
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "56206f55bcd5826e",
+        "type": "flexdash container",
+        "name": "React",
+        "title": "React-Container",
+        "kind": "StdGrid",
         "fd_children": "",
-        "fd": "cfb4a2e975d21658"
+        "tab": "5de79445aee2f018",
+        "min_cols": 1,
+        "max_cols": 20,
+        "unicast": "ignore",
+        "parent": "",
+        "solid": false,
+        "cols": 1,
+        "rows": 1
+    },
+    {
+        "id": "4fcaeac402284d31",
+        "type": "flexdash dashboard",
+        "port": 80,
+        "ioOpts": "{}",
+        "path": "/simco",
+        "redServer": true,
+        "saveConfig": true,
+        "allOrigins": false,
+        "name": "simoco",
+        "fd_children": ""
     },
     {
         "id": "d31c6e07c918a3d7",
@@ -743,7 +889,7 @@
         "import_map": {
             "": ""
         },
-        "sfc_source": "<template>\n  <v-card :loading=\"loading\" class=\"mx-auto my-12\" height=\"100%\" width=\"100%\">\n    <template v-slot:loader=\"{ isActive }\">\n      <v-progress-linear :active=\"isActive\" color=\"deep-purple\" height=\"4\" indeterminate></v-progress-linear>\n    </template>\n\n    <v-img cover height=\"300\" :src=\"deviceImage\"></v-img>\n\n    <v-card-item>\n      <v-card-title>{{ this.deviceName }} ({{ this.deviceNumber }})</v-card-title>\n      <div class=\"text-subtitle-1\">\n        <span class=\"me-1\">{{ this.deviceDescription }}</span>\n      </div>\n    </v-card-item>\n    <v-list disabled>\n      <v-list-item v-for=\"(item, i) in computedItems\" :key=\"i\" :value=\"item\" color=\"primary\" rounded=\"shaped\">\n        <div class=\"d-flex align-center justify-space-between\">\n          <div class=\"d-flex align-center\">\n            <v-icon :icon=\"item.icon\" size=\"small\"></v-icon>\n            <v-list-item-title v-text=\"item.text\" class=\"pl-4\"></v-list-item-title>\n          </div>\n          <div class=\"text-subtitle-1\">{{ item.value }}</div>\n        </div>\n      </v-list-item>\n    </v-list>\n  </v-card>\n</template>\n\n<script>\n  export default {\n  props: {\n    payload: { type: Object, default: null },\n    deviceImage: {\n      type: String,\n      default: \"https://cdn.vuetifyjs.com/images/cards/cooking.png\"\n    },\n    deviceName: { type: String, default: \"Device\" },\n    deviceNumber: { type: String, default: 0, tip: \"device serial number\" },\n    deviceDescription: { type: String, default: \"Device\" },\n    deviceLocation: { type: String, default: \"\" },\n    deviceCreationTime: { type: String, default: 0 },\n    deviceHealthStatus: { type: String, default: \"Healthy\" },\n    deviceAlarmStatus: { type: String, default: \"false\" }\n  },\n\n  data: () => ({\n    loading: false,\n    selection: 1\n  }),\n\n  computed: {\n    computedItems() {\n      const items = [\n        {\n          text: \"Device Number\",\n          icon: \"mdi-devices\",\n          value: this.deviceNumber\n        },\n        {\n          text: \"Location\",\n          icon: \"mdi-map-marker\",\n          value: this.deviceLocation\n        },\n        {\n          text: \"Installation date\",\n          icon: \"mdi-calendar-range\",\n          value: this.deviceCreationTime\n        },\n        {\n          text: \"Health Status\",\n          icon: \"mdi-heart-pulse\",\n          value: this.deviceHealthStatus\n        },\n        {\n          text: \"Alarm Status\",\n          icon: \"mdi-alarm-light\",\n          value: this.deviceAlarmStatus\n        }\n      ];\n      return items;\n    }\n  },\n\n  methods: {\n    reserve() {\n      this.loading = true;\n\n      setTimeout(() => (this.loading = false), 2000);\n    }\n  }\n};\n</script>",
+        "sfc_source": "<template>\n  <v-card :loading=\"loading\" class=\"mx-auto my-12\" height=\"100%\" width=\"100%\">\n    <template v-slot:loader=\"{ isActive }\">\n      <v-progress-linear :active=\"isActive\" color=\"deep-purple\" height=\"4\" indeterminate></v-progress-linear>\n    </template>\n\n    <v-img cover height=\"300\" :src=\"deviceImage\"></v-img>\n\n    <v-card-item>\n      <v-card-title>{{ this.deviceName }} ({{ this.deviceNumber }})</v-card-title>\n      <div class=\"text-subtitle-1\">\n        <span class=\"me-1\">{{ this.deviceDescription }}</span>\n      </div>\n    </v-card-item>\n    <v-list disabled>\n      <v-list-item v-for=\"(item, i) in computedItems\" :key=\"i\" :value=\"item\" color=\"primary\" rounded=\"shaped\">\n        <div class=\"d-flex align-center justify-space-between\">\n          <div class=\"d-flex align-center\">\n            <v-icon :icon=\"item.icon\" size=\"small\"></v-icon>\n            <v-list-item-title v-text=\"item.text\" class=\"pl-4\"></v-list-item-title>\n          </div>\n          <div class=\"text-subtitle-1\">{{ item.value }}</div>\n        </div>\n      </v-list-item>\n    </v-list>\n  </v-card>\n</template>\n\n<script>\n  export default {\n  props: {\n    payload: { type: Object, default: null },\n    deviceImage: {\n      type: String,\n      default: \"https://b3665216.smushcdn.com/3665216/wp-content/uploads/2024/09/Velocity-EC-800-%E2%80%93-New.png?lossy=2&strip=1&webp=1\"\n    },\n    deviceName: { type: String, default: \"Device\" },\n    deviceNumber: { type: String, default: 0, tip: \"device serial number\" },\n    deviceDescription: { type: String, default: \"Device\" },\n    deviceLocation: { type: String, default: \"\" },\n    deviceCreationTime: { type: String, default: 0 },\n    deviceHealthStatus: { type: String, default: \"Healthy\" },\n    deviceAlarmStatus: { type: String, default: \"false\" }\n  },\n\n  data: () => ({\n    loading: false,\n    selection: 1\n  }),\n\n  computed: {\n    computedItems() {\n      const items = [\n        {\n          text: \"Device Number\",\n          icon: \"mdi-devices\",\n          value: this.deviceNumber\n        },\n        {\n          text: \"Location\",\n          icon: \"mdi-map-marker\",\n          value: this.deviceLocation\n        },\n        {\n          text: \"Installation date\",\n          icon: \"mdi-calendar-range\",\n          value: this.deviceCreationTime\n        },\n        {\n          text: \"Health Status\",\n          icon: \"mdi-heart-pulse\",\n          value: this.deviceHealthStatus\n        },\n        {\n          text: \"Alarm Status\",\n          icon: \"mdi-alarm-light\",\n          value: this.deviceAlarmStatus\n        }\n      ];\n      return items;\n    }\n  },\n\n  methods: {\n    reserve() {\n      this.loading = true;\n\n      setTimeout(() => (this.loading = false), 2000);\n    }\n  }\n};\n</script>",
         "fd_container": "b55ad710670cabdb",
         "fd_cols": 3,
         "fd_rows": 7,
@@ -777,7 +923,7 @@
             },
             {
                 "p": "deviceCreationTime",
-                "v": "2022-08-23",
+                "v": "08/05/2025",
                 "vt": "str"
             },
             {
@@ -797,7 +943,7 @@
             },
             {
                 "p": "deviceImage",
-                "v": "https://simocowirelesssolutions.com/wp-content/uploads/2021/07/Velocity-600x600-1.jpg",
+                "v": "https://b3665216.smushcdn.com/3665216/wp-content/uploads/2024/09/Velocity-EC-800-%E2%80%93-New.png?lossy=2&strip=1&webp=1",
                 "vt": "str"
             },
             {
@@ -811,7 +957,7 @@
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "{   deviceNumber: 20223,   deviceLocation: \"Melbourne\",   deviceCreationTime: \"2018-08-23\",   deviceHealthStatus: \"Healthy\", }",
+        "payload": "{   deviceNumber: 20223,   deviceLocation: \"Melbourne\",   deviceCreationTime: \"2025-05-08\",   deviceHealthStatus: \"Healthy\", }",
         "payloadType": "str",
         "x": 120,
         "y": 260,
@@ -864,7 +1010,7 @@
             },
             {
                 "p": "deviceCreationTime",
-                "v": "2022-03-25",
+                "v": "07/05/2025",
                 "vt": "str"
             },
             {
@@ -884,7 +1030,7 @@
             },
             {
                 "p": "deviceImage",
-                "v": "https://simocowirelesssolutions.com/wp-content/uploads/2021/07/Velocity-600x600-1.jpg",
+                "v": "https://b3665216.smushcdn.com/3665216/wp-content/uploads/2024/09/Velocity-EC-800-%E2%80%93-New.png?lossy=2&strip=1&webp=1",
                 "vt": "str"
             },
             {
@@ -951,7 +1097,7 @@
             },
             {
                 "p": "deviceCreationTime",
-                "v": "2023-04-26",
+                "v": "06/05/2025",
                 "vt": "str"
             },
             {
@@ -971,7 +1117,7 @@
             },
             {
                 "p": "deviceImage",
-                "v": "https://simocowirelesssolutions.com/wp-content/uploads/2021/07/Velocity-600x600-1.jpg",
+                "v": "https://b3665216.smushcdn.com/3665216/wp-content/uploads/2024/09/Velocity-EC-800-%E2%80%93-New.png?lossy=2&strip=1&webp=1",
                 "vt": "str"
             },
             {
@@ -1017,7 +1163,7 @@
             },
             {
                 "p": "text",
-                "v": "All devices are healthy",
+                "v": "Simoco-7001 now is Alarming,Please inform the related ones!",
                 "vt": "str"
             },
             {
@@ -1092,6 +1238,7 @@
         "id": "afd0c6822973e96f",
         "type": "flexdash custom",
         "z": "7d1f82b240d34d71",
+        "d": true,
         "g": "291b99c717285aa1",
         "name": "Alarm popup",
         "sfc_source": "<template>\n  <div class=\"popupbutton d-flex align-center justify-center\">\n    <v-btn large dense class=\"ma-auto\" max-width=\"95%\" v-bind=\"bindings\" @click=\"clickEv\">\n      <v-icon :large=\"!title\" v-if=\"icon\">mdi-{{ icon }}</v-icon> <span>{{ dialogHeader }}</span>\n    </v-btn>\n\n    <!-- dialog box to view the widget's pop-up text full-page -->\n    <v-dialog v-model=\"show_popup\" width=\"80%\" max-width=\"100ex\">\n      <v-card class=\"d-flex flex-column height100\">\n        <v-card-title class=\"d-flex align-baseline width100\">\n          <span>{{ dialogHeader }}</span>\n          <v-spacer></v-spacer>\n          <v-btn elevation=0 icon @click=\"show_popup = false\">\n            <v-icon>mdi-close</v-icon>\n          </v-btn>\n        </v-card-title>\n        <v-card-text class=\"flex-grow-1\">\n          <div class=\"pt-1\" style=\"width:100%\">{{ text }}</div>\n        </v-card-text>\n      </v-card>\n    </v-dialog>\n\n  </div>\n</template>\n\n<script scoped>\n  // import md from '/src/components/md.vue'\n\nexport default {\n    name: 'PopupButton',\n\n    help: `Button to pop-up a mardown text panel.\n  Pressing the button pops-up a mardown panel, useful for help or other information.\n  The button may contain an icon and/or a title string and is centered in the widget.`,\n\n    props: {\n        enabled: { default: true },\n        color: {type: String,  default: \"primary\" },\n        text: { type: String, default: \"\", tip: \"markdown text to show in pop-up\" },\n        icon: { type: String, default: null, tip: \"material-design-icon name\" },\n        title: { type: String, default: 'Information' },\n        dialogHeader: { type: String, default: 'Information' },\n        showPopup: { type: Boolean, default: false }\n    },\n\n    data() {\n        return {\n            show_popup: this.showPopup,\n        }\n    },\n\n    computed: {\n        // actual bindings passed into v-btn\n        bindings() {\n            console.log(this.dialogHeader, \"this. dialogHeader\",this.show_popup, this.text)\n            return {\n                disabled: !this.enabled,\n                color: this.color,\n            }\n        },\n    },\n\n    methods: {\n        clickEv(ev) { \n            console.log(this.title, \"this. show_popup\",this.show_popup)\n\n            this.show_popup = !this.show_popup \n        }\n    },\n\n}\n</script>\n\n<style scoped>\n  .popupbutton {\n    height: 100%;\n  }\n</style>",
@@ -1105,62 +1252,6 @@
         "wires": [
             []
         ]
-    },
-    {
-        "id": "2d75506cdef3b5c1",
-        "type": "pick-attributes",
-        "z": "7d1f82b240d34d71",
-        "name": "pic",
-        "selected_attributes": "age",
-        "x": 710,
-        "y": 300,
-        "wires": [
-            [
-                "2b28f1f84a7932ae"
-            ]
-        ]
-    },
-    {
-        "id": "e79d0ec791f8c77d",
-        "type": "inject",
-        "z": "7d1f82b240d34d71",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "{\"name\":\"tom\",\"age\":12}",
-        "payloadType": "json",
-        "x": 610,
-        "y": 260,
-        "wires": [
-            [
-                "2d75506cdef3b5c1"
-            ]
-        ]
-    },
-    {
-        "id": "2b28f1f84a7932ae",
-        "type": "debug",
-        "z": "7d1f82b240d34d71",
-        "name": "debug 32",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 820,
-        "y": 360,
-        "wires": []
     },
     {
         "id": "cf38127b0f1242b4",
@@ -2320,8 +2411,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 650,
-        "y": 740,
+        "x": 670,
+        "y": 720,
         "wires": [
             [
                 "c1fdc87d4ab8e430",
@@ -2347,7 +2438,8 @@
         "wires": [
             [
                 "e5ebabf8867f2253",
-                "94aa2ccdb054f6d3"
+                "94aa2ccdb054f6d3",
+                "cf91c4ea3dff993b"
             ]
         ]
     },
@@ -2389,6 +2481,7 @@
         "y": 860,
         "wires": [
             [
+                "00bc66b542a4842f",
                 "c1fdc87d4ab8e430"
             ]
         ]
@@ -2454,6 +2547,58 @@
         "statusType": "auto",
         "x": 860,
         "y": 800,
+        "wires": []
+    },
+    {
+        "id": "3076e115e7b67777",
+        "type": "debug",
+        "z": "ef8739be854896a4",
+        "g": "80eb3268ec88e507",
+        "name": "debug 33",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1070,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "cf91c4ea3dff993b",
+        "type": "debug",
+        "z": "ef8739be854896a4",
+        "g": "80eb3268ec88e507",
+        "name": "debug 34",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 690,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "00bc66b542a4842f",
+        "type": "debug",
+        "z": "ef8739be854896a4",
+        "g": "80eb3268ec88e507",
+        "name": "debug 35",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1090,
+        "y": 860,
         "wires": []
     },
     {
@@ -2617,44 +2762,20 @@
         ]
     },
     {
-        "id": "45a7ae0d734e2e31",
-        "type": "pick-attributes",
-        "z": "ef8739be854896a4",
-        "g": "80eb3268ec88e507",
-        "name": "filterWeatherData",
-        "selected_attributes": "weatherFullReportInDays，weatherFullReportLabels",
-        "x": 890,
-        "y": 940,
-        "wires": [
-            [
-                "3076e115e7b67777"
-            ]
-        ]
-    },
-    {
-        "id": "3076e115e7b67777",
-        "type": "debug",
-        "z": "ef8739be854896a4",
-        "g": "80eb3268ec88e507",
-        "name": "debug 33",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1070,
-        "y": 940,
-        "wires": []
-    },
-    {
         "id": "fced9681f082291f",
         "type": "inject",
         "z": "5a9c45d6665294c2",
         "g": "300363b21332d0a9",
         "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
         "repeat": "",
         "crontab": "",
         "once": false,
@@ -2701,7 +2822,10 @@
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "false",
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
         "x": 530,
         "y": 460,
         "wires": []
@@ -4604,7 +4728,7 @@
         "z": "d08b8dbadb5935bb",
         "g": "acb7b0c87d617fb3",
         "name": "weather report widget",
-        "sfc_source": "<template>\n  <v-card class=\"mx-auto\" max-width=\"420\" width=\"100%\" height=\"100%\">\n    <v-card-item :title=\"city\">\n      <template v-if=\"isExtremeWether\" v-slot:subtitle>\n        <v-icon icon=\"mdi-alert\" size=\"18\" color=\"error\" class=\"me-1 pb-1\"></v-icon>\n        Extreme Weather Alert\n      </template>\n      <template v-else v-slot:subtitle>\n        {{ weather }}\n      </template>\n    </v-card-item>\n\n    <v-card-text class=\"py-0\">\n      <v-row align=\"center\" no-gutters>\n        <v-col class=\"text-h3\" cols=\"6\"> {{ tempc }} &deg;C </v-col>\n\n        <v-col cols=\"6\" class=\"text-right\">\n          <v-icon color=\"error\" :icon=\"customWeatherIcon\" size=\"88\"></v-icon>\n        </v-col>\n      </v-row>\n    </v-card-text>\n\n    <div class=\"d-flex py-3 justify-space-between\">\n      <v-list-item density=\"compact\" prepend-icon=\"mdi-weather-windy\">\n        <v-list-item-subtitle>{{ windspeed }} m/s</v-list-item-subtitle>\n      </v-list-item>\n\n      <v-list-item density=\"compact\" prepend-icon=\"mdi-water-percent\">\n        <v-list-item-subtitle>{{ humidity }}%</v-list-item-subtitle>\n      </v-list-item>\n    </div>\n\n    <div class=\"py-4\">\n      <v-slider v-model=\"selectedDay\" :max=\"5\" :step=\"1\" :ticks=\"weatherFullReportLabels\" class=\"mx-4\" color=\"primary\"\n        density=\"compact\" hide-details show-ticks=\"always\" thumb-size=\"8\" @click=\"sliderClickHander\"></v-slider>\n    </div>\n\n    <v-list class=\"weather-forecast-5-days bg-transparent\">\n      <v-list-item v-for=\"item in weatherFullReportInDays\" :key=\"item.day\" :value=\"item\" class=\"py-2\">\n        <div class=\"d-flex align-center justify-space-between\">\n          <span class=\"text-subtitle-1\">{{ item.day }}</span>\n\n          <div class=\"weather-condition d-flex align-center justify-space-between\">\n            <v-list-item-title>\n              <v-icon :icon=\"item.icon\" color=\"error\" size=\"small\"></v-icon>\n              <span class=\"pl-4\">{{ item.temp }}</span>\n            </v-list-item-title>\n            <div class=\"text-body-2\">{{ item.weatherDescription }}</div>\n          </div>\n        </div>\n      </v-list-item>\n    </v-list>\n  </v-card>\n</template>\n\n<style scoped>\n  .weather-forecast-5-days .weather-condition {\n    flex-basis: 78%;\n  }\n</style>\n\n<script>\n  export default {\n  props: {\n    payload: { type: Object, default: null },\n    weatherFullReportLabels: {\n      type: Object,\n      default: {\n        0: \"Sun\",\n        1: \"Mon\",\n        2: \"Tue\",\n        3: \"Wes\",\n        4: \"Thu\",\n        5: \"Fri\",\n      },\n    },\n    weatherFullReportInDays: {\n      type: Array,\n      default: [\n        {\n          day: \"Sun\",\n          icon: \"mdi-weather-sunny\",\n          temp: \"18.01 / 16.92°C\",\n          temp_min: 16.92,\n          temp_max: 18.01,\n          weatherDescription: \"clear sky\",\n          weather: \"Clear\",\n        },\n      ],\n    },\n    city: { type: String, default: \"Melbourne\" },\n    weather: { type: String, default: \"\" },\n    weatherDetail: { type: String, default: \"\" },\n    windspeed: { type: Number, default: 0, tip: \"wind speed\" },\n    humidity: { type: Number, default: 0 },\n    tempc: { type: Number, default: 0 },\n    temp_maxc: { type: Number, default: 0 },\n    temp_min: { type: Number, default: 0 },\n  },\n\n  data: () => ({}),\n\n  methods: {\n    sliderClickHander() {\n      console.log(this.selectedDay);\n    },\n  },\n\n  computed: {\n    selectedDay() {\n      return new Date().getDay() - 1;\n    },\n    isExtremeWether() {\n      return this.tempc > 35 || this.tempc < 10;\n    },\n    customWeatherIcon() {\n      let weatherIcon = \"\";\n      switch (this.weather) {\n        case \"Clouds\":\n          weatherIcon = \"mdi-weather-cloudy\";\n          break;\n        case \"Snow\":\n          weatherIcon = \"mdi-weather-snowy\";\n          break;\n        case \"Rain\":\n          weatherIcon = \"mdi-weather-rainy\";\n          break;\n        case \"Clear\":\n          weatherIcon = \"mdi-weather-sunny\";\n          break;\n        case \"Wind\":\n          weatherIcon = \"mdi-weather-windy\";\n          break;\n        default:\n          weatherIcon = \"mdi-weather-sunny\";\n      }\n      return weatherIcon;\n    },\n  },\n};\n</script>",
+        "sfc_source": "<template>\n  <v-card class=\"mx-auto\" max-width=\"420\" width=\"100%\" height=\"100%\">\n    <v-card-item :title=\"city\">\n      <template v-if=\"isExtremeWether\" v-slot:subtitle>\n        <v-icon icon=\"mdi-alert\" size=\"18\" color=\"error\" class=\"me-1 pb-1\"></v-icon>\n        Extreme Weather Alert\n      </template>\n      <template v-else v-slot:subtitle>\n        {{ weather }}\n      </template>\n    </v-card-item>\n\n    <v-card-text class=\"py-0\">\n      <v-row align=\"center\" no-gutters>\n        <v-col class=\"text-h3\" cols=\"6\"> {{ tempc }} &deg;C </v-col>\n\n        <v-col cols=\"6\" class=\"text-right\">\n          <v-icon color=\"error\" :icon=\"customWeatherIcon\" size=\"88\"></v-icon>\n        </v-col>\n      </v-row>\n    </v-card-text>\n\n    <div class=\"d-flex py-3 justify-space-between\">\n      <v-list-item density=\"compact\" prepend-icon=\"mdi-weather-windy\">\n        <v-list-item-subtitle>{{ windspeed }} m/s</v-list-item-subtitle>\n      </v-list-item>\n\n      <v-list-item density=\"compact\" prepend-icon=\"mdi-water-percent\">\n        <v-list-item-subtitle>{{ humidity }}%</v-list-item-subtitle>\n      </v-list-item>\n    </div>\n\n    <div class=\"py-4\">\n      <v-slider v-model=\"selectedDay\" :max=\"5\" :step=\"1\" :ticks=\"weatherFullReportLabels\" class=\"mx-4\" color=\"primary\"\n        density=\"compact\" hide-details show-ticks=\"always\" thumb-size=\"8\" @click=\"sliderClickHander\"></v-slider>\n    </div>\n\n    <v-list class=\"weather-forecast-5-days bg-transparent\">\n      <v-list-item v-for=\"item in weatherFullReportInDays\" :key=\"item.day\" :value=\"item\" class=\"py-2\">\n        <div class=\"d-flex align-center justify-space-between\">\n          <span class=\"text-subtitle-1\">{{ item.day }}</span>\n\n          <div class=\"weather-condition d-flex align-center justify-space-between\">\n            <v-list-item-title>\n              <v-icon :icon=\"item.icon\" color=\"error\" size=\"small\"></v-icon>\n              <span class=\"pl-4\">{{ item.temp }}</span>\n            </v-list-item-title>\n            <div class=\"text-body-2\">{{ item.weatherDescription }}</div>\n          </div>\n        </div>\n      </v-list-item>\n    </v-list>\n  </v-card>\n</template>\n\n<style scoped>\n  .weather-forecast-5-days .weather-condition {\n    flex-basis: 78%;\n  }\n</style>\n\n<script>\n  export default {\n  props: {\n    payload: { type: Object, default: null },\n    weatherFullReportLabels: {\n      type: Object,\n      default: {\n        0: \"Sun\",\n        1: \"Mon\",\n        2: \"Tue\",\n        3: \"Wes\",\n        4: \"Thu\",\n        5: \"Fri\",\n      },\n    },\n    weatherFullReportInDays: {\n      type: Array,\n      default: [\n        {\n          day: \"Sun\",\n          icon: \"mdi-weather-sunny\",\n          temp: \"18.01 / 16.92°C\",\n          temp_min: 16.92,\n          temp_max: 18.01,\n          weatherDescription: \"clear sky\",\n          weather: \"Clear\",\n        },\n      ],\n    },\n    city: { type: String, default: \"Melbourne\" },\n    weather: { type: String, default: \"\" },\n    weatherDetail: { type: String, default: \"\" },\n    windspeed: { type: Number, default: 0, tip: \"wind speed\" },\n    humidity: { type: Number, default: 0 },\n    tempc: { type: Number, default: 0 },\n    temp_maxc: { type: Number, default: 0 },\n    temp_min: { type: Number, default: 0 },\n  },\n\n  data: () => ({}),\n\n  methods: {\n    sliderClickHander() {\n      console.log(this.weatherFullReportInDays,this.payload);\n    },\n  },\n\n  computed: {\n    selectedDay() {\n      return new Date().getDay() - 1;\n    },\n    isExtremeWether() {\n      return this.tempc > 35 || this.tempc < 10;\n    },\n    customWeatherIcon() {\n      let weatherIcon = \"\";\n      switch (this.weather) {\n        case \"Clouds\":\n          weatherIcon = \"mdi-weather-cloudy\";\n          break;\n        case \"Snow\":\n          weatherIcon = \"mdi-weather-snowy\";\n          break;\n        case \"Rain\":\n          weatherIcon = \"mdi-weather-rainy\";\n          break;\n        case \"Clear\":\n          weatherIcon = \"mdi-weather-sunny\";\n          break;\n        case \"Wind\":\n          weatherIcon = \"mdi-weather-windy\";\n          break;\n        default:\n          weatherIcon = \"mdi-weather-sunny\";\n      }\n      return weatherIcon;\n    },\n  },\n};\n</script>",
         "fd_container": "71ab2a3aff8e66bc",
         "fd_cols": 4,
         "fd_rows": 7,
@@ -4698,7 +4822,8 @@
         "y": 860,
         "wires": [
             [
-                "d933ae7718c59d69"
+                "d933ae7718c59d69",
+                "887432bfc8dc4763"
             ]
         ]
     },
@@ -4754,7 +4879,7 @@
         "z": "d08b8dbadb5935bb",
         "g": "acb7b0c87d617fb3",
         "name": "debug 30",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -4763,6 +4888,23 @@
         "statusType": "auto",
         "x": 860,
         "y": 780,
+        "wires": []
+    },
+    {
+        "id": "887432bfc8dc4763",
+        "type": "debug",
+        "z": "d08b8dbadb5935bb",
+        "g": "acb7b0c87d617fb3",
+        "name": "debug 36",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1070,
+        "y": 880,
         "wires": []
     },
     {
@@ -5502,5 +5644,21 @@
                 "3a543527c04bd9dc"
             ]
         ]
+    },
+    {
+        "id": "67119b1601e6ea6e",
+        "type": "flexdash iframe",
+        "z": "194b60237c3d364f",
+        "name": "React-App",
+        "icon": "mdi-view-dashboard",
+        "fd": "61e693942266360d",
+        "fd_children": "",
+        "title": "App",
+        "url": "https://localhost:3000",
+        "slot": "a",
+        "weak_fd": "",
+        "x": 190,
+        "y": 100,
+        "wires": []
     }
 ]
