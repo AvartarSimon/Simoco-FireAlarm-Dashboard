@@ -56,14 +56,6 @@
         "env": []
     },
     {
-        "id": "194b60237c3d364f",
-        "type": "tab",
-        "label": "React",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "f81078994e7bf9a5",
         "type": "group",
         "z": "ef8739be854896a4",
@@ -520,7 +512,7 @@
         "saveConfig": true,
         "allOrigins": false,
         "name": "simoco fire alarm",
-        "fd_children": ",faa3f6ef68ba47c6,46612d9ad1086276,ad1e7ea49c0a5684,fef6c0f6d48841d6,5de79445aee2f018,67119b1601e6ea6e"
+        "fd_children": ",faa3f6ef68ba47c6,46612d9ad1086276,ad1e7ea49c0a5684,fef6c0f6d48841d6,5de79445aee2f018"
     },
     {
         "id": "faa3f6ef68ba47c6",
@@ -642,7 +634,7 @@
         "name": "React",
         "icon": "mdi-toggle-switch",
         "title": "React",
-        "fd_children": ",56206f55bcd5826e",
+        "fd_children": "",
         "fd": "61e693942266360d",
         "info": "{\n  \"tabs\": [\n    {\n      \"name\": \"REACT_APP\",  // 你的 Tab 名称\n      \"icon\": \"mdi-react\",  // 可选图标\n      \"content\": [          // 直接定义 Tab 内容\n        {\n          \"type\": \"html\",\n          \"html\": \"<iframe src='https://localhost:3000' style='width:100%; height:100vh; border:none;'></iframe>\"\n        }\n      ]\n    }\n  ]\n}"
     },
@@ -742,32 +734,6 @@
                 "py": 0
             }
         }
-    },
-    {
-        "id": "94aade6072488f3b",
-        "type": "ui_group",
-        "name": "Default",
-        "tab": "",
-        "disp": true,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "56206f55bcd5826e",
-        "type": "flexdash container",
-        "name": "React",
-        "title": "React-Container",
-        "kind": "StdGrid",
-        "fd_children": "",
-        "tab": "5de79445aee2f018",
-        "min_cols": 1,
-        "max_cols": 20,
-        "unicast": "ignore",
-        "parent": "",
-        "solid": false,
-        "cols": 1,
-        "rows": 1
     },
     {
         "id": "4fcaeac402284d31",
@@ -5624,21 +5590,5 @@
                 "3a543527c04bd9dc"
             ]
         ]
-    },
-    {
-        "id": "67119b1601e6ea6e",
-        "type": "flexdash iframe",
-        "z": "194b60237c3d364f",
-        "name": "React-App",
-        "icon": "mdi-view-dashboard",
-        "fd": "61e693942266360d",
-        "fd_children": "",
-        "title": "App",
-        "url": "https://localhost:3000",
-        "slot": "a",
-        "weak_fd": "",
-        "x": 190,
-        "y": 100,
-        "wires": []
     }
 ]
