@@ -56,6 +56,14 @@
         "env": []
     },
     {
+        "id": "1d7a0577cba9229c",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "f81078994e7bf9a5",
         "type": "group",
         "z": "ef8739be854896a4",
@@ -512,7 +520,7 @@
         "saveConfig": true,
         "allOrigins": false,
         "name": "simoco fire alarm",
-        "fd_children": ",faa3f6ef68ba47c6,46612d9ad1086276,ad1e7ea49c0a5684,fef6c0f6d48841d6,5de79445aee2f018"
+        "fd_children": ",faa3f6ef68ba47c6,46612d9ad1086276,ad1e7ea49c0a5684,fef6c0f6d48841d6,476825bff1b9a11b"
     },
     {
         "id": "faa3f6ef68ba47c6",
@@ -627,16 +635,6 @@
         "solid": false,
         "cols": 1,
         "rows": 1
-    },
-    {
-        "id": "5de79445aee2f018",
-        "type": "flexdash tab",
-        "name": "React",
-        "icon": "mdi-toggle-switch",
-        "title": "React",
-        "fd_children": "",
-        "fd": "61e693942266360d",
-        "info": "{\n  \"tabs\": [\n    {\n      \"name\": \"REACT_APP\",  // 你的 Tab 名称\n      \"icon\": \"mdi-react\",  // 可选图标\n      \"content\": [          // 直接定义 Tab 内容\n        {\n          \"type\": \"html\",\n          \"html\": \"<iframe src='https://localhost:3000' style='width:100%; height:100vh; border:none;'></iframe>\"\n        }\n      ]\n    }\n  ]\n}"
     },
     {
         "id": "4f2938e44607208b",
@@ -5590,5 +5588,21 @@
                 "3a543527c04bd9dc"
             ]
         ]
+    },
+    {
+        "id": "476825bff1b9a11b",
+        "type": "flexdash iframe",
+        "z": "1d7a0577cba9229c",
+        "name": "APP",
+        "icon": "open-in-app",
+        "fd": "61e693942266360d",
+        "fd_children": "",
+        "title": "App",
+        "url": "https://localhost:3000",
+        "slot": "a",
+        "weak_fd": "",
+        "x": 350,
+        "y": 140,
+        "wires": []
     }
 ]
